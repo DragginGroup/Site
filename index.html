@@ -27,11 +27,8 @@
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1')
   .then(res => res.json())
   .then(res => {
-    var rev = fs.readFileSync('.git/HEAD').toString().trim();
-    if (rev.indexOf(':') != -1) {
-      rev = fs.readFileSync('.git/' + rev.substring(5)).toString().trim();
-    }
-    var msg = 'Latest Commit: "' + rev + '/'+res[0].commit.message+'"'
+    var msg = 'Latest Commit: "' + res[0].commit.message+'"'
+    
     document.getElementById('message').innerHTML = msg
 
     if (document.getElementById('message').innerHTML != msg) {
