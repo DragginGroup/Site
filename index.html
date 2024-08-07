@@ -16,7 +16,7 @@
       <p class="title">
         DRAGGING BLOG by DRAGGINGROUP
       </p>
-      <pre id="message">Latest Commit: "Initial commit" by Github</pre>
+      <pre id="commit">Latest Commit: "Initial commit" by Github</pre>
       
       <p>
         the blog for all things Dragging related!
@@ -32,13 +32,11 @@
 
     <script>
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
-        var commit = res[0].commit
-        var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + commit.message +'" by ' + commit.author.name
-        
-        document.getElementById('message').innerHTML = msg
-        if (document.getElementById('message').innerHTML !=== msg) {
-          document.getElementById('message').innerHTML = 'Latest Commit: "' + commit.message + '"'
-        }
+        var commit = res[0].commit;
+        var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + commit.message +'" by ' + commit.author.name;
+
+        document.getElementById('commit').innerHTML = 'Latest Commit: "' + commit.message +'"'
+        document.getElementById('commit').innerHTML = msg;
       })
 
       function getLatestCommitHash() {
