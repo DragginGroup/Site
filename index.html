@@ -7,16 +7,19 @@
     <div class="main">
 
     <div class="scrolling">
-    <marquee scrolldelay="2" truespeed="true" scrollamount="1" class="scrolling">
-    Draggin Group 2024 - the shits and giggles game organization behind: Box Drag
-    </marquee>
+      <marquee scrolldelay="2" truespeed="true" scrollamount="1" class="scrolling">
+        Draggin Group 2024 - the shits and giggles game organization behind: Box Drag
+      </marquee>
+    </div>
+
+    <div class="links">
     </div>
 
     <section>
       <p class="title">
         DRAGGING BLOG by DRAGGINGROUP
       </p>
-      <pre id="commit">Latest Commit: "Initial commit" by Github</pre>
+      <pre id="commit"></pre>
       
       <p>
         the blog for all things Dragging related!
@@ -32,20 +35,12 @@
 
     <script>
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
+        
         var comm = res[0].commit;
-        var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + comm.message +'" by ' + comm.author.name;
+        var msg = 'Latest Commit: "' + comm.message +'" by ' + comm.author.name;
 
-        document.getElementById('commit').innerHTML = 'Latest Commit: "' + comm.message +'"'
         document.getElementById('commit').innerHTML = msg;
       })
-
-      function getLatestCommitHash() {
-        const rev = fs.readFileSync('.git/HEAD').toString().trim();
-        if (rev.indexOf(':') === -1) {
-          return rev;
-        } else {
-          return fs.readFileSync('.git/' + rev.substring(5)).toString().trim();
-        }
       }
     </script>
   </body>
