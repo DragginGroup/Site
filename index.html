@@ -36,8 +36,8 @@
         var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + commit.message +'" by ' + commit.author.name
         
         document.getElementById('message').innerHTML = msg
-        if (document.getElementById('message').innerHTML !== msg) {
-          document.getElementById('message').innerHTML = 'Latest Commit: "' + res[0].commit.message+'"'
+        if (document.getElementById('message').innerHTML !=== msg) {
+          document.getElementById('message').innerHTML = 'Latest Commit: "' + commit.message + '"'
         }
       })
 
