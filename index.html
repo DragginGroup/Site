@@ -5,7 +5,7 @@
   </head>
   <body>
 
-    <marquee scrolldelay="2" truespeed="true" scrollamount="1" class=scrolling>
+    <marquee scrolldelay="2" truespeed="true" scrollamount="1" class="scrolling">
     Draggin Group 2024 - the shits and giggles game organization behind: Box Drag
     </marquee>
     
@@ -28,9 +28,7 @@
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1')
   .then(res => res.json())
   .then(res => {
-    const ev = JSON.parse(fs.readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
-    var coder = ev.pull_request.user.login;
-    var msg = 'Latest Commit: "' + res[0].commit.message+'" by '+coder
+    var msg = 'Latest Commit: "' + res[0].commit.message+'"'
     
     document.getElementById('message').innerHTML = msg
 
