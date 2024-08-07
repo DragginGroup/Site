@@ -1,4 +1,6 @@
-# Custom Classes
+/*
+Custom Classes
+*/
 .scrolling {
   background-color: AliceBlue;
 }
@@ -12,7 +14,9 @@
   font-size: 50px;
 }
 
-# HTML Classes
+/*
+HTML Classes
+*/
 body {
   background-color: SteelBlue;
 }
