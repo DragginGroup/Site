@@ -32,10 +32,10 @@
 
     <script>
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
-        var commit = res[0].commit;
-        var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + commit.message +'" by ' + commit.author.name;
+        var comm = res[0].commit;
+        var msg = 'Latest Commit: "' + getLatestCommitHash() + '/' + comm.message +'" by ' + comm.author.name;
 
-        document.getElementById('commit').innerHTML = 'Latest Commit: "' + commit.message +'"'
+        document.getElementById('commit').innerHTML = 'Latest Commit: "' + comm.message +'"'
         document.getElementById('commit').innerHTML = msg;
       })
 
