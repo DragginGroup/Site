@@ -1,7 +1,3 @@
-/*
-Custom Classes
-*/
-
 .scrolling {
   background-color: AliceBlue;
 }
@@ -15,15 +11,12 @@ Custom Classes
   font-size: 50px;
 }
 
-/*
-HTML Classes
-*/
-
 body {
   background-color: SteelBlue;
 }
 
 h1,
+pre,
 p {
   font-family: Tahoma, Verdana, sans-serif;
 }
