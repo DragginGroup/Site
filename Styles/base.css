@@ -9,3 +9,7 @@
 body {
   background-color: SteelBlue;
 }
+
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+}
