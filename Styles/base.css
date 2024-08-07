@@ -8,10 +8,17 @@
   background-color: LightSteelBlue;
 }
 
+.title-link,
 .title {
   font-weight: bold;
   font-size: 50px;
-  background-color: Navy;
+  font-color: white;
+}
+
+.title-link {
+  font-size: 25px;
+  font-color: pink;
+  @apply underline
 }
 
 body {
