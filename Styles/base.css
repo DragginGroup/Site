@@ -21,6 +21,10 @@
   @apply underline
 }
 
+.WIPimg {
+  alignment: center;
+}
+
 body {
   background-color: SteelBlue;
 }
