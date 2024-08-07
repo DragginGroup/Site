@@ -16,7 +16,7 @@
 }
 
 .title-link {
-  font-size: 25px;
+  font-size: 35px;
   font-color: pink;
   @apply underline
 }
@@ -29,4 +29,8 @@ h1,
 pre,
 p {
   font-family: Tahoma, Verdana, sans-serif;
+}
+
+p {
+  font-size: 30px;
 }
