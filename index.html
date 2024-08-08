@@ -58,8 +58,13 @@
     </p>
 
     <script>
+
+      var dev = 1
+      var gitpage = "Blog"
+
+      if (dev==1) { gitpage = "Blog-Develop" }
       
-      fetch('https://api.github.com/repos/DragginGroup/Blog-Develop/commits?per_page=1').then(res => res.json()).then(res => {
+      fetch('https://api.github.com/repos/DragginGroup/'+gitpage+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
        
         var ex1 = "Replaced old image code"
