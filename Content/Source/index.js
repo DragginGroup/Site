@@ -1,5 +1,5 @@
-import { VERSION as CUR_VERSION, GITREPO as REPO, GITAUTHOR AS AUTHOR} from "./constants.js";
-document.getElementById('version').innerHTML = CUR_VERSION
+let AUTHOR = "DragginGroup"
+let REPO = "Blog-Develop"
 
 fetch('https://api.github.com/repos/' + AUTHOR + '/'+REPO+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
