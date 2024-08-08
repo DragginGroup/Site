@@ -4,9 +4,11 @@
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
 - ANIMATED README WIP GIF
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/DragginGroup/Blog/main/Content/Github/WIP.gif" width="150" title="wip">
 </p>
+
 - JAVASCRIPT FILES THAT CONTROL INDIVIDUAL PARTS OF THE SITE! (I call them JS Packets)
 - Slow Scrolling Text...
 - Correct Capitalization on main site page!!!
@@ -14,6 +16,7 @@
 - Github issue templates!
 - Github Pull Request Templates!
 - some little font weight fixes
+- oh yeah, CHANGELOG FILE!
 
 # August 8th 2024
 
