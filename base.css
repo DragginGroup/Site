@@ -12,12 +12,12 @@
 .title {
   font-weight: bold;
   font-size: 40px;
-  color: white;
+  color: White;
 }
 
 .title-link {
   font-size: 35px;
-  color: pink;
+  color: Pink;
   @apply underline
 }
 
@@ -37,5 +37,5 @@ p {
 
 p {
   color: 20px;
-  font-color: white;
+  font-color: White;
 }
