@@ -1,3 +1,7 @@
+.scrolling {
+  background-color: LightSteelBlue;
+}
+
 .creditTXT {
   background-color: LightSteelBlue;
   color: White;
@@ -10,6 +14,7 @@
   @apply underline
 }
 
+.scrolling,
 .content {
   font-family: Tahoma, Verdana, sans-serif;
 }
