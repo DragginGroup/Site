@@ -27,7 +27,7 @@
         DRAGGING BLOG
       </p>
       <pre id="message">Latest Commit:</pre>
-      <pre id="ver">Blog Version: Loading</pre>
+      <pre>Blog Version: <span id="result"></span></pre>
       
       <p>
         the blog for all things Dragging related!
@@ -104,7 +104,7 @@
             cont = "Indev"
           }
 
-          document.getElementById('ver').innerHTML = "Blog Ver: " + cont;
+          $('#result').html(cont);
         });
       }
 
