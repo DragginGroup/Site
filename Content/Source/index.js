@@ -1,3 +1,5 @@
+import {VERSION} from "./constants.js"
+
 fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
        
@@ -12,6 +14,8 @@ fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(
           msg =  'Latest Commit: "' + commit.message +'"\nby ' + commit.author.name
         if (commit.message.length > ex2.length)
           msg =  'Latest Commit: \n"' + commit.message +'"\nby ' + commit.author.name
+
+        msg = VERSION
         
         try{
           document.getElementById('message').innerHTML = msg
