@@ -10,11 +10,12 @@
 }
 
 body {
-  background-color: SteelBlue;
+  background-color: Black;
 }
 
 a,
 p,
 h1 {
   font-family: Tahoma, Verdana, sans-serif;
+  font-color: White;
 }
