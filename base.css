@@ -11,13 +11,13 @@
 .title-link,
 .title {
   font-weight: bold;
-  font-size: 50px;
-  font-color: white;
+  font-size: 40px;
+  color: white;
 }
 
 .title-link {
   font-size: 35px;
-  font-color: pink;
+  color: pink;
   @apply underline
 }
 
@@ -36,6 +36,6 @@ p {
 }
 
 p {
-  font-size: 30px;
+  color: 20px;
   font-color: white;
 }
