@@ -1,4 +1,5 @@
-# Unreleased
+# August 8th 2024
+## v0.2.0
 - Blog Version is now literally Hard-coded, through code. Lolz
 - JAVASCRIPT FOLDER!! (content/source)
 - ARCHIVING FOLDER! (content/archive)
@@ -17,11 +18,9 @@
 - Github Pull Request Templates!
 - some little font weight fixes
 - oh yeah, CHANGELOG FILE!
-- Blogs Page is now finished!
+- Blogs Page works
 - Shortened Text
-11 brain cells used!!!! 
-
-# August 8th 2024
+- Blog 1 in progress
 
 ## v0.1.2
 - I hardcode the blog Version now. Fuck me man...
