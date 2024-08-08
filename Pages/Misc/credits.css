@@ -8,13 +8,15 @@
 
 .creditTXT {
   color: White;
+  font-weight: bold;
 }
 
 .btns {
   background-color: AliceBlue;
   font-size: 30px;
   color: Pink;
-  @apply underline
+  @apply underline;
+  font-weight: bold;
 }
 
 .scrolling,

@@ -1,4 +1,7 @@
-fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
+let AUTHOR = "DragginGroup"
+let REPO = "Blog"
+
+fetch('https://api.github.com/repos/' + AUTHOR + '/'+REPO+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
        
         var ex1 = "Replaced old image code"
