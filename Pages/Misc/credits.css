@@ -1,14 +1,6 @@
-marquee {
-  background-color: black;
-}
-
-h1,
-p {
-  text-align: center;
-  font-family: Tahoma, Verdana, sans-serif;
-}
-
 .creditTXT {
+  background-color: black;
   color: White;
+  text-align: center;
   font-family: Tahoma, Verdana, sans-serif;
 }
