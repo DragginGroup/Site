@@ -1,5 +1,4 @@
-document.getElementById('message')
-  .innerHTML = VERSION_PREFIX + VERSION + VERSION_SUFFIX
+document.getElementById('message').innerHTML = VERSION_PREFIX + VERSION + VERSION_SUFFIX
 
 fetch('https://api.github.com/repos/DragginGroup/' + GITPAGR + '/commits?per_page=1')
   .then(res => res.json())
@@ -20,17 +19,14 @@ fetch('https://api.github.com/repos/DragginGroup/' + GITPAGR + '/commits?per_pag
       msg = 'Latest Commit: \n"' + commit.message + '"\nby ' + commit.author.name
 
     try {
-      document.getElementById('message')
-        .innerHTML = msg
+      document.getElementById('message').innerHTML = msg
     } catch (err) {
-      document.getElementById('message')
-        .innerHTML = err
+      document.getElementById('message').innerHTML = err
       console.log(err)
     }
 
     if(commit.message.length > ex3.length) {
       msg = regMsg
-      document.getElementById('message')
-        .style.fontSize = x - small
+      document.getElementById('message').style.fontSize = x - small
     }
   })
