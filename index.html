@@ -27,7 +27,7 @@
         DRAGGING BLOG
       </p>
       <pre id="message">Latest Commit:</pre>
-      <pre id="version">Blog Version: </pre>
+      <pre id="version">Blog Version: V0.2.0</pre>
       
       <p>
         the blog for all things Dragging related!
@@ -58,43 +58,6 @@
     </p>
 
     <script src="/Blog/Content/Source/constants.js"></script>
-    <script>
-      import { VERSION_PREFIX } from "/Blog/Content/Source/constants.js"
-      import { VERSION } from "/Blog/Content/Source/constants.js"
-      import { VERSION_SUFFIX } from "/Blog/Content/Source/constants.js"
-
-      document.getElementById('message').innerHTML = VERSION_PREFIX + VERSION + VERSION_SUFFIX
-
-      fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1')
-        .then(res => res.json()).then(res => {
-    var commit = res[0].commit
-
-    var ex1 = "Replaced old image code"
-    var ex2 = "2 Examples for Latest Commit Text Length Fix"
-    var ex3 = "Fix Order and Better Second Example for Commit Length Fix"
-
-    var regMsg = 'Latest Commit: "' + commit.message + '" by ' + commit.author.name
-
-    var msg = regMsg
-
-    if(commit.message.length > ex1.length)
-      msg = 'Latest Commit: "' + commit.message + '"\nby ' + commit.author.name
-    if(commit.message.length > ex2.length)
-      msg = 'Latest Commit: \n"' + commit.message + '"\nby ' + commit.author.name
-
-    try {
-      document.getElementById('message').innerHTML = msg
-    } catch (err) {
-      document.getElementById('message').innerHTML = err
-      console.log(err)
-    }
-
-    if(commit.message.length > ex3.length) {
-      msg = regMsg
-      document.getElementById('message').style.fontSize = x - small
-    }
-  })
-
-    </script>
+    <script src="/Blog/Content/Source/latest-commit.js"></script>
   </body>
 </html>
