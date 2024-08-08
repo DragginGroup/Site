@@ -1,4 +1,4 @@
-import { METADATA } from 'metadata.js'
+let METADATA = JSON.parse("./Content/Site/metadata.json")
 let VERSION = "0.2.1"
 let SUFFIX = "-dev"
 let FALLBACK_VERSION = "ersion error"
