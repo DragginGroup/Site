@@ -1,4 +1,26 @@
 # August 8th 2024
+## v0.2.0
+- Blog Version is now literally Hard-coded, through code. Lolz
+- JAVASCRIPT FOLDER!! (content/source)
+- ARCHIVING FOLDER! (content/archive)
+- GITHUB FOLDER- wait what? (content/github)
+- ANIMATED README WIP GIF
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/DragginGroup/Blog/main/Content/Github/WIP.gif" width="150" title="wip">
+</p>
+
+- JAVASCRIPT FILES THAT CONTROL INDIVIDUAL PARTS OF THE SITE! (I call them JS Packets)
+- Slow Scrolling Text...
+- Correct Capitalization on main site page!!!
+- Development fork!
+- Github issue templates!
+- Github Pull Request Templates!
+- some little font weight fixes
+- oh yeah, CHANGELOG FILE!
+- Blogs Page works
+- Shortened Text
+- Blog 1 in progress
 
 ## v0.1.2
 - I hardcode the blog Version now. Fuck me man...
