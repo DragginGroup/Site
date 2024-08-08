@@ -3,7 +3,7 @@
   font-size: 30px;
 }
 
-.butns {
+.buttons {
   background-color: AliceBlue;
   font-size: 50px;
 }
@@ -12,6 +12,8 @@ body {
   background-color: SteelBlue;
 }
 
-section {
+a,
+p,
+h1 {
   font-family: Tahoma, Verdana, sans-serif;
 }
