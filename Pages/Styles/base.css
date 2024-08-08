@@ -10,3 +10,12 @@
 .color4 {
   background-color:#212027;
 }
+
+.color1,
+.color2,
+.color3,
+.color4 {
+  color: White;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-weight: Bold;
+}
