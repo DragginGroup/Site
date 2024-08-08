@@ -1,7 +1,6 @@
 .scrolling,
 .links {
   background-color: AliceBlue;
-  font-family: Tahoma, Verdana, sans-serif;
 }
 
 .main {
@@ -10,15 +9,12 @@
 
 .title-link,
 .title {
-  font-weight: bold;
   font-size: 50px;
-  color: White;
 }
 
 .title-link {
-  font-size: 30px;
   color: Pink;
-  @apply underline
+  @apply underline;
 }
 
 .WIPimg {
@@ -29,13 +25,30 @@ body {
   background-color: SteelBlue;
 }
 
+.scrolling,
+.links,
 h1,
 pre,
 p {
   font-family: Tahoma, Verdana, sans-serif;
 }
 
-p {
-  font-size: 30px;
+pre,
+p,
+.title-link,
+.title {
   color: White;
+}
+
+pre,
+p,
+.title-link {
+  font-size: 30px;
+}
+
+pre,
+.title-link,
+.title,
+p {
+  font-weight: bold;
 }

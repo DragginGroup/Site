@@ -1,0 +1,38 @@
+.content {
+  background-color: LightSteelBlue;
+}
+
+.scrolling {
+  background-color: AliceBlue;
+}
+
+.creditTXT {
+  color: White;
+  font-weight: bold;
+}
+
+.btns {
+  background-color: AliceBlue;
+  font-size: 30px;
+  color: Pink;
+  @apply underline;
+  font-weight: bold;
+}
+
+.scrolling,
+.btns,
+.content {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-color: SteelBlue;
+}

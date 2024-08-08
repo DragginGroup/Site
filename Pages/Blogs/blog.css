@@ -1,0 +1,21 @@
+.scrolling {
+  background-color: AliceBlue
+}
+
+.body {
+  background-color: SteelBlue;
+}
+
+.buttons,
+.text {
+  background-color: LightSteelBlue;
+  font-family: Tahoma, Verdana, sans-serif;
+  font-size: 30px;
+  color: White;
+  font-weight: Bold;
+
+}
+
+h1 {
+  font-size: 50px;
+}
