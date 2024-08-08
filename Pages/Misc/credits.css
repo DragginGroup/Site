@@ -1,7 +1,6 @@
 .creditTXT {
   background-color: LightSteelBlue;
   color: White;
-  text-align: left
 }
 
 .btns {
@@ -11,9 +10,7 @@
   @apply underline
 }
 
-h1,
-a,
-p {
+.content {
   font-family: Tahoma, Verdana, sans-serif;
 }
 
