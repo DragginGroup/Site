@@ -3,7 +3,7 @@ var date = ""
 var summary = ""
 var authors = []
 
-let function returnDefault()
+function returnDefault()
   {
     title = "PLACEHOLDER"
     date = "6-9-6969"
@@ -12,7 +12,7 @@ let function returnDefault()
   }
 }
 
-let function setHeaderShit(title, date, summary, authors)
+function setHeaderShit(title, date, summary, authors)
 {
   this.title = title
   this.date = date
@@ -20,7 +20,7 @@ let function setHeaderShit(title, date, summary, authors)
   this.authors = authors
 }
 
-let function setBlogHeader(id)
+function setBlogHeader(id)
 {
   var headerShit = "Title: "+title
   headerShit = headerShit + "\nDate: "+date
