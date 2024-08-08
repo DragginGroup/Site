@@ -1,7 +1,7 @@
-import { VERSION as CUR_VERSION } from "constants.js";
+import { VERSION as CUR_VERSION, GITREPO as REPO, GITAUTHOR AS AUTHOR} from "constants.js";
 document.getElementById('version').innerHTML = CUR_VERSION
 
-fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
+fetch('https://api.github.com/repos/' + GITAUTHOR + '/'+REPO+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
        
         var ex1 = "Replaced old image code"
