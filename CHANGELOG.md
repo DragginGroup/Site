@@ -1,3 +1,8 @@
+# August 9th 2024
+## v0.2.2
+- Readded Blogs List Page
+- Readded Blog 1 Page
+
 # August 8th 2024
 ## v0.2.1
 - Removed and Redid Pages Folder
