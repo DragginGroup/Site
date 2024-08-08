@@ -1,9 +1,12 @@
+.content {
+  background-color: LightSteelBlue;
+}
+
 .scrolling {
   background-color: AliceBlue;
 }
 
 .creditTXT {
-  background-color: LightSteelBlue;
   color: White;
 }
 
