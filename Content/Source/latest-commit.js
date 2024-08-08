@@ -1,6 +1,6 @@
 var GITPAGE = "Blog-Develop"
 
-fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
+.fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
     var commit = res[0].commit
 
     var ex1 = "Replaced old image code"
