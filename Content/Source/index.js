@@ -24,7 +24,7 @@ fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(
 
 
         if (commit.message.length > ex3.length) {
-          msg = regMsg
+          // msg = regMsg
           document.getElementById('message').style.fontSize = x-small
         }
       })
