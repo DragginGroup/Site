@@ -1,21 +1,7 @@
-var dev = 1
-
-var gitpage = "Blog"
-
-var version_prefix = "Blog Version: V"
-var version_suffix = ""
-var version_dev_suffix = "_dev"
-var version = "0.2.0"
-
-if(dev == 1) {
-  gitpage = "Blog-Develop"
-  version_suffix = version_suffix + version + version_dev_suffix
-}
-
 document.getElementById('message')
-  .innerHTML = version_prefix + version + version_suffix
+  .innerHTML = VERSION_PREFIX + VERSION + VERSION_SUFFIX
 
-fetch('https://api.github.com/repos/DragginGroup/' + gitpage + '/commits?per_page=1')
+fetch('https://api.github.com/repos/DragginGroup/' + GITPAGR + '/commits?per_page=1')
   .then(res => res.json())
   .then(res => {
     var commit = res[0].commit
