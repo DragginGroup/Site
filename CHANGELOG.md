@@ -12,12 +12,14 @@
 - JAVASCRIPT FILES THAT CONTROL INDIVIDUAL PARTS OF THE SITE! (I call them JS Packets)
 - Slow Scrolling Text...
 - Correct Capitalization on main site page!!!
-- Develop Branch!
+- Development fork!
 - Github issue templates!
 - Github Pull Request Templates!
 - some little font weight fixes
 - oh yeah, CHANGELOG FILE!
 - Blogs Page is now finished!
+- Shortened Text
+11 brain cells used!!!! 
 
 # August 8th 2024
 
