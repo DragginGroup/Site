@@ -1,1 +1,54 @@
+.scrolling,
+.links {
+  background-color: AliceBlue;
+}
 
+.main {
+  background-color: LightSteelBlue;
+}
+
+.title-link,
+.title {
+  font-size: 50px;
+}
+
+.title-link {
+  color: Pink;
+  @apply underline;
+}
+
+.WIPimg {
+  margin: auto;
+}
+
+body {
+  background-color: SteelBlue;
+}
+
+.scrolling,
+.links,
+h1,
+pre,
+p {
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+pre,
+p,
+.title-link,
+.title {
+  color: White;
+}
+
+pre,
+p,
+.title-link {
+  font-size: 30px;
+}
+
+pre,
+.title-link,
+.title,
+p {
+  font-weight: bold;
+}
