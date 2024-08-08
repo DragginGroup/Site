@@ -1,6 +1,6 @@
 # Unreleased
 - Blog Version is now literally Hard-coded, through code. Lolz
-- JAVASCRIPT FILES!! 
+- JAVASCRIPT FOLDER!! (content/source)
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
 - ANIMATED README WIP GIF
