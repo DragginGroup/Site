@@ -1,11 +1,9 @@
-class Header = {
-  
-  var title: "",
-  var date: "",
-  var summary: "",
-  var authors: []
+var title: "",
+var date: "",
+var summary: "",
+var authors: []
 
-  function returnDefault()
+let function returnDefault()
   {
     title = "PLACEHOLDER"
     date = "6-9-6969"
@@ -14,26 +12,24 @@ class Header = {
   }
 }
 
-let function setHeaderShit(header = Header, title, date, summary, authors)
+let function setHeaderShit(title, date, summary, authors)
 {
-  header.title = title
-  header.date = date
-  header.summary = summary
-  header.authors = authors
+  this.title = title
+  this.date = date
+  this.summary = summary
+  this.authors = authors
 }
 
-let function setBlogHeader(id, header = Header)
+let function setBlogHeader(id)
 {
-  var headerShit = "Title: "+header.title
-  headerShit = headerShit + "\nDate: "+header.date
-  headerShit = headerShit + "\nSummary: "+header.summary
-  headerShit = headerShit + "\nAuthors: "+header.authors
+  var headerShit = "Title: "+title
+  headerShit = headerShit + "\nDate: "+date
+  headerShit = headerShit + "\nSummary: "+summary
+  headerShit = headerShit + "\nAuthors: "+authors
   
   var a = document.getElementById(id);
   a.innerHTML = headerShit
 }
 
-var headerShiz = new Header()
-
-setHeaderShit(headerShiz, "DRAGGIN BLOG 1", "8-8-2024", "The first Dragging Blog!", ["Madness-Rombank"])
-setBlogHeader("blog1T‎", headerShiz)
+setHeaderShit("DRAGGIN BLOG 1", "8-8-2024", "The first Dragging Blog!", ["Madness-Rombank"])
+setBlogHeader("blog1T‎")
