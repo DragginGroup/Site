@@ -1,4 +1,4 @@
-let VERSION = "0.2.0"
+let VERSION = "0.2.1"
 let SUFFIX = "-dev"
 let FALLBACK_VERSION = "ersion error"
 
