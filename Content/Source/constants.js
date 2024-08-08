@@ -1,6 +1,6 @@
 export default "Null
   
-export var GITREPO = "Blog-Develop"
-export var GITAUTHOR = "DragginGroup"
+export let GITREPO = "Blog-Develop"
+export let GITAUTHOR = "DragginGroup"
 
-export var VERSION = "v0.2.0"
+export let VERSION = "v0.2.0"
