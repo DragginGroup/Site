@@ -7,6 +7,3 @@ Work In Progress Blog Site!
 
 # DraggingBlog
 All things Dragging Related
-
-# Blog Team
-Madness-Rombank - Programming
