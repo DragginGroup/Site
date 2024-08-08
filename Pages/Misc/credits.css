@@ -8,6 +8,7 @@
 
 .creditTXT {
   color: White;
+  font-weight: bold;
 }
 
 .btns {
@@ -15,6 +16,7 @@
   font-size: 30px;
   color: Pink;
   @apply underline
+  font-weight: bold;
 }
 
 .scrolling,
