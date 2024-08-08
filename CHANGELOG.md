@@ -2,6 +2,10 @@
 - Blog Version is now literally, Hard-coded through code. Lolz
 - dev variable is back and is used for blog Version and Latest commit!
 - JAVASCRIPT FOLDER! (content/source)
+- ARCHIVING FOLDER! (content/archive)
+- GITHUB FOLDER- wait what? (content/github)
+- ANIMATED README WIP GIF
+
 
 # August 8th 2024
 
