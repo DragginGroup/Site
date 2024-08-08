@@ -2,7 +2,9 @@
 ## v0.2.1
 - Removed Pages Folder
 - Removed Content/Source Folder, now JSP Folder not in Content Folder
-- Redid index page
+- Redid base theme/style
+- Redid Credits Page
+- [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 
 ## v0.2.0
 - Blog Version is now literally Hard-coded, through code. Lolz
