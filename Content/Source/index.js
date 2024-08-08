@@ -1,7 +1,9 @@
 var GITPAGE = "Blog"
 export { VERSION as version} from "constants.js"
+var version_text = document.getElementById('version')
+var latestCommit = document.getElementById('message')
 
-document.getElementById('version).innerHTML = version
+version_text.innerHTML = version
 
 function fetchLatestCommit() {
     .fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
@@ -21,15 +23,17 @@ function fetchLatestCommit() {
       msg = 'Latest Commit: \n"' + commit.message + '"\nby ' + commit.author.name
 
     try {
-      document.getElementById('message').innerHTML = msg
+      latestCommit.innerHTML = msg
     } catch (err) {
-      document.getElementById('message').innerHTML = err
+      latestCommit.innerHTML = err
       console.log(err)
     }
 
     if(commit.message.length > ex3.length) {
       msg = regMsg
-      document.getElementById('message').style.fontSize = x - small
+      latestCommit.style.fontSize = x - small
     }
   })
 }
+
+fetchLatestCommit()
