@@ -1,0 +1,9 @@
+{
+  "sitename": "Dragging Blog",
+  "version":"0.2.1",
+  "indev":true,
+  "authors":[
+    ["madness-rombank", "programmer"],
+    ["trippy", "playtester"]
+  ]
+}

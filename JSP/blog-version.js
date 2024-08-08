@@ -1,6 +1,7 @@
-let VERSION = "0.2.0"
-let SUFFIX = ""
-let FALLBACK_VERSION = "ersion error"
+let VERSION = "0.2.1"
+let SUFFIX = "-dev"
+let PREFIX = ""
+let FALLBACK_VERSION = "0.0.0\nversion error"
 
 var string_ver = ""
 
@@ -9,9 +10,9 @@ function validVersion()
   if (VERSION.length < 5)
     return FALLBACK_VERSION;
 
-  return VERSION + SUFFIX;
+  return PREFIX + "v" + VERSION + SUFFIX;
 }
 
 string_ver = validVersion()
 
-document.getElementById('version').innerHTML = "Blog Version: v" + string_ver
+document.getElementById('version').innerHTML = "Blog Version: " + string_ver
