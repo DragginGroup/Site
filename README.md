@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/DragginGroup/Blog/blob/main/Content/Site/WIP.png" width="150" title="wip">
+<img src="https://raw.githubusercontent.com/DragginGroup/Blog-Develop/main/Content/Github/WIP.gif" width="150" title="wip">
 </p>
 <p align="center">
 Work In Progress Blog Site!
