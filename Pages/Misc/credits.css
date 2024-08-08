@@ -9,6 +9,8 @@
   background-color: AliceBlue;
   font-size: 30px;
   font-family: Tahoma, Verdana, sans-serif;
+  color: Pink;
+  @apply underline
 }
 
 body {
