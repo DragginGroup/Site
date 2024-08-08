@@ -27,7 +27,7 @@
         DRAGGING BLOG
       </p>
       <pre id="message">Latest Commit:</pre>
-      <pre>Blog Version: V0.2</pre>
+      <pre id="version">Blog Version:</pre>
       
       <p>
         the blog for all things Dragging related!
@@ -61,8 +61,17 @@
 
       var dev = 1
       var gitpage = "Blog"
+      var version_prefix = "Blog Version: V"
+      var version_suffix = ""
+      var version_dev_suffix = "_dev"
+      var version = "0.2.0"
 
-      if (dev==1) { gitpage = "Blog-Develop" }
+      if (dev==1) {
+        gitpage = "Blog-Develop"
+        version_suffix = version_suffix + version + version_dev_suffix
+      }
+
+      document.getElementById('message').innerHTML = version_prefix + version + version_suffix
       
       fetch('https://api.github.com/repos/DragginGroup/'+gitpage+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
