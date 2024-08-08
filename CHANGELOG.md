@@ -5,7 +5,9 @@
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
 - ANIMATED README WIP GIF
-
+<p align="center">
+<img src="https://raw.githubusercontent.com/DragginGroup/Blog-Develop/main/Content/Github/WIP.gif" width="150" title="wip">
+</p>
 
 # August 8th 2024
 
