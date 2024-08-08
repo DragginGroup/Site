@@ -1,3 +1,4 @@
+import { METADATA } from 'metadata.js'
 let VERSION = "0.2.1"
 let SUFFIX = "-dev"
 let FALLBACK_VERSION = "ersion error"
@@ -13,5 +14,6 @@ function validVersion()
 }
 
 string_ver = validVersion()
+string_ver = METADATA.version()
 
 document.getElementById('version').innerHTML = "Blog Version: v" + string_ver
