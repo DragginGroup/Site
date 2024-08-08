@@ -27,6 +27,7 @@
         DRAGGING BLOG
       </p>
       <pre id="message">Latest Commit:</pre>
+      <p>Blog Version: <span id="result"></span></p>
       
       <p>
         the blog for all things Dragging related!
@@ -55,7 +56,9 @@
       
       WIP BLOG SITE
     </p>
-    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://rawgit.com/hippich/bower-semver/master/semver.min.js"></script>
     <script>
       fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
@@ -87,6 +90,17 @@
           document.getElementById('message').style.fontSize = x-small
         }
       })
+
+      function getLatestGitVersion() {
+        const gitHubPath = 'DragginGroup/Blog';
+        const url = 'https://api.github.com/repos/' + gitHubPath + '/tags';
+        $.get(url).done(data => {
+          const versions = data.sort((v1, v2) => semver.compare(v2.name, v1.name));
+          $('#result').html(versions[0].name);
+        });
+      }
+
+      getLatestGitVersion();
     </script>
   </body>
 </html>
