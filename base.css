@@ -18,7 +18,7 @@
 .title-link {
   font-size: 30px;
   color: Pink;
-  @apply underline
+  @apply underline;
 }
 
 .WIPimg {
