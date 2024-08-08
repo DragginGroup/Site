@@ -1,4 +1,7 @@
 var GITPAGE = "Blog"
+export { VERSION as version} from "constants.js"
+
+document.getElementById('version).innerHTML = version
 
 function fetchLatestCommit() {
     .fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
