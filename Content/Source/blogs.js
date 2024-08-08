@@ -1,7 +1,7 @@
-var title: ""
-var date: ""
-var summary: ""
-var authors: []
+var title = ""
+var date = ""
+var summary = ""
+var authors = []
 
 let function returnDefault()
   {
