@@ -1,6 +1,7 @@
-var GITPAGE = "Blog-Develop"
+var GITPAGE = "Blog"
 
-.fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
+function fetchLatestCommit() {
+    .fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1').then(res => res.json()).then(res => {
     var commit = res[0].commit
 
     var ex1 = "Replaced old image code"
@@ -28,3 +29,6 @@ var GITPAGE = "Blog-Develop"
       document.getElementById('message').style.fontSize = x - small
     }
   })
+}
+
+fetchLatestCommit()
