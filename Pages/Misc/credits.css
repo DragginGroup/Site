@@ -2,22 +2,22 @@
   background-color: LightSteelBlue;
   color: White;
   text-align: left
-  font-family: Tahoma, Verdana, sans-serif;
 }
 
 .btns {
   background-color: AliceBlue;
   font-size: 30px;
-  font-family: Tahoma, Verdana, sans-serif;
   color: Pink;
   @apply underline
 }
 
-h1 {
-  font-size: 50px;
+h1,
+a,
+p {
+  font-family: Tahoma, Verdana, sans-serif;
 }
 
-p {
+h1 {
   font-size: 30px;
 }
 
