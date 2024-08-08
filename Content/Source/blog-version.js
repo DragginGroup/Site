@@ -1,5 +1,5 @@
 let VERSION = "0.2.0"
-let SUFFIX = "-dev"
+let SUFFIX = ""
 let FALLBACK_VERSION = "ersion error"
 
 var string_ver = ""
