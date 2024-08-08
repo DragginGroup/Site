@@ -1,4 +1,4 @@
-let METADATA = JSON.parse("https://raw.githubusercontent.com/PortilizenDev/Blog/main/Content/Site/metadata.json")
+let METADATA = JSON.stringify("https://raw.githubusercontent.com/PortilizenDev/Blog/main/Content/Site/metadata.json")
 let VERSION = "0.2.1"
 let SUFFIX = "-dev"
 let PREFIX = "v"
