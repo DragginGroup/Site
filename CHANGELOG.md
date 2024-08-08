@@ -1,12 +1,11 @@
 # Unreleased
-- Blog Version is now literally, Hard-coded through code. Lolz
-- dev variable is back
-- JAVASCRIPT FOLDER! (content/source)
+- Blog Version is now literally Hard-coded, through code. Lolz
+- JAVASCRIPT FILES!! 
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
 - ANIMATED README WIP GIF
 <p align="center">
-<img src="https://raw.githubusercontent.com/DragginGroup/Blog-Develop/main/Content/Github/WIP.gif" width="150" title="wip">
+<img src="https://raw.githubusercontent.com/DragginGroup/Blog/main/Content/Github/WIP.gif" width="150" title="wip">
 </p>
 
 # August 8th 2024
