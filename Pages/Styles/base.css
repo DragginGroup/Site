@@ -24,8 +24,8 @@ p {
   font-size: 30px;
 }
 
-.links {
-  font-size: default;
+a {
+  font-size: 20px;
 }
 
 h1 {
