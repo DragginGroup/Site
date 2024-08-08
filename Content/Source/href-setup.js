@@ -3,11 +3,11 @@
   href: the file your heading too. ex: blog.html
   inital: what comes before the href: ex: ../Blog/Pages
 */
-function setHref(id, href) {
+function setHref(id, href, inital="./") {
   var a = document.getElementById(id);
-  a.href = href;
+  a.href = inital + href;
 }
 
-setHref('BlogsPage', './Pages/Blogs.html')
-setHref('LatestBlog', './Pages/Blogs/B1.html')
-setHref('CreditsPage', './Pages/Misc/Credits.html')
+setHref('BlogsPage', 'Pages/Blogs.html')
+setHref('LatestBlog', 'Pages/Blogs/B1.html')
+setHref('CreditsPage', 'Pages/Misc/Credits.html')
