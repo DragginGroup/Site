@@ -1,5 +1,5 @@
 let AUTHOR = "DragginGroup"
-let REPO = "Blog-Develop"
+let REPO = "Blog"
 
 fetch('https://api.github.com/repos/' + AUTHOR + '/'+REPO+'/commits?per_page=1').then(res => res.json()).then(res => {
         var commit = res[0].commit
