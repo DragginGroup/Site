@@ -1,4 +1,9 @@
 # August 8th 2024
+## v0.2.1
+- Removed Pages Folder
+- Removed Content/Source Folder, now JSP Folder not in Content Folder
+- Redid index page
+
 ## v0.2.0
 - Blog Version is now literally Hard-coded, through code. Lolz
 - JAVASCRIPT FOLDER!! (content/source)
