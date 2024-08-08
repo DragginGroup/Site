@@ -1,7 +1,6 @@
 .scrolling,
 .links {
   background-color: AliceBlue;
-  font-family: Tahoma, Verdana, sans-serif;
 }
 
 .main {
@@ -10,13 +9,10 @@
 
 .title-link,
 .title {
-  font-weight: bold;
   font-size: 50px;
-  color: White;
 }
 
 .title-link {
-  font-size: 30px;
   color: Pink;
   @apply underline;
 }
@@ -29,6 +25,8 @@ body {
   background-color: SteelBlue;
 }
 
+.scrolling,
+.links,
 h1,
 pre,
 p {
@@ -36,11 +34,21 @@ p {
 }
 
 pre,
-p{
-  font-size: 30px;
+p,
+.title-link,
+.title {
   color: White;
 }
 
-pre {
+pre,
+p,
+.title-link {
+  font-size: 30px;
+}
+
+pre,
+.title-link,
+.title,
+p {
   font-weight: bold;
 }
