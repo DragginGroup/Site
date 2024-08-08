@@ -1,5 +1,6 @@
 let VERSION = "0.2.0"
-let FALLBACK_VERSION = "version error"
+let SUFFIX = "-dev"
+let FALLBACK_VERSION = "ersion error"
 
 var string_ver = ""
 
@@ -8,7 +9,7 @@ function validVersion()
   if (VERSION.length < 5)
     return FALLBACK_VERSION;
 
-  return VERSION;
+  return VERSION + SUFFIX;
 }
 
 string_ver = validVersion()
