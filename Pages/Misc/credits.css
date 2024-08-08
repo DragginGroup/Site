@@ -1,5 +1,5 @@
 .creditTXT {
-  background-color: AliceBlue;
+  background-color: LightSteelBlue;
   color: White;
   text-align: left
   font-family: Tahoma, Verdana, sans-serif;
@@ -11,6 +11,14 @@
   font-family: Tahoma, Verdana, sans-serif;
   color: Pink;
   @apply underline
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 30px;
 }
 
 body {
