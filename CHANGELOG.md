@@ -7,6 +7,7 @@
 - [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 - Source code and development source text is smaller
 - site contents are now centered
+- archive folder is restored
 
 ## v0.2.0
 - Blog Version is now literally Hard-coded, through code. Lolz
