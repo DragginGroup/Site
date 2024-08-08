@@ -1,0 +1,15 @@
+.scrolling {
+  background-color: AliceBlue
+}
+
+body {
+  background-color: SteelBlue;
+}
+
+.content,
+p,
+h1,
+h2,
+a {
+  background-color: LightSteelBlue;
+}
