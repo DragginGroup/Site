@@ -1,6 +1,6 @@
 # Unreleased
 - Blog Version is now literally, Hard-coded through code. Lolz
-- dev variable is back and is used for blog Version and Latest commit!
+- dev variable is back
 - JAVASCRIPT FOLDER! (content/source)
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
