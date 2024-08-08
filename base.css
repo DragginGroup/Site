@@ -11,12 +11,12 @@
 .title-link,
 .title {
   font-weight: bold;
-  font-size: 40px;
+  font-size: 50px;
   color: White;
 }
 
 .title-link {
-  font-size: 35px;
+  font-size: 30px;
   color: Pink;
   @apply underline
 }
