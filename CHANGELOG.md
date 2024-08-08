@@ -1,13 +1,3 @@
-# Unreleased
-- Blog Version is now literally Hard-coded, through code. Lolz
-- JAVASCRIPT FOLDER!! (content/source)
-- ARCHIVING FOLDER! (content/archive)
-- GITHUB FOLDER- wait what? (content/github)
-- ANIMATED README WIP GIF
-<p align="center">
-<img src="https://raw.githubusercontent.com/DragginGroup/Blog/main/Content/Github/WIP.gif" width="150" title="wip">
-</p>
-
 # August 8th 2024
 
 ## v0.1.2
