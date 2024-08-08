@@ -8,7 +8,7 @@
     <div class="main">
 
     <div class="scrolling">
-      <marquee class="scrolling">
+      <marquee scrolldelay="2" truespeed="true" scrollamount="1" class="scrolling">
         Draggin Group 2024 - the shits and giggles game organization behind: Box Drag
       </marquee>
     </div>
@@ -16,9 +16,9 @@
       
     <div class="links">
       <div class="title-link">
-        <a href="/Blog/Pages/Blogs.html">Blogs</a>
-        <a href="/Blog/Pages/Blogs/B1.html">Latest Blog</a>
-        <a href="/Blog/Pages/Misc/Credits.html">Credits</a>
+        <a href="../Blog/Pages/Blogs.html">Blogs</a>
+        <a href="../Blog/Pages/Blogs/B1.html">Latest Blog</a>
+        <a href="../Blog/Pages/Misc/Credits.html">Credits</a>
       </div>
     </div>
 
@@ -26,8 +26,8 @@
       <p class="title">
         DRAGGING BLOG
       </p>
-      <pre id="message">Latest Commit: Loading...</pre>
-      <pre id="version">Blog Version: V0.2.0</pre>
+      <pre id="message">Latest Commit:</pre>
+      <pre>Blog Version: 0.1.2</pre>
       
       <p>
         the blog for all things Dragging related!
@@ -44,7 +44,7 @@
     </section>
 
     <div class="scrolling">
-    <marquee class="scrolling">
+    <marquee scrolldelay="2" truespeed="true" scrollamount="1" class="scrolling">
     Work In Progress blog site - Draggin Group
     </marquee>
     </div>
@@ -57,7 +57,38 @@
       WIP BLOG SITE
     </p>
 
-  
-  <script src="./Content/Source/index.js"></script>
+    <script>
+      
+      fetch('https://api.github.com/repos/DragginGroup/Blog/commits?per_page=1').then(res => res.json()).then(res => {
+        var commit = res[0].commit
+       
+        var ex1 = "Replaced old image code"
+        var ex2 = "2 Examples for Latest Commit Text Length Fix"
+        var ex3 = "Fix Order and Better Second Example for Commit Length Fix"
+        
+        var regMsg = 'Latest Commit: "' + commit.message +'" by ' + commit.author.name
+        var msg = regMsg
+        
+        if (commit.message.length > ex1.length)
+          msg =  'Latest Commit: "' + commit.message +'"\nby ' + commit.author.name
+        if (commit.message.length > ex2.length)
+          msg =  'Latest Commit: \n"' + commit.message +'"\nby ' + commit.author.name
+        
+        try{
+          document.getElementById('message').innerHTML = msg
+        }
+        catch(err)
+        {
+          document.getElementById('message').innerHTML = err
+          console.log(err)
+        }
+
+
+        if (commit.message.length > ex3.length) {
+          msg = regMsg
+          document.getElementById('message').style.fontSize = x-small
+        }
+      })
+    </script>
   </body>
 </html>
