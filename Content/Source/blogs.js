@@ -1,9 +1,9 @@
 class Header = {
   
-  title: "",
-  date: "",
-  summary: "",
-  authors: []
+  var title: "",
+  var date: "",
+  var summary: "",
+  var authors: []
 
   function returnDefault()
   {
