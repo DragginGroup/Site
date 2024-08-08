@@ -1,6 +1,6 @@
 # August 8th 2024
 ## v0.2.1
-- Removed Pages Folder
+- Removed and Redid Pages Folder
 - Removed Content/Source Folder, now JSP Folder not in Content Folder
 - Redid base theme/style
 - Redid Credits Page
