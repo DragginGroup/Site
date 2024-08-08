@@ -1,0 +1,58 @@
+name: Crash Report
+description: Report a crash that occurred while playing the game.
+labels: ["type: bug"]
+title: "Crash Report: "
+body:
+  - type: checkboxes
+    attributes:
+      label: Issue Checklist
+      options:
+        - label: I have properly named the issue
+        - label: I have checked the issues/discussions pages to see if the issue has been previously reported
+
+  - type: dropdown
+    attributes:
+      label: What browser are you using?
+      options:
+        - Google Chrome
+        - Microsoft Edge
+        - Firefox
+        - Opera
+        - Safari
+        - Other (Specify below)
+
+  - type: input
+    attributes:
+      label: Version
+      description: What version are you on
+      placeholder: ex. 0.2.0
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: "## Describe your issue."
+
+  - type: markdown
+    attributes:
+      value: "### Please do not report issues from other forks. These must be reported in their respective repositories."
+
+  - type: markdown
+    attributes:
+      value: "#### Provide as many details as you can."
+
+  - type: textarea
+    attributes:
+      label: Context (Provide screenshots or videos of the crash happening)
+
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Crash Logs (might be in the Developer Console tab)
+    validations:
+      required: false
