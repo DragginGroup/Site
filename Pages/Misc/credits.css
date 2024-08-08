@@ -2,7 +2,11 @@ marquee {
   background-color: black;
 }
 
+h1,
+p {
+  text-align: center;
+}
+
 .creditTXT {
   color: White;
-  text-align: center;
 }
