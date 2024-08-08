@@ -14,6 +14,6 @@ function validVersion()
 }
 
 string_ver = validVersion()
-string_ver = METADATA.version
+try{string_ver = METADATA.version}catch(err){string_var = "\n"+err}
 
 document.getElementById('version').innerHTML = "Blog Version: v" + string_ver
