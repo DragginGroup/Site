@@ -1,4 +1,7 @@
-.credits {
+body {
   background-color: black;
+}
+
+.creditTXT {
   text-color: white;
 }
