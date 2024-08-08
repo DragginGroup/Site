@@ -17,6 +17,7 @@
 - Github Pull Request Templates!
 - some little font weight fixes
 - oh yeah, CHANGELOG FILE!
+- Blogs Page is now finished!
 
 # August 8th 2024
 
