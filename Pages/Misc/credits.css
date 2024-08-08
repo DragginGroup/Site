@@ -5,6 +5,7 @@ marquee {
 h1,
 p {
   text-align: center;
+  font-family: Tahoma, Verdana, sans-serif;
 }
 
 .creditTXT {
