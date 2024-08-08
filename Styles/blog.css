@@ -2,14 +2,10 @@
   background-color: AliceBlue
 }
 
-body {
+.body {
   background-color: SteelBlue;
 }
 
-.content,
-p,
-h1,
-h2,
-a {
+.text {
   background-color: LightSteelBlue;
 }
