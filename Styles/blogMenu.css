@@ -1,11 +1,17 @@
 .blogList {
   background-color: LightSteelBlue;
+  font-size: 30px;
 }
 
 .butns {
   background-color: AliceBlue;
+  font-size: 50px;
 }
 
 body {
   background-color: SteelBlue;
+}
+
+section {
+  font-family: Tahoma, Verdana, sans-serif;
 }
