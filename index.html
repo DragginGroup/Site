@@ -60,7 +60,7 @@
     <script src="/Blog/Content/Source/constants.js">
       document.getElementById('message').innerHTML = VERSION_PREFIX + VERSION + VERSION_SUFFIX
 
-      fetch('https://api.github.com/repos/DragginGroup/' + GITPAGR + '/commits?per_page=1')
+      fetch('https://api.github.com/repos/DragginGroup/' + GITPAGE + '/commits?per_page=1')
         .then(res => res.json()).then(res => {
     var commit = res[0].commit
 
