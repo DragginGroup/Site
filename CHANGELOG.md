@@ -6,6 +6,7 @@
 - Added functionality for any Link Text relating to the new new Pages
 - Worked on Blog 1
 - Increased Credits Page Tab size
+- Added new credit
 
 # August 8th 2024
 ## v0.2.1
