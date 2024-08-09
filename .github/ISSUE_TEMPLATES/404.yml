@@ -1,7 +1,7 @@
-name: Crash Report
-description: Report a crash that occurred while playing the game.
+name: 404 Report
+description: Report a 404 that occurred while on the site.
 labels: ["type: bug"]
-title: "Crash Report: "
+title: "404 : "
 body:
   - type: checkboxes
     attributes:
