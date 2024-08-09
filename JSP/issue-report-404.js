@@ -1,6 +1,6 @@
 function setHref(id, href) {
   var a = document.getElementById(id);
-  a.href = inital + href;
+  a.href = href;
 }
 
 var GITLINK = "https://github.com/DragginGroup/Blog/issues/new/choose"
