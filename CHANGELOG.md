@@ -1,6 +1,7 @@
 # August 9th 2024
 ## v0.2.3
 - Add 10 pixel padding (suggestion by bit7)
+- Added Credit Tab for Discord user suggestions
 
 ## v0.2.2
 - Readded Blogs List Page
