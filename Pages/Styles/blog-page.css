@@ -1,13 +1,5 @@
-.BlogName {
-  text-size: 60px;
-}
-
-.BlogDetails {
-  text-size: 35px;
-}
-
+.BlogDetails,
 .BlogDate {
-  text-size: 20px;
   opacity: 0.5;
 }
 
