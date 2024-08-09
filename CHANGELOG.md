@@ -9,6 +9,7 @@
 - Added new credit
 - Added Help Page (Idea by TRIPPY)
 - Added Custom 404 Page
+- Removed "Crash Report" Issue Template
 
 # August 8th 2024
 ## v0.2.1
