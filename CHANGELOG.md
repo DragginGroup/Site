@@ -5,7 +5,7 @@
 - Removed Latest Blog Link Text
 - Added functionality for any Link Text relating to the new new Pages
 - Worked on Blog 1
-- Increased Credits Page Tab size
+- Messed around with Credit Pages Styling
 - Added new credit
 
 # August 8th 2024
