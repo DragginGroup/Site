@@ -1,3 +1,16 @@
+# August 9th 2024
+## v0.2.2
+- Readded Blogs List Page
+- Readded Blog 1 Page
+- Removed Latest Blog Link Text
+- Added functionality for any Link Text relating to the new new Pages
+- Worked on Blog 1
+- Messed around with Credit Pages Styling
+- Added new credit
+- Added Help Page (Idea by TRIPPY)
+- Added Custom 404 Page
+- Removed "Crash Report" Github Issue Template
+
 # August 8th 2024
 ## v0.2.1
 - Removed and Redid Pages Folder

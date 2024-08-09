@@ -1,0 +1,12 @@
+.BlogDetails,
+.BlogDate {
+  opacity: 0.5;
+}
+
+.Chapter {
+  text-size: 80px;
+}
+
+.Text {
+  text-size: 20px;
+}
