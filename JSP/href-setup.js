@@ -9,7 +9,7 @@ function setHref(id, href, inital="/Blog/Pages/") {
 }
 
 setHref('BlogsPage', 'BlogList.html')
-setHref('BlogsPageCred', 'BlogList.html', "./")
+setHref('BlogsPageCred', 'BlogList.html', "../Pages/")
 
 setHref('LatestBlog', 'Blogs/Blog1.html')
 setHref('CreditsPage', 'Credits.html')
