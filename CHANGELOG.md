@@ -4,6 +4,7 @@
 - Added Credit Tab for Discord user suggestions
 - 404 Page now has centered text
 - Blog 1 is now finished
+- Added Ranom Change WIP image Animations
 
 ## v0.2.2
 - Readded Blogs List Page
