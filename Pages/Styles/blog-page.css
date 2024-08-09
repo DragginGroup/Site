@@ -1,3 +1,15 @@
+.BlogName {
+  text-size: 60px;
+}
+
+.BlogDetails {
+  text-size: 50px;
+}
+
 .Chapter {
   text-size: 40px;
+}
+
+.Text {
+  text-size: 20px;
 }
