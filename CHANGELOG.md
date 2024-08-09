@@ -2,6 +2,8 @@
 ## v0.2.2
 - Readded Blogs List Page
 - Readded Blog 1 Page
+- Removed Latest Blog Link Text
+- Added functionality for any Link Text relating to the new new Pages
 
 # August 8th 2024
 ## v0.2.1
