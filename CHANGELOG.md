@@ -1,4 +1,7 @@
 # August 9th 2024
+## v0.2.3
+- Add 10 pixel padding (suggestion by bit7)
+
 ## v0.2.2
 - Readded Blogs List Page
 - Readded Blog 1 Page
