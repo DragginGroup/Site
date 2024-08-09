@@ -25,7 +25,7 @@ p {
 }
 
 a {
-  font-size: ¹0px;
+  font-size: 10px;
 }
 
 h1 {
@@ -34,4 +34,8 @@ h1 {
 
 h2 {
   font-size: 20px;
+}
+
+.navigate {
+  font-size: 30px;
 }
