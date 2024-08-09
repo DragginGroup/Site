@@ -2,6 +2,7 @@
 ## v0.2.3
 - Add 10 pixel padding (suggestion by bit7)
 - Added Credit Tab for Discord user suggestions
+- 404 Page now has centered text
 
 ## v0.2.2
 - Readded Blogs List Page
