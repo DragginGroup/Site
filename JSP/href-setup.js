@@ -8,7 +8,7 @@ function setHref(id, href, inital="./Pages/") {
   a.href = inital + href;
 }
 
-setHref('BlogsPage', 'Blogs.html')
+setHref('BlogsPage', 'BlogList.html')
 setHref('LatestBlog', 'Blogs/Blog1.html')
 setHref('CreditsPage', 'Credits.html')
 setHref('backBtn', 'index.html', '../')
