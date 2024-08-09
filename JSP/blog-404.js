@@ -1,3 +1,3 @@
-let PAGE = "Page: " + window.location.pathname
+var PAGE = "Page: " + window.location.pathname
 
 document.getElementById("wrongpage").innerHTML = PAGE
