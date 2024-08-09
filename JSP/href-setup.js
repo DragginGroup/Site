@@ -12,7 +12,9 @@ setHref('BlogsPage', 'BlogList.html')
 setHref('BlogsPageCred', 'Pages/BlogList.html', "../")
 
 setHref('LatestBlog', 'Blogs/Blog1.html')
+
 setHref('CreditsPage', 'Credits.html')
+setHref('CreditsPageBlog', 'Credits.html', "./")
 
 setHref('backBtn', 'index.html', '../')
 setHref('backBtnBlogs', 'index.html', '.../')
