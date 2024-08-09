@@ -6,6 +6,11 @@
   text-size: 50px;
 }
 
+.BlogDate {
+  text-size: 20px;
+  opacity: 0.5;
+}
+
 .Chapter {
   text-size: 40px;
 }
