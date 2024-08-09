@@ -7,7 +7,8 @@
 - Worked on Blog 1
 - Messed around with Credit Pages Styling
 - Added new credit
-- Adied Help Page (Idea by TRIPPY)
+- Added Help Page (Idea by TRIPPY)
+- Added Custom 404 Page
 
 # August 8th 2024
 ## v0.2.1
