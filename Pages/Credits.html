@@ -37,9 +37,10 @@
     
     <script src="../SP/href-setup.js"></script>
     <script>
+      var div = document.getElementsByClassName('creditsBlurb')
       var text = document.getElementById('text')
 
-      text.innerHTML = text.height;
+      text.innerHTML = div.offsetHeight;
     </script>
   </body>
 </html>
