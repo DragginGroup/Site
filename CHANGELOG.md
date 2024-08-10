@@ -2,6 +2,7 @@
 ## v0.2.4
 ### Added
 - Missing Drago Cuven Credits
+- Added Table of Contents to blog
 
 # August 9th 2024
 ## v0.2.3
