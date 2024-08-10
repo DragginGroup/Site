@@ -3,6 +3,8 @@
 ### Added
 - Missing Drago Cuven Credits
 - Added Table of Contents to blog
+### Fixed
+- If in a higher folder than root, 404 should send you to the right place instead of stacking
 
 # August 9th 2024
 ## v0.2.3
