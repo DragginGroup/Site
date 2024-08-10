@@ -15,7 +15,7 @@ switch(CHANCE):
   
 var ANIM_FULL = "./Content/Site/" + ANIM_NAME + ANIM_EXT;
 
-var img = new Image(); 
-img.src = ANIM_FULL;
-img.alt = "WIP";
-document.body.appendChild(img);
+var img = document.createElement("img");
+img.src = "http://www.google.com/intl/en_com/images/logo_plain.png";
+var src = document.getElementById("header");
+src.appendChild(img);
