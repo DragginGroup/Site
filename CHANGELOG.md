@@ -3,10 +3,11 @@
 ### Added
 - 10 pixel padding (suggestion by bit7)
 - Credit Tab for Discord user suggestions
-
-# Changed
+### Changed
 - 404 Page now has centered text
 - Blog 1 is now finished
+### Removed
+- Wip img and text is removed from home page
 
 
 ## v0.2.2
