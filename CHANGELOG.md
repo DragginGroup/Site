@@ -27,42 +27,41 @@
 - Wip img and text is removed from home page
 
 ## v0.2.2
-# Added
+### Added
 - Readded Blogs List Page
 - Readded Blog 1 Page
 - Added functionality for any Link Text relating to the new new Pages
 - Added new credit
 - Added Help Page (Idea by TRIPPY)
 - Added Custom 404 Page
-
-# Removed
+### Removed
 - Removed Latest Blog Link Text
 - Removed "Crash Report" Github Issue Template
-# Changed
+### Changed
 - Worked on Blog 1
 - Messed around with Credit Pages Styling
 
 # August 8th 2024
 ## v0.2.1
-# Removed
+### Removed
 - Removed and Redid Pages Folder
 - Removed Content/Source Folder, now JSP Folder not in Content Folder
-# Changed
+### Changed
 - Redid base theme/style
 - Redid Credits Page
 - Source code and development source text is smaller
 - site contents are now centered
 - archive folder is restored
-# Fixed
+### Fixed
 - [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 
 ## v0.2.0
-# Changed
+### Changed
 - Blog Version is now literally Hard-coded, through code. Lolz
 - Slow Scrolling Text...
 - Shortened Text
 - Blog 1 in progress
-# Added
+### Added
 - JAVASCRIPT FOLDER!! (content/source)
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
@@ -77,21 +76,21 @@
 - Github issue templates!
 - Github Pull Request Templates!
 - oh yeah, CHANGELOG FILE!
-# Fixed
+### Fixed
 - Correct Capitalization on main site page!!!
 - some little font weight fixes
 - Blogs Page works
 
 ## v0.1.2
-# Fixed
+### Fixed
 - I hardcode the blog Version now. Fuck me man...
 
 ## v0.1.1
-# Fixed
+### Fixed
 - I fixed one small thing lol, that was fast
 
 ## v0.1
-# Added
+### Added
 - Main Site
 - Credits Page
 - Blogs Page (W.I.P. aka ugly as shit)
