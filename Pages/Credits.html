@@ -14,7 +14,7 @@
     <div class="color2">
       
       <div class="creditsBlurb">
-        <marquee direction="up">
+        <marquee direction="up" id="text">
         <h1>Blog Team</h1>
         <p>Madness-Rombank - Lead Programming</p>
         <p>Trippy - Testing</p>
@@ -36,5 +36,11 @@
     </div>
     
     <script src="../SP/href-setup.js"></script>
+    <script>
+      var div = document.getElementsByClassName('creditsBlurb')
+      var text = document.getElementById('text')
+
+      text.innerHTML = div.height;
+    </script>
   </body>
 </html>
