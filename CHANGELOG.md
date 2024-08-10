@@ -8,6 +8,8 @@
 - Added Scrolling Credits Text
 ### Fixed
 - If in a higher folder than root, 404 should send you to the right place instead of stacking
+### Changed
+- The whole changelog follows the new format
 
 # August 9th 2024
 ## v0.2.3
@@ -25,30 +27,42 @@
 - Wip img and text is removed from home page
 
 ## v0.2.2
+# Added
 - Readded Blogs List Page
 - Readded Blog 1 Page
-- Removed Latest Blog Link Text
 - Added functionality for any Link Text relating to the new new Pages
-- Worked on Blog 1
-- Messed around with Credit Pages Styling
 - Added new credit
 - Added Help Page (Idea by TRIPPY)
 - Added Custom 404 Page
+
+# Removed
+- Removed Latest Blog Link Text
 - Removed "Crash Report" Github Issue Template
+# Changed
+- Worked on Blog 1
+- Messed around with Credit Pages Styling
 
 # August 8th 2024
 ## v0.2.1
+# Removed
 - Removed and Redid Pages Folder
 - Removed Content/Source Folder, now JSP Folder not in Content Folder
+# Changed
 - Redid base theme/style
 - Redid Credits Page
-- [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 - Source code and development source text is smaller
 - site contents are now centered
 - archive folder is restored
+# Fixed
+- [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 
 ## v0.2.0
+# Changed
 - Blog Version is now literally Hard-coded, through code. Lolz
+- Slow Scrolling Text...
+- Shortened Text
+- Blog 1 in progress
+# Added
 - JAVASCRIPT FOLDER!! (content/source)
 - ARCHIVING FOLDER! (content/archive)
 - GITHUB FOLDER- wait what? (content/github)
@@ -59,25 +73,25 @@
 </p>
 
 - JAVASCRIPT FILES THAT CONTROL INDIVIDUAL PARTS OF THE SITE! (I call them JS Packets)
-- Slow Scrolling Text...
-- Correct Capitalization on main site page!!!
 - Development fork!
 - Github issue templates!
 - Github Pull Request Templates!
-- some little font weight fixes
 - oh yeah, CHANGELOG FILE!
+# Fixed
+- Correct Capitalization on main site page!!!
+- some little font weight fixes
 - Blogs Page works
-- Shortened Text
-- Blog 1 in progress
 
 ## v0.1.2
+# Fixed
 - I hardcode the blog Version now. Fuck me man...
 
 ## v0.1.1
+# Fixed
 - I fixed one small thing lol, that was fast
 
 ## v0.1
-
+# Added
 - Main Site
 - Credits Page
 - Blogs Page (W.I.P. aka ugly as shit)
