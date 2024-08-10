@@ -2,7 +2,6 @@
 function getRandomArbitrary(min, max) {
   return Math.random() * (max - min) + min;
 }
-const image = document.getElementById('wip');
 var ANIM_NAME = "WIP";
 var ANIM_EXT = ".png"
 var CHANCE = getRandomArbitrary(0, 2);
@@ -16,4 +15,7 @@ switch(CHANCE):
   
 var ANIM_FULL = "/Content/Site/" + ANIM_NAME + ANIM_EXT;
 
-image.src = ANIM_FULL;
+var img = new Image(); 
+img.src = ANIM_FULL;
+img.alt = "WIP";
+document.body.appendChild(img);
