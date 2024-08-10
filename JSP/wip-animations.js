@@ -3,7 +3,6 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * max);
 }
 
-$(document).ready(function() {
   var ANIM_NAME = "WIP";
   var CHANCE = getRandomInt(3);
 
@@ -15,4 +14,3 @@ $(document).ready(function() {
   var ANIM_FULL = "/Blog/Content/Site/" + ANIM_NAME + ".png";
 
   document.getElementsByClassName("wip")[0].src = ANIM_FULL;
-});
