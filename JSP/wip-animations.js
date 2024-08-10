@@ -4,15 +4,16 @@ function getRandomArbitrary(min, max) {
 }
 
   var ANIM_NAME = "WIP";
+var ANIM_EXT = ".png"
   var CHANCE = getRandomArbitrary(0, 2);
 
   switch(CHANCE):
     case 1: ANIM_NAME = "Blink";
         
-    case 2: ANIM_NAME = "Smoke";
+    case 2: ANIM_NAME = "Smoke"; ANIM_EXT = ".gif";
         
     default: ANIM_NAME = "WIP"
   
-  var ANIM_FULL = "/Blog/Content/Site/" + ANIM_NAME + ".png";
+  var ANIM_FULL = "/Blog/Content/Site/" + ANIM_NAME + ANIM_EXT;
 
   document.getElementsByClassName("wip")[0].src = ANIM_FULL;
