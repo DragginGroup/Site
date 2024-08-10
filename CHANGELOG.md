@@ -4,7 +4,8 @@
 - Missing Drago Cuven Credits
 - Added Table of Contents to blog
 - Added Blog Folder for Blog paged
-- Added 5th Theme Color
+- Added 5th Base Theme Color
+- Added Scrolling Credits Text
 ### Fixed
 - If in a higher folder than root, 404 should send you to the right place instead of stacking
 
