@@ -1,9 +1,9 @@
-# JSP
+# SP
 ## anagram
-jsp stands for JavaScriptPacket
+sp stands for ScriptPacket
 
 ## explanation
-a JavaScriptPacket is a quick bit of code 
+a ScriptPacket is a quick bit of code 
 that executes a specific set of intruction
 for a specific part of the site, examples.
 Version. Latest Commit. Button Link Updates.

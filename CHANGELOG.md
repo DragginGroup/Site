@@ -1,4 +1,18 @@
 # August 9th 2024
+## v0.2.3
+### Added
+- 10 pixel padding (suggestion by bit7)
+- Credit Tab for Discord user suggestions
+- New Changelog Format
+- Added [Wasmoon](https://github.com/ceifa/wasmoon/tree/main) Support (thanks drago_cuven)
+### Changed
+- 404 Page now has centered text
+- Blog 1 is now finished
+- The image of the github folders in the help page is moved
+- instead of JSP it is now SP.
+### Removed
+- Wip img and text is removed from home page
+
 ## v0.2.2
 - Readded Blogs List Page
 - Readded Blog 1 Page
