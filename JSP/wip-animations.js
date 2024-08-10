@@ -14,6 +14,6 @@ switch(CHANCE):
       
   default: ANIM_NAME = "WIP"
   
-var ANIM_FULL = "/Blog/Content/Site/" + ANIM_NAME + ANIM_EXT;
+var ANIM_FULL = "/Content/Site/" + ANIM_NAME + ANIM_EXT;
 
 image.src = ANIM_FULL;
