@@ -7,13 +7,14 @@ var ANIM_NAME = "WIP";
 var ANIM_EXT = ".png"
 var CHANCE = getRandomArbitrary(0, 2);
 
-switch(CHANCE):
+switch(CHANCE) {
   case 1: ANIM_NAME = "Blink";
        
   case 2: ANIM_NAME = "Smoke"; ANIM_EXT = ".gif";
       
   default: ANIM_NAME = "WIP"
-  
+}
+
 let ANIM_FULL = "./Content/Site/" + ANIM_NAME + ANIM_EXT;
 
 var img = document.createElement("img");
