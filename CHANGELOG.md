@@ -1,3 +1,7 @@
+# August 10th 2024
+## v0.2.4
+
+
 # August 9th 2024
 ## v0.2.3
 ### Added
