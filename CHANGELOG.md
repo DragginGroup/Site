@@ -1,10 +1,13 @@
 # August 9th 2024
 ## v0.2.3
-- Add 10 pixel padding (suggestion by bit7)
-- Added Credit Tab for Discord user suggestions
+### Added
+- 10 pixel padding (suggestion by bit7)
+- Credit Tab for Discord user suggestions
+
+# Changed
 - 404 Page now has centered text
 - Blog 1 is now finished
-- Added Ranom Change WIP image Animations
+
 
 ## v0.2.2
 - Readded Blogs List Page
