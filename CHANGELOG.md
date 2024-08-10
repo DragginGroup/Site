@@ -3,6 +3,7 @@
 ### Added
 - 10 pixel padding (suggestion by bit7)
 - Credit Tab for Discord user suggestions
+- New Changelog Format
 ### Changed
 - 404 Page now has centered text
 - Blog 1 is now finished
