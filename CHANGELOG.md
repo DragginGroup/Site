@@ -7,9 +7,9 @@
 ### Changed
 - 404 Page now has centered text
 - Blog 1 is now finished
+- The image of the github folders in the help page is moved
 ### Removed
 - Wip img and text is removed from home page
-
 
 ## v0.2.2
 - Readded Blogs List Page
