@@ -1,15 +1,15 @@
 # August 10th 2024
 ## v0.2.4
 ### Added
-- Missing Drago Cuven Credits
+- Added Missing Drago Cuven Credits
 - Added Table of Contents to blog
 - Added Blog Folder for Blog paged
 - Added 5th Base Theme Color
 - Added Scrolling Credits Text
 ### Fixed
-- If in a higher folder than root, 404 should send you to the right place instead of stacking
+- Fixed Bug where if in a higher folder than root, 404 should send you to the right place instead of stacking
 ### Changed
-- The whole changelog follows the new format
+- Changed the whole changelog so now it follows the new format
 
 # August 9th 2024
 ## v0.2.3
