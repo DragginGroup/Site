@@ -6,8 +6,10 @@
 - Added Blog Folder for Blog paged
 - Added 5th Base Theme Color
 - Added Scrolling Credits Text
+- Added Blog 2
 ### Fixed
 - Fixed Bug where if in a higher folder than root, 404 should send you to the right place instead of stacking
+- Fixed "Blog1" Spelling
 ### Changed
 - Changed the whole changelog so now it follows the new format
 
