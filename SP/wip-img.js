@@ -1,26 +1,23 @@
-// from https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-function getRandomArbitrary(min, max) {
-  return Math.random() * (max - min) + min;
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
 }
 
-var ANIM_NAME = "WIP";
-var ANIM_EXT = ".png"
-var CHANCE = getRandomArbitrary(0, 2);
+var animOptions = [
+  { name: "Blink", ext: ".png" },
+  { name: "Smoke", ext: ".gif" },
+  { name: "WIP", ext: ".png" }
+];
 
-switch(CHANCE) {
-  case 1: ANIM_NAME = "Blink";
-       
-  case 2: ANIM_NAME = "Smoke"; ANIM_EXT = ".gif";
-      
-  default: ANIM_NAME = "WIP"
-}
+var choice = animOptions[getRandomInt(animOptions.length)];
 
-let ANIM_FULL = "./Content/Site/" + ANIM_NAME + ANIM_EXT;
+let ANIM_FULL = `./Content/Site/${choice.name}${choice.ext}`;
 
 var img = document.createElement("img");
-img.src = "http://www.google.com/intl/en_com/images/logo_plain.png";
+img.src = ANIM_FULL;
 var src = document.getElementById("header");
 
 function addImg() {
   src.appendChild(img);
 }
+
+addImg()

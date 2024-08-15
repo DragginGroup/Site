@@ -1,5 +1,5 @@
-let VERSION = "0.2.3"
-let SUFFIX = ""
+let VERSION = "0.2.4"
+let SUFFIX = "-dev"
 let PREFIX = ""
 let FALLBACK_VERSION = "0.0.0\nversion error"
 
