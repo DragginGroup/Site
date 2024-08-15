@@ -1,4 +1,4 @@
-# August 10th 2024
+# August 14th 2024
 ## v0.2.4
 ### Added
 - Added Missing Drago Cuven Credits
