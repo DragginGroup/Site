@@ -1,14 +1,4 @@
-/*
-  id: text id: ex: baxkBtn
-  href: the file your heading too. ex: blog.html
-  inital: what comes before the href: ex: ../Blog/Pages
-*/
-export function setHref(id, href, inital="/Blog/Pages/") {
-  var a = document.getElementById(id);
-  a.href = inital + href;
-}
-
-// import {setHref} from './href-setup.js'
+import {setHref} from './util/href.js';
 
 setHref('BlogsPage', 'BlogList.html')
 setHref('BlogsPageCred', 'BlogList.html', "./")
