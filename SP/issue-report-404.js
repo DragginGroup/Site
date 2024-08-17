@@ -1,4 +1,4 @@
-import {setHref} from './href-setup.js'
+import {setHref} from './util/href.js'
 
 var GITLINK = "https://github.com/DragginGroup/Blog/issues/new/choose"
 let VERSION = document.getElementById('version').innerHTML
