@@ -3,10 +3,12 @@
   href: the file your heading too. ex: blog.html
   inital: what comes before the href: ex: ../Blog/Pages
 */
-function setHref(id, href, inital="/Blog/Pages/") {
+export function setHref(id, href, inital="/Blog/Pages/") {
   var a = document.getElementById(id);
   a.href = inital + href;
 }
+
+// import {setHref} from './href-setup.js'
 
 setHref('BlogsPage', 'BlogList.html')
 setHref('BlogsPageCred', 'BlogList.html', "./")
