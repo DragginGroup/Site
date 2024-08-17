@@ -1,6 +1,4 @@
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
+import {getRandomInt} from './api/Math.js'
 
 var animOptions = [
   { name: "Blink", ext: ".png" },
@@ -10,7 +8,9 @@ var animOptions = [
 
 var choice = animOptions[getRandomInt(animOptions.length)];
 
-let ANIM_FULL = `./Content/Site/${choice.name}${choice.ext}`;
+let ANIM_FULL = `/Blog/Content/Site/${choice.name}${choice.ext}`;
+
+alert(ANIM_FULL) // debug
 
 var img = document.createElement("img");
 img.src = ANIM_FULL;
