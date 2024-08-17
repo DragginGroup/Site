@@ -2,6 +2,12 @@
 ## v0.2.5
 ### Changed
 - Changed User "Madness-Rombank" to "IdealistCat"
+- Moved Lua Packet to api folder
+### Added
+- Added SP Folders
+  - Added api folder
+  - Added utilities folder
+- Added Error SP
 
 # August 14th 2024
 ## v0.2.4
