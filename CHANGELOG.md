@@ -12,6 +12,7 @@
   - Added Idealist Cat Comic
     - Added Issue 1
     - Added Issue 2
+    - Added Issue 3
 
 # August 14th 2024
 ## v0.2.4
