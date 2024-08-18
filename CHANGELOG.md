@@ -8,6 +8,10 @@
   - Added api folder
   - Added utilities folder
 - Added Error SP
+- Added Comic book section of the site
+  - Added Idealist Cat Comic
+    - Added Issue 1
+    - Added Issue 2
 
 # August 14th 2024
 ## v0.2.4
