@@ -9,7 +9,7 @@ export let FALLBACK_VERSION = "version error"
 export function validVersion()
 {
   if (VERSION.length > 4)
-    if (stringVersion() == "date")
+    if (stringVersion({ localStorage }) == "date")
       date();
     else
       return PREFIX + "v" + VERSION + SUFFIX;
