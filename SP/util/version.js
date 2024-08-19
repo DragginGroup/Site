@@ -1,4 +1,5 @@
 export let VERSION = "0.2.5"
+export let DATE = "2024.8.19"
 export let SUFFIX = "d"
 export let PREFIX = ""
 export let FALLBACK_VERSION = "version error"
