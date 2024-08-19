@@ -1,5 +1,6 @@
 .creditsBlurb {
-  background-color: var(--txt-color);;
+  background-color: var(--bgG-color);
+  color: var(--txt-color);
   font-size: 10px;
   font-weight: 500;
 }
