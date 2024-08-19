@@ -1,21 +1,39 @@
+[data-theme="light"] {
+  --bg1-color: #d5d7cc;
+  --bg2-color: #e7e7e1;
+  --bg3-color: #c0c3b9;
+  --bg4-color: #dedfd8;
+  --bg5-color: #ebecea;
+  --txt-color: #000000;
+} /* just an invert */
+
+[data-theme="dark"] {
+  --bg1-color: #2a2833;
+  --bg2-color: #18181e;
+  --bg3-color: #3f3c46;
+  --bg4-color: #212027;
+  --bg5-color: #141315;
+  --txt-color: #ffffff;
+}
+
 .color1 {
-  background-color:#2a2833;
+  background-color:var(--bg1-color);
 }
 .color2 {
-  background-color:#18181e;
+  background-color:var(--bg2-color);
 }
 .color3 {
-  background-color:#3f3c46;
+  background-color:var(--bg3-color);
 }
 .color4 {
-  background-color:#212027;
+  background-color:var(--bg4-color);
 }
 .color5 {
-  background-color: #141315;
+  background-color: var(--bg5-color);
 }
 
 .color1, .color2, .color3, .color4, .color5{
-  color: White;
+  color: var(--txt-color);
   font-family: Tahoma, Verdana, sans-serif;
   font-weight: Bold;
 }
