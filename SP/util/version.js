@@ -1,5 +1,4 @@
-import {localStorage,  setting, stringVersion} from '/Blog/SP/settings/version-display.js'
-
+export let DISPLAY = "version"
 export let VERSION = "0.2.5"
 export let DATE = "2024.8.19"
 export let SUFFIX = "d"
@@ -8,20 +7,25 @@ export let FALLBACK_VERSION = "version error"
 
 export function validVersion()
 {
-  if (VERSION.length > 4)
-    if (stringVersion({ localStorage }) == "date")
-      date();
-    else
-      return PREFIX + "v" + VERSION + SUFFIX;
+  if (DISPLAY == "date")
+    date()
   else
-    date();
+    version()
 
 }
 
 export function date()
 {
-  if (DATE.length < 5)
-      return FALLBACK_VERSION;
-    else
+  if (DATE.length > 4)
       return DATE;
+  else
+      return FALLBACK_VERSION;
+}
+
+export function version()
+{
+  if (VERSION.length > 4)
+      return PREFIX + "v" + VERSION + SUFFIX;
+  else
+    return FALLBACK_VERSION;
 }
