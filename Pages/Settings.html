@@ -1,0 +1,31 @@
+<html data-theme="dark">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>MadnessSite - Settings</title>
+    <link rel="stylesheet" href="./Styles/base.css">
+  </head>
+  <body class="color1">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <div class="color4" align="center">
+        <a href="../index.html" id="backBtn">Back</a>
+        <a href="./Credits.html" id="CreditsPage"> Credits</a>
+    </div>
+    
+    <fieldset class="color2">
+      <legend>Settings Page</legend>
+      <a>
+        <button onClick="themeSwitch"
+          type="button"
+          data-theme-toggle>
+          Theme Toggle
+          <ion-icon name="contrast-outline"></ion-icon>
+        </button>
+      </a>
+    </fieldset>
+
+    <script src="../SP/href-setup.js"></script>
+    <script src="../SP/settings/theme.js"></script>
+  </body>
+</html>
