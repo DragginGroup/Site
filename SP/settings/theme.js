@@ -31,7 +31,7 @@ function updateButton({ buttonEl, isDark }) {
 /**
 * Utility function to update the theme setting on the html tag
 */
-function updateThemeOnHtmlEl({ theme }) {
+export function updateThemeOnHtmlEl({ theme }) {
   document.querySelector("html").setAttribute("data-theme", theme);
 }
 
@@ -50,7 +50,7 @@ const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
 /**
 * 2. Work out the current site settings
 */
-let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
+export let currentThemeSetting = calculateSettingAsThemeString({ localStorageTheme, systemSettingDark });
 
 /**
 * 3. Update the theme setting and button text accoridng to current settings
