@@ -1,5 +1,6 @@
-import { validVersion } from './util/version.js' // only here cause of some bullshit conflict thingy
+import { validVersion } from './util/version.js'
 
+ // only here cause of some bullshit conflict thingy
 let VERSION = "0.2.4"
 let SUFFIX = ""
 let PREFIX = ""
