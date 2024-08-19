@@ -5,6 +5,7 @@
   --bg4-color: #dedfd8;
   --bg5-color: #ebecea;
   --txt-color: #000000;
+  --bgG-color: #ffffff;
 } /* just an invert */
 
 [data-theme="dark"] {
@@ -14,6 +15,7 @@
   --bg4-color: #212027;
   --bg5-color: #141315;
   --txt-color: #ffffff;
+  --bgG-color: #000000;
 }
 
 .color1 {
