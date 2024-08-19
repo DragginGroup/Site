@@ -7,7 +7,10 @@ export let FALLBACK_VERSION = "version error"
 export function validVersion()
 {
   if (VERSION.length < 5)
-    return FALLBACK_VERSION;
+    if (DATE.length < 5)
+      return FALLBACK_VERSION;
+  
+    return DATE;
 
   return PREFIX + "v" + VERSION + SUFFIX;
 }
