@@ -1,4 +1,4 @@
-import {VERSION, DATE, SUFFIX, PREFIX, FALLBACK_VERSION, validVersion, date} from './util/version.js'
+import {DISPLAY, VERSION, DATE, SUFFIX, PREFIX, FALLBACK_VERSION, validVersion, date, version} from './util/version.js'
 
 var string_ver = ""
 string_ver = validVersion()
