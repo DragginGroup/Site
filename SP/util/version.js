@@ -9,7 +9,7 @@ let PREFIX = ""
 
 let FALLBACK_VERSION = "0.0.0"
 
-function validVersion() { return version(); }
+export function validVersion() { return version(); }
 
 function date()
 {
