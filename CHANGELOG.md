@@ -8,7 +8,6 @@
 - Changed almost all uses of href/src to be less bug likely (I Changed them to work in the best way, it's hard to explain)
 ### Added
 - Added SP Folders (there are folders for different files)
-- Added Error SP
 - Added Comic book section of the site
   - Added Idealist Cat Comic
     - Added Issue 1
@@ -19,6 +18,7 @@
   - Added Theme Switching to all pages. (they recognize the theme and adapt)
   - Added Custom Button(s)
 - Added Bean Club to home page (pauleps idea)
+- Added Dropdown Table of Contents
 
 # August 14th 2024
 ## v0.2.4
