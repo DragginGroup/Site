@@ -1,5 +1,5 @@
 import { validVersion } from '/Blog/SP/util/version.js';
-import { MOD_NAME,  MOD_ENABLED } from '/Blog/SP/mod/mod-util.js';
+import { MOD_NAME,  MOD_ENABLED } from '/Blog/SP/mod/mod-api.js';
 
 var string_ver = ""
 string_ver = validVersion("dev");

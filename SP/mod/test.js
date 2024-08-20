@@ -1,3 +1,3 @@
-import { replaceImg } from './mod-util.js';
+import { replaceImg } from './mod-api.js';
 
 replaceImg('testImg', "Site/WIP.png");
