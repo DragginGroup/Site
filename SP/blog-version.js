@@ -6,7 +6,7 @@ string_ver = validVersion("dev");
 
 var name = "Blog";
 
-if (MOD_ENABLED)
+if (MOD_ENABLED == true)
   name = MOD_NAME;
 
 document.getElementById('version').innerHTML = name + " Version: " + string_ver
