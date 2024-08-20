@@ -15,3 +15,13 @@ All things Dragging Related
 <p align="center">
 Work In Progress Blog Site!
 </p>
+
+<h1 align="center">Modding</h1>
+
+<p align="center">
+With the 0.2.6 update there is a new robust modding support through script packets.
+<br>
+<a align="center" href="MODDING_API.md">
+Check out the markdown here!
+</a>
+</p>
