@@ -1,7 +1,7 @@
 let DATE = "2024.8.20"
 let VERSION = "0.2.5"
 
-let SUFFIX = "d"
+let SUFFIX = ""
 let PREFIX = ""
 
 let FALLBACK_VERSION = "0.0.0"
@@ -9,6 +9,10 @@ let FALLBACK_DATE = "2024.8.8"
 
 export function validVersion(type = "version") { 
   var ver = version();
+
+  if (type == "dev")
+    ver = version() + "-development";
+
 
   if (type == "date")
     ver = date();
