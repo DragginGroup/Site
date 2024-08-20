@@ -20,7 +20,7 @@
 - Added Bean Club to home page (pauleps idea)
 - Added Dropdown Table of Contents
 ### Removed
-- Removed Top Scrolling Text from home oage
+- Removed Top Scrolling Text from home page
 
 # August 14th 2024
 ## v0.2.4
