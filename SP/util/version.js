@@ -1,5 +1,5 @@
 let DATE = "2024.8.20"
-let VERSION = "0.2.5"
+let VERSION = "0.2.6"
 
 let SUFFIX = ""
 let PREFIX = ""
