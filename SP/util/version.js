@@ -1,3 +1,5 @@
+import { MOD_NAME, MOD_VERSION,  MOD_ENABLED } from '/Blog/SP/mod/mod-util.js';
+
 let DATE = "2024.8.30"
 let VERSION = "0.2.6"
 
@@ -30,8 +32,13 @@ function date()
 
 function version()
 {
+  var ourver = VERSION;
+
+  if (MOD_ENABLED)
+    ourver = MOD_VERSION;
+  
   if (VERSION.length > 4)
-    return PREFIX + "v" + VERSION + SUFFIX;
+    return PREFIX + "v" + ourver + SUFFIX;
   else
     return FALLBACK_VERSION;
 }
