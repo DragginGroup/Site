@@ -1,5 +1,4 @@
 import { validVersion } from '/Blog/SP/util/version.js';
-import { stringVersion } from '/Blog/SP/settings/version-display.js';
 
  // only here cause of some bullshit conflict thingy
 let VERSION = "0.2.4"
