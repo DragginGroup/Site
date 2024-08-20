@@ -8,15 +8,23 @@ let SUFFIX = "d"
 let PREFIX = ""
 
 let FALLBACK_VERSION = "0.0.0"
+let FALLBACK_DATE = "2024.8.8"
 
-export function validVersion() { return version(); }
+export function validVersion(type ="version") { 
+  var ver = version();
+
+  if (type == "date")
+    ver = date();
+  
+  return ver;
+}
 
 function date()
 {
   if (DATE.length > 7)
     return DATE;
   else
-    return FALLBACK_VERSION;
+    return FALLBACK_DATE;
 }
 
 function version()
@@ -24,5 +32,5 @@ function version()
   if (VERSION.length > 4)
     return PREFIX + "v" + VERSION + SUFFIX;
   else
-    return date();
+    return FALLBACK_VERSION;
 }
