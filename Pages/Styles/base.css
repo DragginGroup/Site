@@ -24,6 +24,10 @@
   --sbG-color: #0000ff;
 }
 
+body {
+  align: center;
+}
+
 .settingsButton {
   color: var(--txt-color);
   background-color: var(--sbG-color);
