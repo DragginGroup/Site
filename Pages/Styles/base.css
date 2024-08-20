@@ -4,8 +4,11 @@
   --bg3-color: #c0c3b9;
   --bg4-color: #dedfd8;
   --bg5-color: #ebecea;
+  
   --txt-color: #000000;
   --bgG-color: #ffffff;
+
+  --sbG-color: #ffff00;
 } /* just an invert */
 
 [data-theme="dark"] {
@@ -14,8 +17,19 @@
   --bg3-color: #3f3c46;
   --bg4-color: #212027;
   --bg5-color: #141315;
+  
   --txt-color: #ffffff;
   --bgG-color: #000000;
+
+  --sbG-color: #0000ff;
+}
+
+.settingsButton {
+  color: var(--txt-color);
+	background-color: var(--sbG-color);
+	font-size: 20px;
+	border-radius: 20px;
+	padding: 15px 20px;
 }
 
 .color1 {
