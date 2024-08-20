@@ -1,7 +1,7 @@
-const button = document.querySelector("[vd-toggle]");
+const button = document.getElementById("[vd-toggle]");
 
-export const localStorage = localStorage.getItem("version-display");
-export let setting = stringVersion({ localStorage });
+const localStorage = localStorage.getItem("version-display");
+let setting = stringVersion({ localStorage });
 
 export function stringVersion({ localStorage }) {
   if (localStorage !== null) {
@@ -11,7 +11,7 @@ export function stringVersion({ localStorage }) {
   return "version";
 }
 
-// import {localStorage,  setting, stringVersion} from '/Blog/SP/settings/version-display.js'
+// import {stringVersion} from '/Blog/SP/settings/version-display.js'
 
 function updateHtml({ attribute }) {
   document.querySelector("html").setAttribute("vd", attribute);
