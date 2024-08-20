@@ -1,10 +1,14 @@
 import { returnPath } from '/Blog/SP/util/files.js';
+import { readText } from '/Blog/SP/util/readfiles.js';
 
 export let MOD_NAME = "Test";
-export let MOD_VERSION = "0.1.0";
+
+export let MOD_VERSION = "1.0.0P";
+MOD_VERSION = readText(returnPath('version', "Mod/" + MOD_NAME + '/'));
+
 export let MOD_ENABLED = true;
 
-export let MOD_API_VERSION = "0.0.5";
+export let MOD_API_VERSION = "0.0.6";
 
 export function replaceImg(id, replacement) {
   // https://stackoverflow.com/a/48344753 - Tomas Kenzgaila
