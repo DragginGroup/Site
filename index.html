@@ -1,23 +1,27 @@
-<html>
+<html data-theme="dark">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <title>DraggingBlog - Home</title>
-    <link rel="stylesheet" href="./Pages/Styles/base.css">
+    <link rel="stylesheet" href="/Blog/Pages/Styles/base.css">
   </head>
-  <body class="color1">
+  <body class="color1" align="center">
     <div class="color1">
 
-    <div class="color3">
+    <!-- <div class="color3">
       <marquee class="color3">
         Draggin Group 2024 - the shits and giggles game organization behind: Box Drag
       </marquee>
-    </div>
-
+    </div> -->
 
     <div class="color4" align="center">
-        <a href="./Pages/Help.html" id="HelpPage">Help</a>
-        <a href="" id="BlogsPage">Blogs</a>
-        <a href="./Pages/Credits.html" id="CreditsPage">Credits</a>
+        <a href="/Blog/Pages/Help.html" id="HelpPage">Help</a>
+        <a href="/Blog/Pages/BlogList.html" id="BlogsPage">Blogs</a>
+        <a href="/Blog/Pages/ComicList.html" id="ComicsPage">Comics</a>
+        <a href="/Blog/Pages/Settings.html" id="SettingsPage">Settings</a>
+        <a href="/Blog/Pages/Credits.html" id="CreditsPage">Credits</a>
+        <!--<a href="./Test.html">Test</a>-->
+    </div>
+      
     <section class="color2">
       <p>
         DRAGGING BLOG
@@ -35,9 +39,12 @@
       <p>
         Made with 10 braincells, I think.
       </p>
-    </section>
 
-    <div class="header"></div>
+      <img src="/Blog/Content/Site/Blink.png" width="100" align="left">
+      <img src="/Blog/Content/Site/WIP.png" width="100" align="center">
+      <img src="/Blog/Content/Site/Smoke.gif" width="100" align="right">
+
+    </section>
       
     <div class="color3">
     <marquee class="color3">
@@ -45,10 +52,9 @@
     </marquee>
     </div>
     </div>
-    </div>
-
-  <script src="/Blog/SP/blog-version.js"></script>
-  <script src="/Blog/SP/href-setup.js"></script>
-  <script src="/Blog/SP/wip-img.js">addImg()</script>
+    
+  <script type="module" src="/Blog/SP/blog-version.js"></script>
+  <script type="module" src="/Blog/SP/href-setup.js"></script>
+  <script type="module" src="/Blog/SP/settings/themeSet.js"></script>
   </body>
 </html>

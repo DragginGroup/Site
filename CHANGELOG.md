@@ -1,3 +1,27 @@
+# August 20th 2024
+## v0.2.5
+### Changed
+- Changed User "Madness-Rombank" to "IdealistCat"
+- Moved Lua Script Packet to SP api folder
+- Changed Length/Height of Home page Navigation
+- All <script> tags are modules
+- Changed almost all uses of href/src to be less bug likely (I Changed them to work in the best way, it's hard to explain)
+### Added
+- Added SP Folders (there are folders for different files)
+- Added Comic book section of the site
+  - Added Idealist Cat Comic
+    - Added Issue 1
+    - Added Issue 2
+    - Added Issue 3
+- Added Settings Page
+  - Added Light mode (aka piss mode)
+  - Added Theme Switching to all pages. (they recognize the theme and adapt)
+  - Added Custom Button(s)
+- Added Bean Club to home page (pauleps idea)
+- Added Dropdown Table of Contents
+### Removed
+- Removed Top Scrolling Text from home page
+
 # August 14th 2024
 ## v0.2.4
 ### Added

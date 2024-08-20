@@ -1,29 +1,34 @@
-<html>
+<html data-theme="dark">
   <head>
     <link rel="stylesheet" href="../Styles/base.css">
     <link rel="stylesheet" href="../Styles/blog-page.css">
-    <title>DraggingBlog - Blog 1</title>
+    <title>DraggingBlog - Blog 2</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
   </head>
   <body class="color1" align="center">
     
     <div class="color4" align="center">
         <a href="/Blog/index.html">Home</a>
-        <a href="/Blog/Page/Help.html" id="HelpPage-P"> Help</a>
-        <a href="/Blog/Page/BlogList.html" id="BlogsPageCred"> Back</a>
+        <a href="/Blog/Pages/BlogList.html" id="BlogsPage">Back</a>
+        <a href="/Blog/Pages/Help.html" id="HelpPage">Help</a>
+        <a href="/Blog/Pages/ComicList.html" id="ComicsPage">Comics</a>
+        <a href="/Blog/Pages/Settings.html" id="SettingsPage">Settings</a>
+        <a href="/Blog/Pages/Credits.html" id="CreditsPage">Credits</a>
     </div>
     
     <div class="color2">
       
       <p class="BlogName" height="60">Game Dev</p>
       <pre class="BlogDetails">Blog 2 - August 14th 2024</pre>
-      <pre class="BlogDetails">by Madness-Rombank</pre>
+      <pre class="BlogDetails">by IdealistCat</pre>
       
       <ol class="color5">
-        <h1>Table of Contents</h1>
+        <details class="toc">
+        <summary>Table of Contents</summary>
         <a href="#Intro">1. Intro</a>
         <br>
         <h2>Enjoy the Blog!</h2>
+        </details>
       </ol>
 
       <h1>WARNING: NERDY!!</h1>
@@ -33,6 +38,7 @@
       <br>
       
     </div>    
-    <script src=".../SP/href-setup.js"></script>
+    <script type="module" src="/Blog/SP/href-setup.js"></script>
+    <script type="module" src="/Blog/SP/settings/themeSet.js"></script>
   </body>
 </html>

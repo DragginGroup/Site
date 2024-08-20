@@ -1,13 +1,10 @@
-function setHref(id, href) {
-  var a = document.getElementById(id);
-  a.href = href;
-}
+import {setHref} from './util/href.js'
 
 var GITLINK = "https://github.com/DragginGroup/Blog/issues/new/choose"
-let VERSION = document.getElementById('version').innerHTML
+let VERSION = document.getElementById('version').innerHTML;
 
-if (VERSION.contains('-dev')) {
-  GITLINK = "https://github.com/PortilizenDev/Blog/issues/new/choose"
+if (VERSION.contains('-development')) {
+  GITLINK = "https://github.com/IdealistCat/Blog/issues/new/choose"
 }
 
-setHref('reportI', GITLINK)
+setHref('reportI', GITLINK, '')

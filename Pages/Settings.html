@@ -1,0 +1,48 @@
+<html data-theme="dark">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>DraggingBlog - Settings</title>
+    <link rel="stylesheet" href="/Blog/Pages/Styles/base.css">
+  </head>
+  <body class="color1">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/e0b8b14fea.js" crossorigin="anonymous"></script>
+    
+    <div class="color4" align="center">
+        <a href="/Blog/index.html" id="backBtn">Back</a>
+        <a href="/Blog/Pages/Help.html" id="HelpPage">Help</a>
+        <a href="/Blog/Pages/BlogList.html" id="BlogsPage">Blogs</a>
+        <a href="/Blog/Pages/ComicList.html" id="ComicsPage">Comics</a>
+        <a href="/Blog/Pages/Credits.html" id="CreditsPage">Credits</a>
+    </div>
+    
+    <fieldset class="color2">
+      <legend>Settings Page</legend>
+      <pre id="version">Blog Version: 0.0.0</pre>
+      
+      <a>
+        <button onClick="themeSwitch"
+          type="button"
+          class="settingsButton"
+          data-theme-toggle>
+          Theme Toggle
+          <ion-icon name="contrast-outline"></ion-icon>
+        </button>
+        <!--<button onClick="versionToggle"
+          type="button"
+          class="settingsButton"
+          id="vd-toggle"
+          vd-toggle>
+          Version Toggle
+          <ion-icon name="document-outline"></ion-icon>
+        </button>-->
+      </a>
+    </fieldset>
+
+    <script type="module" src="/Blog/SP/href-setup.js"></script>
+    <script type="module" src="/Blog/SP/settings/theme.js"></script>
+    <script type="module" src="/Blog/SP/settings/version-display.js"></script>
+    <script type="module" src="/Blog/SP/blog-version.js"></script>
+  </body>
+</html>
