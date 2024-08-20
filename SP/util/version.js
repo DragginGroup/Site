@@ -1,7 +1,4 @@
-let DISPLAY = "version"
-
-let DATE = "2024.8.19"
-
+let DATE = "2024.8.20"
 let VERSION = "0.2.5"
 
 let SUFFIX = "d"
