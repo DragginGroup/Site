@@ -14,8 +14,9 @@
     - Added Issue 2
     - Added Issue 3
 - Added Settings Page
-- Added Light mode (aka piss mode)
-- Added Theme Switching to all pages. (they recognize the theme and adapt)
+  - Added Light mode (aka piss mode)
+  - Added Theme Switching to all pages. (they recognize the theme and adapt)
+  - Added Custom Buttons
 - Added Bean Club to home page (pauleps idea)
 
 # August 14th 2024
