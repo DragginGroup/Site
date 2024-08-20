@@ -7,15 +7,7 @@ let SUFFIX = ""
 let PREFIX = ""
 let FALLBACK_VERSION = "0.0.0\nversion error"
 
-var version_output = 0;
-
-try {
- version_output = validVersion("version");
-} catch(e) {
- version_output = e;
-}
-
 var string_ver = ""
-string_ver = version_output;
+string_ver = validVersion();
 
 document.getElementById('version').innerHTML = "Blog Version: " + string_ver
