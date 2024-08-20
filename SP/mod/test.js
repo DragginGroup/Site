@@ -1,3 +1,3 @@
 import { replaceImg } from './mod';
 
-replaceImg(testImg, "Site/WIP.png");
+replaceImg('testImg', "Site/WIP.png");
