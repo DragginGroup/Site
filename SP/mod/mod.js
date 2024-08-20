@@ -6,6 +6,6 @@ export let MOD_API_VERSION = "0.0.1";
 export function replaceImg(id, replacement) {
   // https://stackoverflow.com/a/48344753 - Tomas Kenzgaila
   var imgReplace = document.getElementsByClassName(id)[0];
-  imgReplace.src = replacement;
+  imgReplace.src = "/Blog/Content/Mod/" + MOD_NAME + '/' + replacement;
   // imgReplace.style.visibility = "visible";
 }
