@@ -10,7 +10,7 @@ let FALLBACK_VERSION = "0.0.0\nversion error"
 var version_output = 0;
 
 try {
- version_output = validVersion(document.querySelector("html").getAttribute("vd"));
+ version_output = validVersion("version");
 } catch(e) {
  version_output = e;
 }
