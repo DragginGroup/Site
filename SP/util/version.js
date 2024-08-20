@@ -34,7 +34,7 @@ function version()
 {
   var ourver = VERSION;
 
-  if (MOD_ENABLED)
+  if (MOD_ENABLED == true)
     ourver = MOD_VERSION;
   
   if (VERSION.length > 4)
