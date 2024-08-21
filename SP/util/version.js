@@ -1,6 +1,6 @@
 import { MOD_VERSION, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
-let DATE = "2024.8.30"
+let DATE = "2024.8.22"
 let VERSION = "0.2.6"
 
 let SUFFIX = ""
