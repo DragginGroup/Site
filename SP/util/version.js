@@ -35,8 +35,8 @@ function getVersion()
   if (VERSION.length > 4)
     if (returnModStats() == true)
       return "v" + MOD_VERSION;
-  
-    return PREFIX + "v" + VERSION + SUFFIX;
+    else
+      return PREFIX + "v" + VERSION + SUFFIX;
   else
     return FALLBACK_VERSION;
 }
