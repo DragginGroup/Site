@@ -3,7 +3,7 @@ import { MOD_NAME, MOD_VERSION, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
 // Text
 replaceText('name', MOD_NAME, true);
-replaceText('version', MOD_VERSION, true);
+replaceText('version', 'v'+MOD_VERSION, true);
 replaceText('description', 'Tester Modder', true);
 
 // Mod Toggle
