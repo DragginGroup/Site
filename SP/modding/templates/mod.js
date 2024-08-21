@@ -11,4 +11,5 @@ var button = document.getElementById('toggle');
 
 button.addEventListener("click", (event) => {
   toggleMod();
+  replaceText('toggle', 'Enabled: '+MOD_ENABLED);
 });
