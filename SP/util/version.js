@@ -9,7 +9,7 @@ let PREFIX = ""
 let FALLBACK_VERSION = "0.0.0"
 let FALLBACK_DATE = "2024.8.8"
 
-export function validVersion(type = "") { 
+export function validVersion(type) { 
   var ver = getVersion();
 
   if (type == "dev")
