@@ -1,5 +1,6 @@
 import { returnPath } from '/Blog/SP/util/files.js';
 import { readText } from '/Blog/SP/util/readfiles.js';
+import { initalizeMod } from '/Blog/SP/mod/final/main.js;
 
 var mod_path = "Mod/" + MOD_NAME + '/';
 
@@ -7,7 +8,9 @@ export var MOD_NAME = "";
 export var MOD_VERSION = "0.0.0";
 export var MOD_ENABLED = false;
 
-export var MOD_API_VERSION = "0.0.7";
+initalizeMod();
+
+export var MOD_API_VERSION = "0.0.8";
 
 export function replaceImg(id, replacement) {
   // https://stackoverflow.com/a/48344753
