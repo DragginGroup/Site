@@ -1,4 +1,6 @@
-import { MOD_NAME, MOD_VERSION, MOD_ENABLED } from '/Blog/SP/mod/mod-api.js';
+export var MOD_NAME = "";
+export var MOD_VERSION = "0.0.0";
+export var MOD_ENABLED = false;
 
 export function initalizeMod() {
   MOD_NAME = "Test";
