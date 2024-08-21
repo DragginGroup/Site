@@ -1,6 +1,6 @@
 import { MOD_VERSION, returnModStats } from '/Blog/SP/modding/api.js';
 
-let DATE = "2024.8.22"
+let DATE = "2024.8.21"
 let VERSION = "0.2.6"
 
 let SUFFIX = ""
@@ -9,18 +9,18 @@ let PREFIX = ""
 let FALLBACK_VERSION = "0.0.0"
 let FALLBACK_DATE = "2024.8.8"
 
-export function validVersion(type = "version") { 
-  var ver = version();
+export function validVersion(type = "") { 
+  var ver = getVersion();
 
   if (type == "dev")
-    ver = version() + "-development";
+    ver = getVersion() + "-development";
   if (type == "date")
-    ver = date();
+    ver = getDate();
   
   return ver;
 }
 
-function date()
+function getDate()
 {
   if (DATE.length > 7)
     return DATE;
@@ -28,13 +28,13 @@ function date()
     return FALLBACK_DATE;
 }
 
-function version()
+function getVersion()
 {
   if (VERSION.length > 4)
     if (returnModStats() == true)
       return "v" + MOD_VERSION;
-    else
-      return PREFIX + "v" + VERSION + SUFFIX;
+  
+    return PREFIX + "v" + VERSION + SUFFIX;
   else
     return FALLBACK_VERSION;
 }
