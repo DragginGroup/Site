@@ -1,8 +1,8 @@
-export let API_VERSION = '0.1.5';
+export let API_VERSION = '0.1.6';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
-export let MOD_ENABLED = true;
+var MOD_ENABLED = true;
 
 export function replaceImg(id, replacement, ignore_enable) {
   // https://stackoverflow.com/a/48344753
@@ -34,6 +34,8 @@ export function toggleMod() {
     MOD_ENABLED = false;
   else
     MOD_ENABLED = true;
+}
 
-  export { MOD_ENABLED };
+export function returnModStats() {
+  return MOD_ENABLED;
 }
