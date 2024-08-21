@@ -1,3 +1,11 @@
+# August 22nd 2024
+## v0.2.6
+### Added
+- ADDED (robust but working) SCRIPT PACKET MODDING
+  - Added Image Replacement System
+  - Added Text Replacement System
+  - Added Modding Api Markdown
+
 # August 20th 2024
 ## v0.2.5
 ### Changed
