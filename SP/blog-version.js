@@ -1,6 +1,12 @@
 import { validVersion } from '/Blog/SP/util/version.js';
+import { MOD_NAME, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
-var string_ver = ""
-string_ver = validVersion();
+var string_ver = '';
+string_ver = validVersion("version");
 
-document.getElementById('version').innerHTML = "Blog Version: " + string_ver
+var name = "Blog";
+
+if (MOD_ENABLED == true)
+  name = MOD_NAME;
+
+document.getElementById('version').innerHTML = name + " Version: " + string_ver

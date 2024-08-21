@@ -1,12 +1,12 @@
-function returnPath(path, folder) {
+export function returnPath(path, folder) {
   return '/Blog/Content/' + folder + path;
 }
 
-function returnComicPath(path) {
+export function returnComicPath(path) {
   return returnPath(path, 'comics/');
 }
 
-function returnSitePath(path) {
+export function returnSitePath(path) {
   return returnPath(path, 'Site/');
 }
 
