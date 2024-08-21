@@ -7,7 +7,7 @@ replaceText('version', 'v'+MOD_VERSION, true);
 replaceText('description', 'Tester Modder', true);
 
 // Mod Toggle
-var button = document.getElementById('toggle');
+var button = document.querySelector("[toggle]")
 
 button.addEventListener("click", (event) => {
   toggleMod();
