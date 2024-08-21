@@ -18,13 +18,14 @@
     </div>
     
     <fieldset class="color2">
-      <legend>Settings Page</legend>
+      <legend id="settingTab">Settings Page</legend>
       <pre id="version">Blog Version: 0.0.0</pre>
       
       <a>
         <button onClick="themeSwitch"
           type="button"
           class="settingsButton"
+          id="themeToggle"
           data-theme-toggle>
           Theme Toggle
           <ion-icon name="contrast-outline"></ion-icon>
@@ -44,5 +45,6 @@
     <script type="module" src="/Blog/SP/settings/theme.js"></script>
     <script type="module" src="/Blog/SP/settings/version-display.js"></script>
     <script type="module" src="/Blog/SP/blog-version.js"></script>
+    <script type="module" src="/Blog/SP/modding/templates/settings.js"></script>
   </body>
 </html>
