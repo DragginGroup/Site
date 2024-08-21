@@ -1,4 +1,4 @@
-# DraggingBlog Modding API (v0.1.X)
+# DraggingBlog Modding API (v0.1)
 ## Explanation
 The ``0.1`` version of the DraggingBlog Modding API is a robust system of image and text content replacement.
 
