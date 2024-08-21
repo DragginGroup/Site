@@ -4,12 +4,18 @@ export function readText(file, ext) {
   .then((text) => {
     return text;
    })
-  .catch((e) => console.error(e));
+  .catch((e) => {
+    return e;
+  });
 }
 
 export function readJSON(file) {
   fetch(file+'.json')
   .then(response => response.json())
-  .then(jsonResponse => return jsonResponse)
-  .catch((e) => console.error(e));
+  .then(jsonResponse => {
+    return jsonResponse;
+  })
+  .catch((e) => {
+    return e;
+  });
 }
