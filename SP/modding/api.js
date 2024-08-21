@@ -1,4 +1,4 @@
-export let API_VERSION = '0.1.6';
+export let API_VERSION = '0.1.7';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -34,6 +34,8 @@ export function toggleMod() {
     MOD_ENABLED = false;
   else
     MOD_ENABLED = true;
+
+  return MOD_ENABLED;
 }
 
 export function returnModStats() {
