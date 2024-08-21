@@ -1,4 +1,4 @@
-# August 22nd 2024
+# August 21st 2024
 ## v0.2.6
 ### Added
 - ADDED (robust but working) SCRIPT PACKET MODDING
