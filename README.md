@@ -14,7 +14,7 @@ All things Dragging Related
 </p>
 <p align="center">
 Work In Progress Blog Site!
-<br>
+<br><br>
 <a align="center" href="CHANGELOG.md">
 Check out the changelog here!
 </a>
