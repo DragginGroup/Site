@@ -35,5 +35,5 @@ export function toggleMod() {
   else
     MOD_ENABLED = true;
 
-  export MOD_ENABLED;
+  export { MOD_ENABLED };
 }
