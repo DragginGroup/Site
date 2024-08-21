@@ -1,6 +1,6 @@
-# DraggingBlog Modding API (v0.1.x)
+# DraggingBlog Modding API (v0.1.X)
 ## Explanation
-The ``v0.1.x`` of the DraggingBlog Modding API is a robust system of image and text content replacement.
+The ``0.1`` version of the DraggingBlog Modding API is a robust system of image and text content replacement.
 
 Using Modding Script Packets,
 you are allowed to create simple mods to the DraggingBlog site.
@@ -15,6 +15,8 @@ have an image.
 So basically, create a folder in the mod folder inside the Content folder.
 
 Make sure it's with the mod name that you will set inside the SP modding folder's ``api.js`` script packet!
+
+Don't forget to set MOD_ENABLED to true if you are using script packets!
 
 # Production
 ## Nerdy Explanation Stuff for later
