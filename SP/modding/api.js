@@ -1,4 +1,4 @@
-export let API_VERSION = '0.1.0.1';
+export let API_VERSION = '0.1.1';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -14,4 +14,10 @@ export function replaceImg(id, replacement) {
   imgReplace.src = path;
   
   imgReplace.style.visibility = "visible";
+}
+
+export function replaceText(id, replacement) {
+  var txtReplace = document.getElementById(id);
+  
+  txtReplace.innerHTML = replacement;
 }
