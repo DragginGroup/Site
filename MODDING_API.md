@@ -24,7 +24,7 @@ it's not going to be a "replicate the file location and just add file replacemen
 
 You gotta go to the ``SP/mod/final`` folder first!
 
-### Script Packet Scripting (1/3)
+### Script Packet Scripting
 And go into the page script packet where you wanna replace the base image with the image you are going to replace it with.
 
 Add the line: ``replaceImg("", "");``.
@@ -33,7 +33,7 @@ In the first quotation set you will put the class name of the image tag you are 
 
 In the second quotation set you will put the file path of the image you have.
 
-### Nerdy Explanation (1/3)
+### Nerdy Explanation
 For example in the ``/Mod/Test`` folder.
 There is the folder ``Site/`` and the text file ``version.txt``.
 
@@ -49,6 +49,9 @@ sure it works and we don't have to put in the path...
 ``/Blog/Content/Mod/Test/Site/WIP.png``
 
 Bexcuse that would get annoying.
+
+### Ending
+After you inputted the needed data you should be good to go!
 
 ## Text Replacement
 Work In Progress section
