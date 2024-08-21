@@ -1,7 +1,7 @@
 import { MOD_VERSION, returnModStats } from '/Blog/SP/modding/api.js';
 
-let DATE = "2024.8.21"
-let VERSION = "0.2.6"
+let DATE = "2024.8.25"
+let VERSION = "0.2.7"
 
 let SUFFIX = ""
 let PREFIX = ""
