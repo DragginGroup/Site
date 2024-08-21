@@ -3,8 +3,8 @@ import { readText } from '/Blog/SP/util/readfiles.js';
 
 export let MOD_NAME = "Test";
 
-export let MOD_VERSION = "1.0.0P";
-// MOD_VERSION = readText(returnPath('version', "Mod/" + MOD_NAME + '/'));
+export var MOD_VERSION = "1.0.0P";
+MOD_VERSION = readText(returnPath('version', "Mod/" + MOD_NAME + '/'));
 
 export let MOD_ENABLED = true;
 
