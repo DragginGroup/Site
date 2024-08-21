@@ -1,4 +1,4 @@
-export let API_VERSION = '0.1.3';
+export let API_VERSION = '0.1.4';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -29,4 +29,9 @@ export function replaceText(id, replacement, ignore_enable) {
   }
 }
 
-export function toggleMod() { MOD_ENABLED = !MOD_ENABLED; }
+export function toggleMod() {
+  if (MOD_ENABLED == true)
+    MOD_ENABLED = false;
+  else
+    MOD_ENABLED = true;
+}
