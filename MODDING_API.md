@@ -1,12 +1,11 @@
-# DraggingBlog Modding API (v0.2.6)
+# DraggingBlog Modding API (v0.1.0)
 ## Explanation
-The 0.2.6 DraggingBlog Modding API is a robust
-system of image and text content replacement.
+The v0.1.0 of the DraggingBlog Modding API is a robust system of image and text content replacement.
 
 Using Modding Script Packets,
 you are allowed to create simple mods to the DraggingBlog site.
 Unfortunately through forks unless 
-we add a system of an official mod list.
+we make a desktop website application, which would be a waste
 
 # Setup
 Setting up the Mod is simple as making a folder,
@@ -15,14 +14,31 @@ have an image.
 
 So basically, create a folder in the mod folder inside the Content folder.
 
-Make sure it's with the mod name that you will set inside the ``mod-api.js`` script packet!
+Make sure it's with the mod name that you will set inside the SP modding folder's ``api.js`` script packet!
+
+# Production
+## Nerdy Explanation Stuff for later
+In the ``/Mod/Test`` folder.
+There is the folder ``Site/`` and the text file ``version.txt``. 
+
+In the ``Site/`` folder, there is the ``WIP.png`` image.
+
+When linking to the Test mod WIP.png image, the file path in the second quotation set will be ``Site/WIP.png``.
+
+This is because the ``replaceImg()`` function uses the modding api's 
+file path of ``Mod/ MOD_NAME /``. Cause the function uses ``returnPath()`` from 
+``SP/util/files.js`` which uses the inital path of ``/Blog/Content/`` which makes 
+sure it works and we don't have to put in the path...
+``/Blog/Content/Mod/Test/Site/WIP.png``
+
+Because that would get annoying.
 
 ## Image Replacement
 ### Base Explanation
 Image Replacement is probably the first thing you would wanna do, but hold your horses, 
 it's not going to be a "replicate the file location and just add file replacement".
 
-You gotta go to the ``SP/mod/final`` folder first!
+You gotta go to the ``SP/modding/templates`` folder first!
 
 ### Script Packet Scripting
 And go into the page script packet where you wanna replace the base image with the image you are going to replace it with.
@@ -33,25 +49,20 @@ In the first quotation set you will put the class name of the image tag you are 
 
 In the second quotation set you will put the file path of the image you have.
 
-### Nerdy Explanation
-For example in the ``/Mod/Test`` folder.
-There is the folder ``Site/`` and the text file ``version.txt``.
-
-In the ``Site/`` folder, there is the ``WIP.png`` image.
-
-When linking to the Test mod WIP.png image, the file path in the second quotation set will be ``Site/WIP.png``.
-
-This is because the ``replaceImg()`` which 
-uses the mod api's 
-file path of ``Mod/ MOD_NAME /``. Cause the function uses ``returnPath()`` from 
-``SP/util/files.js`` which uses the inital path of ``/Blog/Content/`` which makes 
-sure it works and we don't have to put in the path...
-``/Blog/Content/Mod/Test/Site/WIP.png``
-
-Bexcuse that would get annoying.
-
 ### Ending
 After you inputted the needed data you should be good to go!
 
 ## Text Replacement
-Work In Progress section
+### Base Explanation
+Text Replacement is as simple as finding the text you wanna replace, and input the text you wanna replace it WITH.
+
+### Script Packet Scripting
+Go to ``SP/modding/templates`` and go to the page packet you wanna edit.
+
+Now add the line: ``replaceText('', '');``.
+
+In the first quotation set you could put the text id, like ``name``
+
+Now in the second quotation set you will put the text you want to use.
+
+And your done :)
