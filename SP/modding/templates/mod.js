@@ -10,6 +10,6 @@ replaceText('description', 'Tester Modder', true);
 var button = document.querySelector("[toggle]")
 
 button.addEventListener("click", (event) => {
+  button.innerHTML = 'Enabled: '+MOD_ENABLED;
   toggleMod();
-  replaceText('toggle', 'Enabled: '+MOD_ENABLED);
 });
