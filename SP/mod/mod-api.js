@@ -1,12 +1,10 @@
 import { returnPath } from '/Blog/SP/util/files.js';
 import { readText } from '/Blog/SP/util/readfiles.js';
 
-export let MOD_NAME = "Test";
-
 var mod_path = "Mod/" + MOD_NAME + '/';
 
-export var MOD_VERSION = "1.0.0P";
-MOD_VERSION = readText(returnPath('version', mod_path), 'txt');
+export let MOD_NAME = "Test";
+export var MOD_VERSION = "0.1.0";
 
 export let MOD_ENABLED = true;
 
