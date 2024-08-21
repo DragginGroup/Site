@@ -1,4 +1,4 @@
-import { MOD_NAME, MOD_VERSION,  MOD_ENABLED } from '/Blog/SP/mod/mod-api.js';
+import { MOD_NAME, MOD_VERSION,  MOD_ENABLED } from '/Blog/SP/mod/final/main.js';
 
 let DATE = "2024.8.30"
 let VERSION = "0.2.6"
@@ -14,8 +14,6 @@ export function validVersion(type = "version") {
 
   if (type == "dev")
     ver = version() + "-development";
-
-
   if (type == "date")
     ver = date();
   
