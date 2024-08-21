@@ -1,4 +1,4 @@
-export let API_VERSION = '0.1.1';
+export let API_VERSION = '0.1.2';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -11,7 +11,9 @@ export function replaceImg(id, replacement) {
   var path = "/Blog/Content/Mod/" + MOD_NAME + '/' + replacement;
 
   var imgReplace = document.getElementsByClassName(id)[0];  
-  imgReplace.src = path;
+  
+  if (replacement != "")
+    imgReplace.src = path;
   
   imgReplace.style.visibility = "visible";
 }
@@ -19,5 +21,6 @@ export function replaceImg(id, replacement) {
 export function replaceText(id, replacement) {
   var txtReplace = document.getElementById(id);
   
-  txtReplace.innerHTML = replacement;
+  if (replacement != "")
+    txtReplace.innerHTML = replacement;
 }
