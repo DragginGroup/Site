@@ -4,7 +4,7 @@ export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
 export let MOD_ENABLED = true;
 
-export function replaceImg(id, replacement) {
+export function replaceImg(id, replacement, ignore_enable) {
   // https://stackoverflow.com/a/48344753
   // Tomas Kenzgaila
 
@@ -12,7 +12,7 @@ export function replaceImg(id, replacement) {
 
   var imgReplace = document.getElementsByClassName(id)[0];  
   
-  if (MOD_ENABLED == true){
+  if (MOD_ENABLED == true || ignore_enable == true){
     if (replacement != "")
       imgReplace.src = path;
   
@@ -20,10 +20,10 @@ export function replaceImg(id, replacement) {
   }
 }
 
-export function replaceText(id, replacement) {
+export function replaceText(id, replacement, ignore_enable) {
   var txtReplace = document.getElementById(id);
   
-  if (MOD_ENABLED == true){
+  if (MOD_ENABLED == true || ignore_enable == true){
     if (replacement != "")
       txtReplace.innerHTML = replacement;
   }
