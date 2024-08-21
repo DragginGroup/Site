@@ -6,16 +6,18 @@ let VERSION = "0.2.6"
 let SUFFIX = ""
 let PREFIX = ""
 
-let FALLBACK_VERSION = "0.0.0"
-let FALLBACK_DATE = "2024.8.8"
+let FALLBACK_VERSION = "0.0.0-E"
+let FALLBACK_DATE = "2024.8.8-E"
 
 export function validVersion(type) { 
-  var ver = getVersion();
+  var ver = '';
 
   if (type == "dev")
     ver = getVersion() + "-development";
-  if (type == "date")
+  else if (type == "date")
     ver = getDate();
+  else
+    ver = getVersion();
   
   return ver;
 }
