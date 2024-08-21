@@ -1,7 +1,12 @@
 import { replaceImg, replaceText } from '/Blog/SP/modding/api.js';
 
 // Images
-replaceImg('testImg', 'Site/WIP.png');
+replaceImg('Left', '');
+replaceImg('Middle', '');
+replaceImg('Right, '');
 
 // Text
-replaceText('name', 'LOL');
+replaceText('name', '');
+replaceText('slogan', '');
+replaceText('care', '');
+replaceText('braincells', '');
