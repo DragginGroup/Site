@@ -6,7 +6,7 @@ replaceImg('Middle', 'Site/WIP.png');
 replaceImg('Right', '');
 
 // Text
-replaceText('name', '');
+replaceText('name', 'Dragger Test Mod');
 replaceText('slogan', '');
 replaceText('care', '');
-replaceText('braincells', '');
+replaceText('braincells', 'Made 2 braincells with, think You?');
