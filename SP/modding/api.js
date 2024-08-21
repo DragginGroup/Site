@@ -1,4 +1,4 @@
-export let API_VERSION = '0.1.2';
+export let API_VERSION = '0.1.3';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -12,15 +12,21 @@ export function replaceImg(id, replacement) {
 
   var imgReplace = document.getElementsByClassName(id)[0];  
   
-  if (replacement != "")
-    imgReplace.src = path;
+  if (MOD_ENABLED == true){
+    if (replacement != "")
+      imgReplace.src = path;
   
-  imgReplace.style.visibility = "visible";
+    imgReplace.style.visibility = "visible";
+  }
 }
 
 export function replaceText(id, replacement) {
   var txtReplace = document.getElementById(id);
   
-  if (replacement != "")
-    txtReplace.innerHTML = replacement;
+  if (MOD_ENABLED == true){
+    if (replacement != "")
+      txtReplace.innerHTML = replacement;
+  }
 }
+
+export function toggleMod() { MOD_ENABLED = !MOD_ENABLED; }
