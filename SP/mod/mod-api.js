@@ -1,6 +1,6 @@
 import { returnPath } from '/Blog/SP/util/files.js';
 import { readText } from '/Blog/SP/util/readfiles.js';
-import { initalizeMod } from '/Blog/SP/mod/final/main.js;
+import { initalizeMod } from '/Blog/SP/mod/final/main.js';
 
 var mod_path = "Mod/" + MOD_NAME + '/';
 
