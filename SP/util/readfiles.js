@@ -1,4 +1,4 @@
-export function readText(file, ext) {
+export function readText(file, ext="txt") {
   fetch(file+"."+ext)
   .then((res) => res.text())
   .then((text) => {
