@@ -1,6 +1,6 @@
-import { readJSON } from './util/readfiles.js';
+import { readJSON, readText } from './util/readfiles.js';
 
-var file = readJSON('/Blog/Content/Site/data/testjson');
+var file = readText('/Blog/Content/Site/data/testjson', 'txt');
 
 var replace1 = document.getElementById("replace");
 replace1.innerHTML = file;
