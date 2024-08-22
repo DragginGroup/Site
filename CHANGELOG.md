@@ -2,6 +2,8 @@
 ## v0.2.7
 ### Added
 - Folders for file management to ``Content/Site``
+### Changed
+- On ipads (Pc and others?) the Comic Name is above the comic thumbnail
 
 # August 21st 2024
 ## v0.2.6
