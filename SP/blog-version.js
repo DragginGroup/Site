@@ -2,7 +2,7 @@ import { validVersion } from '/Blog/SP/util/version.js';
 import { MOD_NAME, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
 var string_ver = '';
-string_ver = validVersion("version");
+string_ver = validVersion("dev");
 
 var name = "Blog";
 
