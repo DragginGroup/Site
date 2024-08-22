@@ -1,5 +1,7 @@
 # [UNRELEASED]
 ## v0.2.7
+### Added
+- Folders for file management to ``Content/Site``
 
 # August 21st 2024
 ## v0.2.6
