@@ -2,11 +2,14 @@
 ## v0.2.7
 ### Added
 - Folders for file management to ``Content/Site``
+- Commit Amount to changelog, its epics, y'knows?
 ### Changed
 - On ipads (Pc and others?) the Comic Name is above the comic thumbnail
 
 # August 21st 2024
 ## v0.2.6
+1,177 commits
+
 ### Added
 - ADDED (robust but working) SCRIPT PACKET MODDING
   - Added Image Replacement System
@@ -15,6 +18,8 @@
 
 # August 20th 2024
 ## v0.2.5
+1,021 commits
+
 ### Changed
 - Changed User "Madness-Rombank" to "IdealistCat"
 - Moved Lua Script Packet to SP api folder
@@ -39,6 +44,8 @@
 
 # August 14th 2024
 ## v0.2.4
+807 commits
+
 ### Added
 - Added Missing Drago Cuven Credits
 - Added Table of Contents to blog
@@ -54,6 +61,8 @@
 
 # August 9th 2024
 ## v0.2.3
+732 commits
+
 ### Added
 - 10 pixel padding (suggestion by bit7)
 - Credit Tab for Discord user suggestions
@@ -68,6 +77,8 @@
 - Wip img and text is removed from home page
 
 ## v0.2.2
+680 commits
+
 ### Added
 - Readded Blogs List Page
 - Readded Blog 1 Page
@@ -84,6 +95,8 @@
 
 # August 8th 2024
 ## v0.2.1
+538 commits
+
 ### Removed
 - Removed and Redid Pages Folder
 - Removed Content/Source Folder, now JSP Folder not in Content Folder
@@ -97,6 +110,8 @@
 - [Fixed 404 on Credits Leave](https://github.com/DragginGroup/Blog/issues/4#issue-2456296931)
 
 ## v0.2.0
+465 commits
+
 ### Changed
 - Blog Version is now literally Hard-coded, through code. Lolz
 - Slow Scrolling Text...
@@ -123,14 +138,20 @@
 - Blogs Page works
 
 ## v0.1.2
+205 commits
+
 ### Fixed
 - I hardcode the blog Version now. Fuck me man...
 
 ## v0.1.1
+199 commits
+
 ### Fixed
 - I fixed one small thing lol, that was fast
 
 ## v0.1
+198 commits
+
 ### Added
 - Main Site
 - Credits Page
