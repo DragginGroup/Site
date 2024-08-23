@@ -1,5 +1,7 @@
 # [UNRELEASED]
 ## v0.2.7
+1,210 commits
+
 ### Added
 - Folders for file management to ``Content/Site``
 - Commit Amount to changelog, its epics, y'knows?
