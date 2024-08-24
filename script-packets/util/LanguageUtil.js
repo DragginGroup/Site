@@ -10,4 +10,7 @@ var spanish = {
     "name" : "spanish site"
 };
 
-replaceTxtLanguage("name", spanish);
+var lang = {}
+lang = spanish;
+
+replaceTxtLanguage("name", lang);
