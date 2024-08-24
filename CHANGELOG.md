@@ -1,6 +1,6 @@
 # [UNRELEASED]
 ## v0.2.7
-1,235 commits
+1,247 commits
 
 ### Added
 - Folders for file management to ``Content/Site``
@@ -11,8 +11,12 @@
 - Names to previous updates (v2 - Website Overhaul Update)
 ### Changed
 - On ipads (Pc and others?) the Comic Name is above the comic thumbnail
-- modding api update: ``v0.1.9``!!!
-  - Added new function: ``returnFileContent``
+- modding api update(s): ``v0.1.10``!!!
+  - Added new function: ``returnFileContent``, WIP, trying to get working!
+- how version is returned
+## Removed
+- Prefix from version
+- Suffix from version
 
 # August 21st 2024
 ## v0.2.6 - Modding Update
