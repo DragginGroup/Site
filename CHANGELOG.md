@@ -1,10 +1,11 @@
 # [UNRELEASED]
 ## v0.2.7
-1,210 commits
+1,221 commits
 
 ### Added
 - Folders for file management to ``Content/Site``
-- Commit Amount to changelog, its epics, y'knows?
+- Commit Amount to changelog
+- Qr code for sharing site with others
 ### Changed
 - On ipads (Pc and others?) the Comic Name is above the comic thumbnail
 
