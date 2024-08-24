@@ -1,7 +1,10 @@
-import { MOD_VERSION, returnModStats, MOD_ENABLED } from '/Blog/SP/modding/api.js';
+import { MOD_VERSION, returnModStats } from '/Blog/SP/modding/api.js';
 
 let DATE = "2024.8.25"
 let VERSION = "0.2.7"
+
+let SUFFIX = ""
+let PREFIX = ""
 
 let FALLBACK_VERSION = "0.0.0-E"
 let FALLBACK_DATE = "2024.8.8-E"
@@ -29,16 +32,11 @@ function getDate()
 
 function getVersion()
 {
-  var version_return = '';
-
-  version_return = VERSION;
-  if (returnModStats() == true)
-    version_return = MOD_VERSION;
-
-  version_return = 'v' + version_return;
-  
-  if (version_return.length > 4)
-    return version_return;
+  if (VERSION.length > 4)
+    if (returnModStats() == true)
+      return "v" + MOD_VERSION;
+    else
+      return PREFIX + "v" + VERSION + SUFFIX;
   else
     return FALLBACK_VERSION;
 }
