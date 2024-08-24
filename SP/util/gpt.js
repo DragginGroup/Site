@@ -12,7 +12,12 @@ export function readFile(filePath) {
 
         // Check if the response is successful
         if (!response.ok) {
-            throwError('Network response was not ok ' + response.statusText);
+            
+           var err_msg = 'Network response was not ok ' + response.statusText;
+            
+            throwError(err_msg);
+            return err_msg;
+            
         }
 
         // Get the text content of the file
@@ -23,7 +28,13 @@ export function readFile(filePath) {
 
         // You can also return the file content if needed
         return text;
+        
     } catch (error) {
-        throwError('There was a problem with the fetch operation:' + error);
+        
+        var err_msg = 'There was a problem with the fetch operation:' + error;
+
+        throwError(err_msg);
+        return err_msg;
+        
     }
 }
