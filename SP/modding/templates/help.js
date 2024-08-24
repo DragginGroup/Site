@@ -1,6 +1,7 @@
 import { replaceImg, replaceText } from '/Blog/SP/modding/api.js';
 
 // Images
+replaceImg('');
 replaceImg('navigate', '');
 replaceImg('404', '');
 replaceImg('gitfiles', '');

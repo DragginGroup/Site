@@ -32,20 +32,12 @@ export function replaceText(id, replacement, ignore_enable) {
   }
 }
 
-export function returnFileContent(filepath)
-{
-  return readFile(filepath);
-}
+export function returnFileContent(filepath) { return readFile(filepath); }
 
 export function toggleMod() {
-  if (MOD_ENABLED == true)
-    MOD_ENABLED = false;
-  else
-    MOD_ENABLED = true;
+  MOD_ENABLED = MOD_ENABLED ? false : true;
 
   return MOD_ENABLED;
 }
 
-export function returnModStats() {
-  return MOD_ENABLED;
-}
+export function returnModStats() { return MOD_ENABLED; }
