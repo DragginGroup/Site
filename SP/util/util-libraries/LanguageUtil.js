@@ -2,8 +2,8 @@ import { replaceText } from '/Blog/SP/modding/api.js';
 
 // Function for replacing text easily
 function languageReplace(id = "name") {
-    console.log(id+' : '+curLanguage[id]);
-    replaceText(id, curLanguage[id]);
+    // console.log(id+' : '+curLanguage[id]);
+    replaceText(id, curLanguage[id], true);
 }
 
 // Language Name
