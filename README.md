@@ -21,11 +21,12 @@ Check out the changelog here!
 </a>
 </p>
 
-<fieldset>
-<legend>Currently Supported Languages</legend>
+<div align="center">
+<h1>Currently Supported Languages</h1>
 <p>English - Default Language</p>
 <p>Spanish - Translation by IdealistCat</p>
-</fieldset>
+</div>
+
 
 <h1 align="center">Modding</h1>
 
