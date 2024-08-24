@@ -1,6 +1,13 @@
+# September 2024
+## v0.2.8
+### Fixed
+- Random Blank line for version changelogs 0.2.7, 0.2.6, and 0.2.5
+### Added
+- Website icon
+- Website Description
+
 # August 24th 2024
 ## v0.2.7 - Quality Of Life Update
-
 ### Added
 - Folders for file management to ``Content/Site``
 - Qr code for sharing site with others on help page
@@ -21,7 +28,6 @@
 
 # August 21st 2024
 ## v0.2.6 - Modding Update
-
 ### Added
 - ADDED (robust but working) SCRIPT PACKET MODDING
   - Added Image Replacement System
@@ -30,7 +36,6 @@
 
 # August 20th 2024
 ## v0.2.5 - Comic and Settings Update
-
 ### Changed
 - Changed User "Madness-Rombank" to "IdealistCat"
 - Moved Lua Script Packet to SP api folder
