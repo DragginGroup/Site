@@ -6,7 +6,7 @@
 - Website pages icon
 - Website pages Description
 - Prefix and Suffix Text back to Version String (it bugged everyting)
-- [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master)
+- [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
 ### Removed
