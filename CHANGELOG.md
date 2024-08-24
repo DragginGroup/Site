@@ -11,6 +11,7 @@
 - `jsconfig.json` so vscode can shut the hell up
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
+- Redid all Javascript files
 ### Removed
 - ``gpt.js`` file
 
