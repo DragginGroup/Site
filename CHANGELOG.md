@@ -1,11 +1,12 @@
 # [UNRELEASED]
 ## v0.2.7
-1,221 commits
+1,224 commits
 
 ### Added
 - Folders for file management to ``Content/Site``
 - Commit Amount to changelog
 - Qr code for sharing site with others
+- Animated github icon gif in README
 ### Changed
 - On ipads (Pc and others?) the Comic Name is above the comic thumbnail
 
