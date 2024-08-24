@@ -7,7 +7,7 @@ function replaceTxtLanguage(textID = 'name', language = {}) {
 var language = 'spanish';
 
 var spanish = {
-    "name" : "spanish site"
+    "name" : "spanish site!!!!"
 };
 
 var lang = {}
