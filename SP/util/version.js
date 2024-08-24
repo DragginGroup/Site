@@ -1,4 +1,4 @@
-import { MOD_VERSION, returnModStats } from '/Blog/SP/modding/api.js';
+import { MOD_VERSION, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
 let DATE = "2024.8.25"
 let VERSION = "0.2.7"
@@ -28,7 +28,7 @@ function getDate()
 function getVersion()
 {
   if (VERSION.length > 4)
-    if (returnModStats() == true)
+    if (MOD_ENABLED == true)
       return "v" + MOD_VERSION;
     else
       return "v" + VERSION;
