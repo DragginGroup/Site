@@ -5,7 +5,7 @@ export let API_VERSION = '0.1.10';
 export let MOD_NAME = "Test";
 export let MOD_VERSION = '0.1.0'; // returnFileContent('/Blog/Content/Mod/'+MOD_NAME+'/version.txt');
 
-export let MOD_ENABLED = true;
+export let MOD_ENABLED = false;
 
 export function replaceImg(id, replacement, ignore_enable) {
   // https://stackoverflow.com/a/48344753
