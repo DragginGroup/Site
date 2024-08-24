@@ -31,7 +31,7 @@ function getVersion()
 {
   var version_return = VERSION;
   
-  if (MOD_ENABLED == true)
+  if (returnModStats() == true)
     version_return = MOD_VERSION;
   
   if (version_return.length > 4)
