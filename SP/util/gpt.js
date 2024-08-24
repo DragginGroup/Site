@@ -5,7 +5,7 @@ import { throwError } from '/Blog/SP/util/error.js';
 // Modified if necessary.
 
 // Function to read a file from the website
-export async function readFile(filePath) {
+export function readFile(filePath) {
     try {
         // Fetch the file from the given file path
         const response = await fetch(filePath);
