@@ -8,7 +8,8 @@ import { throwError } from '/Blog/SP/util/error.js';
 export function readFile(filePath) {
     try {
         // Fetch the file from the given file path
-        const response = await fetch(filePath);
+        const response;
+        response = await fetch(filePath);
 
         // Check if the response is successful
         if (!response.ok) {
