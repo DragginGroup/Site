@@ -7,7 +7,7 @@ export let MOD_VERSION = '0.1.0'; // returnFileContent('/Blog/Content/Mod/'+MOD_
 
 export let MOD_ENABLED = false;
 
-export function replaceImg(id, replacement, ignore_enable) {
+export function replaceImg(id = '', replacement = '', ignore_enable = false) {
   // https://stackoverflow.com/a/48344753
   // Tomas Kenzgaila
 
@@ -23,7 +23,7 @@ export function replaceImg(id, replacement, ignore_enable) {
   }
 }
 
-export function replaceText(id, replacement, ignore_enable) {
+export function replaceText(id = '', replacement = '', ignore_enable = false) {
   var txtReplace = document.getElementById(id);
   
   if (MOD_ENABLED == true || ignore_enable == true){
@@ -32,7 +32,7 @@ export function replaceText(id, replacement, ignore_enable) {
   }
 }
 
-export function returnFileContent(filepath) { return readFile(filepath); }
+export function returnFileContent(filepath= '') { return readFile(filepath); }
 
 export function toggleMod() {
   MOD_ENABLED = MOD_ENABLED ? false : true;

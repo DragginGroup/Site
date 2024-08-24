@@ -28,9 +28,9 @@ const jsonSP = {
 } // Spanish
 
 // Set Cur Language
-switch (language_name.toUpperCase()) {
-    case 'SPANISH' || 'SP': curLanguage = jsonSP;
-    case 'ENGLISH' || 'EN': curLanguage = jsonEN;
+switch (language_name) {
+    case 'Spanish' || 'SP': curLanguage = jsonSP;
+    case 'English' || 'EN': curLanguage = jsonEN;
     default: curLanguage = jsonEN;
 }
 
