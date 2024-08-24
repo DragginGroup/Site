@@ -29,8 +29,9 @@ function getDate()
 
 function getVersion()
 {
-  var version_return = VERSION;
-  
+  var version_return = '';
+
+  version_return = VERSION;
   if (returnModStats() == true)
     version_return = MOD_VERSION;
   
