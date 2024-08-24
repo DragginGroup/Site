@@ -1,5 +1,5 @@
 {
-    "include": ["./src/**/*"],
+    "include": ["./SP/**/*"],
     "compilerOptions": {
         "checkJs": false
     }
