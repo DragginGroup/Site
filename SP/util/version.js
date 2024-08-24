@@ -34,9 +34,11 @@ function getVersion()
   version_return = VERSION;
   if (returnModStats() == true)
     version_return = MOD_VERSION;
+
+  version_return = 'v' + version_return;
   
   if (version_return.length > 4)
-    return 'v' + version_return;
+    return version_return;
   else
     return FALLBACK_VERSION;
 }
