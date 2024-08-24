@@ -3,7 +3,7 @@ import { readFile } from '/Blog/SP/util/gpt.js';
 export let API_VERSION = '0.1.9.1';
 
 export let MOD_NAME = "Test";
-export let MOD_VERSION = '0.1.0'; // returnFileContent('/Blog/Content/Mod/'+MOD_NAME+'/version.txt');
+export let MOD_VERSION = returnFileContent('/Blog/Content/Mod/'+MOD_NAME+'/version.txt');
 
 export let MOD_ENABLED = true;
 
