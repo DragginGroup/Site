@@ -3,6 +3,9 @@
         "akamud.vscode-javascript-snippet-pack",
         "xabikos.javascriptsnippets",
         "mgmcdermott.vscode-language-babel",
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "aaron-bond.better-comments",
+        "wycliffepepela.color-comments",
+        "tobiah.comment-snippets"
     ]
 }
