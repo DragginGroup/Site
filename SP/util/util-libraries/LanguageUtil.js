@@ -1,6 +1,15 @@
 import { replaceText } from '/Blog/SP/modding/api.js';
 
+// Function for replacing text easily
+function languageReplace(id = "name") {
+    replaceText(id, curLanguage[id]);
+}
+
+// Language Name
 const language_name = 'Spanish';
+
+// Current Language Json
+const curLanguage = {};
 
 // Language Jsons
 const jsonEN = {
@@ -17,9 +26,7 @@ const jsonSP = {
     "braincells" : "Creo que está hecho con 10 células cerebrales."
 } // Spanish
 
-// Current Language Json Modifying
-const curLanguage = {};
-
+// Set Cur Language
 switch (language_name.toUpperCase()) {
     case 'SPANISH' || 'SP': curLanguage = jsonSP;
     case 'ENGLISH' || 'EN': curLanguage = jsonEN;
@@ -31,8 +38,3 @@ languageReplace("name");
 languageReplace("slogan");
 languageReplace("care");
 languageReplace("braincells");
-
-// Function for replacing text easily
-function languageReplace(identifier = "name") {
-    replaceText(identifier, curLanguage[identifier]);
-}
