@@ -12,6 +12,7 @@
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
 - Redid all Javascript files
+- Renamed SP Folder
 ### Removed
 - ``gpt.js`` file
 
