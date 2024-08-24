@@ -3,8 +3,8 @@
 ### Fixed
 - Random Blank line for version changelogs 0.2.7, 0.2.6, and 0.2.5
 ### Added
-- Website icon
-- Website Description
+- Website pages icon
+- Website pages Description
 - Prefix and Suffix Text back to Version String (it bugged everyting)
 - [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master)
 ### Changed
