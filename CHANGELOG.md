@@ -9,6 +9,8 @@
 - [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master)
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
+### Removed
+- ``gpt.js`` file
 
 # August 24th 2024
 ## v0.2.7 - Quality Of Life Update
