@@ -1,7 +1,7 @@
 import { MOD_VERSION, MOD_ENABLED } from '/Blog/SP/modding/api.js';
 
-let DATE = "2024.8.24"
-let VERSION = "0.2.7"
+let DATE = "2024.9.0"
+let VERSION = "0.2.8"
 
 let FALLBACK_VERSION = "0.0.0-E"
 let FALLBACK_DATE = "2024.8.8-E"
