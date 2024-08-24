@@ -1,6 +1,6 @@
 <h1 align="center">Github</h1>
 <p align="center">
-<img src="https://raw.githubusercontent.com/PortilizenDev/Blog/main/Content/Github/Github.png" width="100" title="github">
+<img src="https://raw.githubusercontent.com/IdealistCat/Blog/main/Content/Github/github-gif.gif" width="100" title="github">
   <br>
 Github my beloved
 </p>
@@ -23,7 +23,7 @@ Check out the changelog here!
 <h1 align="center">Modding</h1>
 
 <p align="center">
-With the 0.2.6 update there is a new robust modding support through script packets.
+With the 0.2.6 update there was a new robust modding support added through script packets.
 <br>
 <a align="center" href="MODDING_API.md">
 Check out the markdown here!
