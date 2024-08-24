@@ -31,7 +31,7 @@ const jsonSP = {
 switch (language_name) {
     case 'Spanish' || 'SP': curLanguage = jsonSP;
     case 'English' || 'EN': curLanguage = jsonEN;
-    default: curLanguage = jsonEN;
+    // default: curLanguage = jsonEN;
 }
 
 // Text Replacement
