@@ -47,4 +47,4 @@ body:
 
   - type: textarea
     attributes:
-      label: Steps to reproduce (or crash logs, errors, etc.)
+      label: Steps to reproduce (or console log error, etc.)
