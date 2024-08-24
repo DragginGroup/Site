@@ -1,4 +1,6 @@
-export let API_VERSION = '0.1.8';
+import { readFile } from '/Blog/SP/util/gpt.js';
+
+export let API_VERSION = '0.1.9';
 
 export let MOD_NAME = "Test";
 export let MOD_VERSION = "0.1.0";
@@ -28,6 +30,11 @@ export function replaceText(id, replacement, ignore_enable) {
     if (replacement != "")
       txtReplace.innerHTML = replacement;
   }
+}
+
+export function returnFileContent(filepath)
+{
+  return readFile(filepath);
 }
 
 export function toggleMod() {
