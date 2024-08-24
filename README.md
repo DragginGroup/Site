@@ -1,12 +1,13 @@
+<!-- All of this hurts my eyes please may the lord have mercy on me. -->
 <h1 align="center">Github</h1>
+
 <p align="center">
 <img src="https://raw.githubusercontent.com/IdealistCat/Blog/main/Content/Github/github-gif.gif" width="100" title="github">
-  <br>
+<br>
 Github my beloved
 </p>
 
 <h1 align="center">DraggingBlog</h1>
-
 <p align="center">
 All things Dragging Related
 <br>
@@ -19,6 +20,12 @@ Work In Progress Blog Site!
 Check out the changelog here!
 </a>
 </p>
+
+<fieldset>
+<legend>Currently Supported Languages</legend>
+<p>English - Default Language</p>
+<p>Spanish - Translation by IdealistCat</p>
+</fieldset>
 
 <h1 align="center">Modding</h1>
 
