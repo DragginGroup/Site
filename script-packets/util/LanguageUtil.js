@@ -65,4 +65,5 @@ for (let index = 0; index < Object.keys(lang).length; index++) {
     const element = Object.keys(lang)[index];
 
     replaceTxtLanguage(element);
+    console.log(element);
 }
