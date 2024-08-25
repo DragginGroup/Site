@@ -12,22 +12,6 @@ const jsonSP = {
     "slogan" : "¡El blog para todo lo relacionado con el arrastre!",
     "care" : "Programado manualmente y cuidado con amor y cuidado por parte de todo el equipo.",
     "braincells" : "Creo que está hecho con 10 células cerebrales.",
-    // 404 page
-    "" : "",
-    // Help page
-    "" : "",
-    // Bloglist page
-    "" : "",
-    // Blog 1 page
-    "" : "",
-    // Blog 2 page
-    "" : "",
-    // Comiclist page
-    "" : "",
-    // IdealistCatComic page
-    "" : "",
-    // Settings page
-    "" : "",
     // Credits page (hell)
     "beloved" : "Github mi amado",
     "blogteam" : "Equipo del blog",
@@ -46,6 +30,22 @@ const jsonSP = {
     "funkcrew" : "Funkin Crew Inc - funkin.me, toda la inspiración para este sitio",
     "tk" : "Tomas Kenzgaila - Reemplazar el código de imagen utilizado para MODDING",
     "markk" : "Markknol: Visor de registros de consola utilizado durante el desarrollo"
+    // 404 page
+    "" : "",
+    // Help page
+    "" : "",
+    // Bloglist page
+    "" : "",
+    // Blog 1 page
+    "" : "",
+    // Blog 2 page
+    "" : "",
+    // Comiclist page
+    "" : "",
+    // IdealistCatComic page
+    "" : "",
+    // Settings page
+    "" : ""
 } // Spanish
 
 var lang = {}
