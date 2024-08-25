@@ -7,7 +7,7 @@ export let MOD_DATE = '2024.9.0';
 
 export var MOD_ENABLED = false;
 
-export function replaceImg(id, replacement, ignore_enable) {
+export function replaceImg(id = 'name', replacement = 'ninjamuffer', ignore_enable = false) {
     // https://stackoverflow.com/a/48344753
     // Tomas Kenzgaila
   
@@ -23,7 +23,7 @@ export function replaceImg(id, replacement, ignore_enable) {
     }
   }
   
-export function replaceText(id, replacement, ignore_enable) {
+export function replaceText(id = 'name', replacement = 'ninjamuffer', ignore_enable = false) {
     var txtReplace = document.getElementById(id);
     
     if (MOD_ENABLED == true || ignore_enable == true){
