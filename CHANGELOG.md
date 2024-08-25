@@ -5,15 +5,11 @@
 ### Added
 - Website pages icon
 - Website pages Description
-- Prefix and Suffix Text back to Version String (it bugged everyting)
 - [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol
-- `jsconfig.json` so vscode can shut the hell up
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
-- Redid all Javascript files
+- Removed and Redid all Javascript files
 - Renamed SP Folder
-### Removed
-- ``gpt.js`` file
 
 # August 24th 2024
 ## v0.2.7 - Quality Of Life Update
