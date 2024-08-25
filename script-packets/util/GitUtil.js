@@ -1,37 +1,25 @@
-export function returnGithub(versionType = '') {
-    var link = '';
+import { versionType } from '../version.js';
 
+let link = ''; 
+
+function initLink() {
     switch (versionType.toLowerCase()) {
-        case 'development' || 'dev' || 'develop': link = 'https://api.github.com/repos/IdealistCat/Blog/commits';
-        default: link = 'https://api.github.com/repos/DragginGroup/Blog/commits';
+        case 'development' || 'dev' || 'develop': link = 'IdealistCat/Blog';
+        default: link = 'DragginGroup/Blog'; 
     }
-
-    fetch(link)
-        .then(response => {
-          response.json().then(json => {
-            console.log(json);
-            return json;
-          });
-        })
-        .catch(error => {
-          console.log(error);
-        });
-    
 }
 
-export function returnCommitHash(type = 'short', versionType = '') {
-  var git = returnGithub(versionType);
-  /**
-   * var gitA = {
-   * "sha" : "89yw8h9udg"
-   * } 
-  */
-  var commit = git.sha;
+function returnCommitData() {
+    initLink();
 
-  switch (type.toLowerCase()) {
-    case 'short': commit = git.sha.slice(5, git.sha.length);
-    default: commit = git.sha
-  }
+    fetch('https://api.github.com/repos/'+link+'/commits?per_page=1')
+    .then(res => res.json())
+    .then(res => {
+        var commit_data = res[0];
+        // var commit = commit_data.commit;
 
-  return;
+        return commit_data;
+    });
 }
+
+export function commitHash() { return returnCommitData().sha.substring(0,5); }

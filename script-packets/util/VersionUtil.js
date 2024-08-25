@@ -1,5 +1,5 @@
 import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "../modding/api.js";
-import { returnGithub, returnCommitHash } from './GitUtil.js'
+import { commitHash } from './GitUtil.js'
 
 const VERSION = '0.2.8';
 const DATE = '2024.9.1';
@@ -10,11 +10,7 @@ export function returnVersion(type = 'version') {
     var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
     var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
 
-    var git_str = returnCommitHash('short');
-
-    var dev_gitstr = type.toLowerCase().endsWith('dev');
-    if (dev_gitstr) git_str = returnCommitHash('short', type.toLowerCase());
-
+    var git_str = commitHash();
     var develop_str = '-development ('+git_str+')';
 
     switch (type.toLowerCase()) {
