@@ -1,4 +1,4 @@
-export var git = require('git -rev-sync');
+export var git = require('git -rev');
 
 console.log(git.short());
 // 75bf4ee
