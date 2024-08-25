@@ -7,20 +7,18 @@ function initLink(myType) {
     }
 }
 
-function returnCommitData() {
+export function returnCommitData(data = '') {
     initLink('dev');
 
     fetch('https://api.github.com/repos/'+link+'/commits?per_page=1')
     .then(res => res.json())
     .then(res => {
         var commit_data = res[0];
-        // var commit = commit_data.commit;
 
+        var hash = commit_data.sha;
+        var commit = commit_data.commit;
+        
+    
         return commit_data;
     });
-}
-
-export function commitHash() {
-    var commit = returnCommitData();
-    return commit.sha;
 }
