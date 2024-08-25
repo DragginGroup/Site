@@ -16,7 +16,7 @@ export function replaceImg(id = 'name', replacement = 'ninjamuffer', ignore_enab
     var imgReplace = document.getElementsByClassName(id)[0];  
     
     if (MOD_ENABLED == true || ignore_enable == true){
-      if (replacement != "")
+      if (replacement != "" || replacement !)
         imgReplace.src = path;
     
       imgReplace.style.visibility = "visible";
@@ -27,7 +27,7 @@ export function replaceText(id = 'name', replacement = 'ninjamuffer', ignore_ena
     var txtReplace = document.getElementById(id);
     
     if (MOD_ENABLED == true || ignore_enable == true){
-      if (replacement != "")
+      if (replacement != "" || replacement != null)
         txtReplace.innerHTML = replacement;
     }
   }
