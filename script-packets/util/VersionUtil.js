@@ -1,5 +1,5 @@
 import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "../modding/api.js";
-import { git } from './GitUtil.js'
+import { returnGithub } from './GitUtil.js'
 
 const VERSION = '0.2.8';
 const DATE = '2024.9.1';
