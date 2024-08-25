@@ -16,7 +16,7 @@ export function replaceImg(id = 'name', replacement = 'ninjamuffer', ignore_enab
     var imgReplace = document.getElementsByClassName(id)[0];  
     
     if (MOD_ENABLED == true || ignore_enable == true){
-      if (replacement != "" || replacement !)
+      if (replacement != "" || replacement != null)
         imgReplace.src = path;
     
       imgReplace.style.visibility = "visible";
