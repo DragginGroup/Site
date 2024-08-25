@@ -21,13 +21,6 @@ Check out the changelog here!
 </a>
 </p>
 
-<div align="center">
-<h1>Currently Supported Languages</h1>
-<p>English - Default Language</p>
-<p>Spanish - Translation by IdealistCat</p>
-</div>
-
-
 <h1 align="center">Modding</h1>
 
 <p align="center">
