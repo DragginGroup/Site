@@ -20,6 +20,7 @@ function returnCommitData() {
     });
 }
 
-var commit = returnCommitData();
-
-export function commitHash() { return commit.sha.substring(0,5); }
+export function commitHash() {
+    var commit = returnCommitData();
+    return commit.sha.substring(0,5);
+}
