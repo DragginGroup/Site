@@ -61,8 +61,8 @@ function replaceTxtLanguage(textID = 'name') {
         replaceText(textID, lang[textID], true);
 }
 
-// index.html
-replaceTxtLanguage("name", lang);
-replaceTxtLanguage("slogan", lang);
-replaceTxtLanguage("care", lang);
-replaceTxtLanguage("braincells", lang);
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+
+    replaceTxtLanguage(Object.keys(lang));
+}
