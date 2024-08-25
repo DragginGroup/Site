@@ -22,5 +22,5 @@ function returnCommitData() {
 
 export function commitHash() {
     var commit = returnCommitData();
-    return commit.sha.substring(0,5);
+    return commit.sha;
 }

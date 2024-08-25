@@ -10,7 +10,7 @@ export function returnVersion(type = 'version') {
     var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
     var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
 
-    var git_str = commitHash();
+    var git_str = commitHash().substring(0,5);
     var develop_str = '-development ('+git_str+')';
 
     switch (type.toLowerCase()) {
