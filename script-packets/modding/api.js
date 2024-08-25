@@ -1,4 +1,4 @@
-import { replaceImage } from '/Blog/script-packets/util/WebUtil.js';
+import { replaceImage } from '../util/WebUtil.js';
 
 export let API_VERSION = '0.1.11';
 
