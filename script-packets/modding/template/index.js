@@ -1,3 +1,3 @@
 import { replaceImg, replaceText } from '../api.js';
 
-replaceImg();
+replaceImg("Middle", "Site/WIP.png");
