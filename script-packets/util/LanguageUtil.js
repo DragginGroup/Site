@@ -29,7 +29,7 @@ const jsonSP = {
     "h" : "Hazel - Código de texto desplazable Tomado de funkin.me",
     "funkcrew" : "Funkin Crew Inc - funkin.me, toda la inspiración para este sitio",
     "tk" : "Tomas Kenzgaila - Reemplazar el código de imagen utilizado para MODDING",
-    "markk" : "Markknol: Visor de registros de consola utilizado durante el desarrollo"
+    "markk" : "Markknol: Visor de registros de consola utilizado durante el desarrollo",
     // 404 page
     "" : "",
     // Help page
