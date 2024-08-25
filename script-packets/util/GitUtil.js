@@ -1,16 +1,14 @@
-import { versionType } from '../version.js';
-
 let link = ''; 
 
-function initLink() {
-    switch (versionType.toLowerCase()) {
+function initLink(myType) {
+    switch (myType.toLowerCase()) {
         case 'development' || 'dev' || 'develop': link = 'IdealistCat/Blog';
         default: link = 'DragginGroup/Blog'; 
     }
 }
 
 function returnCommitData() {
-    initLink();
+    initLink('dev');
 
     fetch('https://api.github.com/repos/'+link+'/commits?per_page=1')
     .then(res => res.json())
