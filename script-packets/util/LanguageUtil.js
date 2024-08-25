@@ -4,13 +4,6 @@ import { replaceText } from '../modding/api.js';
 var language = 'Spanish';
 
 // Language Jsons
-const jsonEN = {
-    "name" : "DRAGGING BLOG",
-    "slogan" : "The Blog for all things Dragging Related!",
-    "care" : "Manually Programmed and Cared for with Love and Care from all of the team",
-    "braincells" : "Made with 10 braincells, I think."
-}; // English
-
 const jsonSP = {
     "name" : "BLOG ARRASTRANDO",
     "slogan" : "¡El blog para todo lo relacionado con el arrastre!",
@@ -23,12 +16,12 @@ var lang = {}
 // Set Cur Language
 switch (language.toLowerCase()) {
     case 'spanish' || 'sp': lang = jsonSP;
-    default: lang = jsonEN;
 }
 
 // text replacement
 function replaceTxtLanguage(textID = 'name') {
-    replaceText(textID, lang[textID], true);
+    if (lang[textID] != null)
+        replaceText(textID, lang[textID], true);
 }
 
 // index.html
