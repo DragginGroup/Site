@@ -14,17 +14,17 @@ export function returnVersion(type = 'version') {
     
     var version_return = 'v' + version_str;
 
-    if (date_type) version_return = version_date_str;
-    if (dev_type) version_return += develop_str;
+    if (date_type == true) version_return = version_date_str;
+    if (dev_type == true) version_return += develop_str;
 
-    return version_return + ` ${returnStable()}`;
+    return version_return + ` ${returnStable(type)}`;
 }
 
 export function returnStable(type = 'regular') {
     var build_type = "Stable";
     var dev_type = type.toLowerCase().includes('dev');
 
-    if (dev_type) build_type = "Unstable";
+    if (dev_type == true) build_type = "Unstable";
 
     return build_type;
 }
