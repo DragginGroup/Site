@@ -7,20 +7,20 @@ replaceImg('git', '');
 replaceText('beloved', '');
 
 // Credits (might as well just hardcode them in)
-replaceText('blogteam', '');
+replaceText('blogteam', 'Bloggers');
 replaceText('ic', '');
 replaceText('dc', '');
 replaceText('df', '');
 replaceText('t', '');
 
-replaceText('suggestors', '');
+replaceText('suggestors', 'Sugest');
 replaceText('t.69', '');
 replaceText('b7', '');
 replaceText('d_c', '');
 replaceText('pl', '');
 replaceText('ys', '');
 
-replaceText('special', '');
+replaceText('special', 'Special Needs');
 replaceText('h', '');
 replaceText('funkcrew', '');
 replaceText('tk', '');
