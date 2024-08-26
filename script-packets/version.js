@@ -13,4 +13,4 @@ var buildString = returnStable(versionType[1]);
 var currentBlogTitle = MOD_ENABLED ? MOD_TITLE : 'Blog';
 
 versionText.innerText = currentBlogTitle + ' Version: ' + versionString;
-buildTy.innerText = buildString;
+// buildTy.innerText = buildString;
