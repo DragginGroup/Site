@@ -18,7 +18,7 @@ export function returnVersion(type = 'version') {
         case 'date-development' || 'date-dev' || 'date-develop':
             version_return = version_date_str + develop_str;
         case 'development' || 'dev' || 'develop':
-            version_return = 'v' + version_str + develop_str;\
+            version_return = 'v' + version_str + develop_str;
     }
 
     return version_return;
