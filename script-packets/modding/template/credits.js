@@ -6,7 +6,7 @@ replaceImg('git', '');
 // Text
 replaceText('beloved', '');
 
-// Credits (might as well just hardcode it in)
+// Credits (might as well just hardcode them in)
 replaceText('blogteam', '');
 replaceText('ic', '');
 replaceText('dc', '');
