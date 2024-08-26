@@ -8,7 +8,7 @@ export function returnVersion(type = 'version') {
     var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
     var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
 
-    var develop_str = '-development';
+    var develop_str = ' (PROTOTYPE)';
     
     var version_return = 'v' + version_str;
 
@@ -22,4 +22,15 @@ export function returnVersion(type = 'version') {
     }
 
     return version_return;
+}
+
+export function returnStable(type = 'regular') {
+    var build_type = "Stable";
+
+    switch (type.toLowerCase()) {
+        case 'development' || 'dev' || 'develop':
+            build_type = "Unstable Build";
+    }
+
+    return build_type;
 }
