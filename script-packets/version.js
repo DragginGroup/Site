@@ -5,12 +5,11 @@ import { MOD_ENABLED, MOD_TITLE } from "./modding/api.js";
 export const versionType = 'development';
 
 var versionText = document.getElementById('version');
-var buildTy = document.getElementById('buildtype');
 
 var versionString = returnVersion(versionType);
 var buildString = returnStable(versionType);
 
 var currentBlogTitle = MOD_ENABLED ? MOD_TITLE : 'Blog';
 
-versionText.innerText = currentBlogTitle + ` ${buildString} Version: ` + versionString;
+versionText.innerText =  `${currentBlogTitle} ${buildString} Version: ${versionString}`;
 // buildTy.innerText = buildString;
