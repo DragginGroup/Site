@@ -1,14 +1,12 @@
 import { returnVersion, returnStable } from "./util/VersionUtil.js";
 import { MOD_ENABLED, MOD_TITLE } from "./modding/api.js";
-
-//                       [version, build_type]
-export const versionType = 'development';
+import { VERSION_TYPE } from './util/Global.js';
 
 var versionText = document.getElementById('version');
 var buildTy = document.getElementById('buildtype');
 
-var versionString = returnVersion(versionType);
-var buildString = returnStable(versionType);
+var versionString = returnVersion(VERSION_TYPE);
+var buildString = returnStable(VERSION_TYPE);
 
 var currentBlogTitle = MOD_ENABLED ? MOD_TITLE : 'Blog';
 
