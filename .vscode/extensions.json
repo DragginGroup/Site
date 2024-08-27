@@ -7,7 +7,7 @@
         "aaron-bond.better-comments", // Comment Stuff
         "wycliffepepela.color-comments",
         "tobiah.comment-snippets",
-        "ms-vscode.cpptools-themes",
+        "ms-vscode.cpptools-themes", // Theme stuff :)
         "vscode-icons-team.vscode-icons"
     ]
 }
