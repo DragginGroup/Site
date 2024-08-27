@@ -1,7 +1,7 @@
 import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "../modding/api.js";
 
-const VERSION = '0.2.8';
-const DATE = '2024.8.26';
+export let VERSION = '0.2.8';
+export let DATE = '2024.8.26';
 
 export function returnVersion(vertype = 'version') {
     
