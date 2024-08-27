@@ -1,5 +1,5 @@
 import { returnVersion, returnStable } from "./util/VersionUtil.js";
-import { MOD_ENABLED, MOD_TITLE } from "./modding/api.js";
+import { MOD_ENABLED, MOD_TITLE } from "./util/Global.js";
 import { VERSION_TYPE } from './util/Global.js';
 
 var versionText = document.getElementById('version');
