@@ -15,7 +15,7 @@ export function returnVersion(vertype = "version") {
   var version_return = "v" + version_str;
 
   if (date_type == true) version_return = version_date_str;
-  if (dev_type == true) version_return += ` ${develop_str}`;
+  if (dev_type == true) version_return += ' '+develop_str;
 
   return version_return;
 }
