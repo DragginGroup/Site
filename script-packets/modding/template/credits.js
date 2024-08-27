@@ -1,4 +1,4 @@
-import { replaceImg, replaceText } from '/Blog/SP/modding/api.js';
+import { replaceImg, replaceText } from '../api.js';
 
 // Images
 replaceImg('git', '');
@@ -25,3 +25,4 @@ replaceText('h', '');
 replaceText('funkcrew', '');
 replaceText('tk', '');
 replaceText('markk', '');
+replaceText('scrollers', '');

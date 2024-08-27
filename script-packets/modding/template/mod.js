@@ -1,5 +1,5 @@
-import { replaceImg, replaceText, toggleMod } from '/Blog/SP/modding/api.js';
-import { MOD_NAME, MOD_VERSION, returnModStats } from '/Blog/SP/modding/api.js';
+import { replaceImg, replaceText, toggleMod } from '../api.js';
+import { MOD_NAME, MOD_VERSION, MOD_ENABLED } from '/Blog/script-packets/util/Global/js';
 
 // Text
 replaceText('name', MOD_NAME, true);
@@ -11,5 +11,5 @@ var button = document.querySelector("[toggle]")
 
 button.addEventListener("click", (event) => {
   toggleMod();
-  button.innerHTML = 'Enabled: '+returnModStats();
+  button.innerHTML = 'Enabled: '+MOD_ENABLED;
 });

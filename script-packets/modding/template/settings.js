@@ -1,4 +1,4 @@
-import { replaceImg, replaceText } from '/Blog/SP/modding/api.js';
+import { replaceImg, replaceText } from '../api.js';
 
 // Text
 replaceText('settingTab', '');
