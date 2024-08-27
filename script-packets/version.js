@@ -2,7 +2,6 @@ import { returnVersion, returnStable, VERSION } from "./util/VersionUtil.js";
 import { MOD_ENABLED, MOD_TITLE } from "./modding/api.js";
 import { throwError } from "./util/ConsoleUtil.js";
 
-//                       [version, build_type]
 export const versionType = 'development';
 
 var versionText = document.getElementById('version');
