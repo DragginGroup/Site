@@ -9,7 +9,7 @@ export function returnVersion(vertype = "version") {
 
   var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
   var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
-  var develop_str = ` (PROTOTYPE | ${getCommitHash()})`;
+  var develop_str = ` (PROTOTYPE)`;
 
   var version_return = "v" + version_str;
 
@@ -26,16 +26,5 @@ export function returnStable(type = "regular") {
   if (dev_type == true) build_type = "Unstable";
 
   return build_type;
-}
 
-export function getCommitHash() {
-  const rev = fs.readFileSync(".git/HEAD").toString().trim();
-  
-  if (rev.indexOf(":") === -1) {
-    return rev;
-  } else {
-    return fs.readFileSync(".git/" + rev.substring(5)).toString().trim();
-  }
-
-  return "Missing Git Hash";
 }
