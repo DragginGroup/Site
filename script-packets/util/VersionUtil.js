@@ -2,7 +2,7 @@ import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "../modding/api.js";
 import { getHash } from './GitUtil.js';
 
 const VERSION = "0.2.8";
-const DATE = "2024.8.26";
+const DATE = "2024.8.27";
 
 export function returnVersion(vertype = "version") {
   var date_type = vertype.toLowerCase().startsWith("date");
