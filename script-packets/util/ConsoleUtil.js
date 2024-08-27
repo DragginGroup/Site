@@ -3,8 +3,8 @@ function consoleTemplate(type = "Log", message = "Message") {
     var send_alert = true;
     
     switch (type.toLowerCase()) {
-      case 'warning' || 'warn': console.warn();
-      case 'error' || 'err': console.error();
+      case 'warning' || 'warn': console.warn(message);
+      case 'error' || 'err': console.error(message);
       default: console.log(message); send_alert = false;
     }
   
