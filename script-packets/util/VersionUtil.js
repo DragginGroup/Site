@@ -10,7 +10,7 @@ export function returnVersion(vertype = "version") {
 
   var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
   var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
-  var develop_str = ` (PROTOTYPE} )`;
+  var develop_str = ` ( PROTOTYPE${date_type ? '' : ` | ${DATE}`})`;
 
   var version_return = "v" + version_str;
 
