@@ -1,6 +1,6 @@
-import { versionType } from "../version.js";
+import { VERSION_TYPE } from "./Global.js";
 
-if (versionType.includes("dev")) {
+if (VERSION_TYPE.includes("dev")) {
   /**
    * Displays logs and Javascript errors in an overlay on top of your site. Useful for mobile webdevelopment.
    *
