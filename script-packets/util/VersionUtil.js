@@ -5,14 +5,12 @@ const DATE = '2024.8.26';
 
 export function returnVersion(vertype = 'version') {
 
-    var git_hash = require('child_process').execSync('git rev-parse HEAD').toString().trim();
-    
     var date_type = vertype.toLowerCase().startsWith('date');
     var dev_type = vertype.toLowerCase().includes('dev');
 
     var version_str = MOD_ENABLED ? MOD_VERSION : VERSION;
     var version_date_str = MOD_ENABLED ? MOD_DATE : DATE;
-    var develop_str = ` (PROTOTYPE | ${git_hash})`;
+    var develop_str = ` (PROTOTYPE)`;
     
     var version_return = 'v' + version_str;
 
