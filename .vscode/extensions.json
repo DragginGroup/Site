@@ -6,6 +6,8 @@
         "esbenp.prettier-vscode", // Forgot what this was for
         "aaron-bond.better-comments", // Comment Stuff
         "wycliffepepela.color-comments",
-        "tobiah.comment-snippets"
+        "tobiah.comment-snippets",
+        "ms-vscode.cpptools-themes",
+        "vscode-icons-team.vscode-icons"
     ]
 }
