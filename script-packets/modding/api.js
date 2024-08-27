@@ -1,13 +1,7 @@
 import { replaceImage } from '../util/WebUtil.js';
+import { MOD_DATE, MOD_TITLE, MOD_VERSION, MOD_ENABLED } from "../util/Global.js";
 
 export let API_VERSION = '0.1.12';
-
-export let MOD_TITLE = 'Test';
-
-export let MOD_VERSION = '0.1.0';
-export let MOD_DATE = '2024.9.0';
-
-export var MOD_ENABLED = false;
 
 export function replaceImg(id = 'name', replacement = 'ninjamuffer', ignore_enable = false) {
     var path = "/Blog/Content/Mod/" + MOD_TITLE + '/' + replacement;

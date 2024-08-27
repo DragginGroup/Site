@@ -12,7 +12,7 @@ if (versionType.includes("dev")) {
     ConsoleLogViewer.IS_MINIMIZED = false; // true | false
     ConsoleLogViewer.LOG_ENABLED = true;
     ConsoleLogViewer.IS_CLOSED = false;
-    ConsoleLogViewer.TOTAL = 15;
+    ConsoleLogViewer.TOTAL = 20;
 
     var _items = [];
 

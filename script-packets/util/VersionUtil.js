@@ -1,4 +1,5 @@
-import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "../modding/api.js";
+import { MOD_VERSION, MOD_DATE, MOD_ENABLED } from "./Global.js";
+import { VERSION, DATE } from './Global.js';
 
 export function returnVersion(vertype = 'version') {
     
