@@ -5,7 +5,7 @@
 ### Added
 - Website pages icons
 - Website pages Description
-- [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol
+- [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol (used in dev builds cause yeah.)
 - Build Type to version string('Stable' or 'Unstable')
 - New Credit
 - New SP Files:
