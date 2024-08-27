@@ -3,10 +3,11 @@
 ### Fixed
 - Random Blank line for version changelogs 0.2.7, 0.2.6, and 0.2.5
 ### Added
-- Website pages icon
+- Website pages icons
 - Website pages Description
 - [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol
 - Build Type to version string('Stable' or 'Unstable')
+- New Credit
 - New SP Files:
   - `WebUtil.js` - new host for replaceImage function (parent function)
   - `ConsoleUtil.js` - console.log warn error messages and other console commands
