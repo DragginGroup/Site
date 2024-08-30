@@ -32,7 +32,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   /**
   * 1. Grab what we need from the DOM and system settings on page load
   */
-  const button = document.querySelector("[data-theme-toggle]");
+  const button = document.getElementById("theme-toggle");
   const localStorageTheme = localStorage.getItem("theme");
   const systemSettingDark = window.matchMedia("(prefers-color-scheme: dark)");
   
@@ -51,7 +51,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   * 4. Add an event listener to toggle the theme
   */
   button.addEventListener("click", (event) => {
-    const newTheme = button.ariaValueText;
+    const newTheme = event.target.innerText;
 
     localStorage.setItem("theme", newTheme);
     updateButton({ buttonEl: button, isDark: newTheme === "dark" });
