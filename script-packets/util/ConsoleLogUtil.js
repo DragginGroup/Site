@@ -1,6 +1,6 @@
-import { VERSION_TYPE } from "./Global.js";
+import { CONSOLE } from "./Global.js";
 
-if (VERSION_TYPE.startsWith("dev")) {
+if (CONSOLE == true) {
   /**
    * Displays logs and Javascript errors in an overlay on top of your site. Useful for mobile webdevelopment.
    *

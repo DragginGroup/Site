@@ -1,5 +1,6 @@
 // Main Site related Variables
 export const VERSION_TYPE = 'development';
+export const CONSOLE = true;
 
 export const VERSION = '0.2.8';
 export const DATE = '2024.9.1';
