@@ -1,6 +1,6 @@
 import { VERSION_TYPE } from "./Global.js";
 
-if (VERSION_TYPE.includes("dev")) {
+if (VERSION_TYPE.startsWith("dev")) {
   /**
    * Displays logs and Javascript errors in an overlay on top of your site. Useful for mobile webdevelopment.
    *
@@ -8,7 +8,7 @@ if (VERSION_TYPE.includes("dev")) {
    * @author Mark Knol <http://blog.stroep.nl>
    */
   var ConsoleLogViewer = (function () {
-    ConsoleLogViewer.ALIGNMENT = "top"; // top | bottom
+    ConsoleLogViewer.ALIGNMENT = "bottom"; // top | bottom
     ConsoleLogViewer.IS_MINIMIZED = false; // true | false
     ConsoleLogViewer.LOG_ENABLED = true;
     ConsoleLogViewer.IS_CLOSED = false;
