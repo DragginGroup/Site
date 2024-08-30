@@ -61,7 +61,7 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
   /**
   * 4. Add an event listener to toggle the theme
   */
-  button.addEventListener("click", (event) => {
+  /* button.addEventListener("click", (event) => {
     const newTheme = currentThemeSetting === "dark" ? "light" : "dark";
   
     localStorage.setItem("theme", newTheme);
@@ -69,4 +69,12 @@ function calculateSettingAsThemeString({ localStorageTheme, systemSettingDark })
     updateThemeOnHtmlEl({ theme: newTheme });
   
     currentThemeSetting = newTheme;
-  });
+  }); */
+
+  const newTheme = button.value
+
+  localStorage.setItem("theme", newTheme);
+    updateButton({ buttonEl: button, isDark: newTheme === "dark" });
+    updateThemeOnHtmlEl({ theme: newTheme });
+  
+    currentThemeSetting = newTheme;
