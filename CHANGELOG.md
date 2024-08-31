@@ -11,8 +11,7 @@
 - New SP Files:
   - `WebUtil.js` - new host for replaceImage function (parent function)
   - `ConsoleUtil.js` - console.log warn error messages and other console commands
-  - `Global.js` - Global Variables like VERSION, DATE, MOD_ENABLED, etc
-- there is now the ability to speed up or slow down the credits scroll
+  - `Global.js` - Global Variables like VERSION, DATE, MOD_ENABLED, etc.
 ### Changed
 - Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
 - Removed and Redid all Javascript files
