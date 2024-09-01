@@ -1,6 +1,24 @@
+# September 1st 2024
+## v0.2.8 - The Reprogrammed
+### Fixed
+- Random Blank line for version changelogs 0.2.7, 0.2.6, and 0.2.5
+### Added
+- Website pages icons
+- Website pages Description
+- [Console Log Viewer](https://github.com/markknol/console-log-viewer/tree/master) by markknol (used in dev builds cause yeah.)
+- Build Type to version string('Stable' or 'Unstable')
+- New Credit(s)
+- New SP Files:
+  - `WebUtil.js` - new host for replaceImage function (parent function)
+  - `ConsoleUtil.js` - console.log warn error messages and other console commands
+  - `Global.js` - Global Variables like VERSION, DATE, MOD_ENABLED, etc.
+### Changed
+- Almost Every single '/Blog/Path/Silly/Thing/Asset.ext' to be how Vscode automates it cause i fricken can lol! Optimized my friend!
+- Removed and Redid all Javascript files
+- Renamed SP Folder
+
 # August 24th 2024
 ## v0.2.7 - Quality Of Life Update
-
 ### Added
 - Folders for file management to ``Content/Site``
 - Qr code for sharing site with others on help page
@@ -21,7 +39,6 @@
 
 # August 21st 2024
 ## v0.2.6 - Modding Update
-
 ### Added
 - ADDED (robust but working) SCRIPT PACKET MODDING
   - Added Image Replacement System
@@ -30,7 +47,6 @@
 
 # August 20th 2024
 ## v0.2.5 - Comic and Settings Update
-
 ### Changed
 - Changed User "Madness-Rombank" to "IdealistCat"
 - Moved Lua Script Packet to SP api folder

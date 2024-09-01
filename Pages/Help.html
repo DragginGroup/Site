@@ -2,25 +2,30 @@
   <head>
     
     <title>DraggingBlog - Help</title>
+
+    <link rel="icon" href="/Blog/Content/Site/website_icon.png">
+    <meta name="description" content="A page for draggingBlogging and draggingComicing">
+
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     
-    <link rel="stylesheet" href="/Blog/Pages/Styles/base.css">
-    <link rel="stylesheet" href="/Blog/Pages/Styles/help.css">
+    <link rel="stylesheet" href="./Styles/base.css">
+    <link rel="stylesheet" href="./Styles/help.css">
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://kit.fontawesome.com/e0b8b14fea.js" crossorigin="anonymous"></script>
     
+    <script src="/Blog/script-packets/util/ConsoleLogUtil.js"></script>
   </head>
   <body class="color1" align="center">
     <div class="color2">
       
       <div class="color4" align="center">
         <a href="/Blog/index.html" id="backBtn">Back</a>
-        <a href="/Blog/Pages/BlogList.html" id="BlogsPage">Blogs</a>
-        <a href="/Blog/Pages/ComicList.html" id="ComicsPage">Comics</a>
-        <a href="/Blog/Pages/Settings.html" id="SettingsPage">Settings</a>
-        <a href="/Blog/Pages/Credits.html" id="CreditsPage">Credits</a>
+        <a href="BlogList.html" id="BlogsPage">Blogs</a>
+        <a href="ComicList.html" id="ComicsPage">Comics</a>
+        <a href="Settings.html" id="SettingsPage">Settings</a>
+        <a href="Credits.html" id="CreditsPage">Credits</a>
       </div>
       
       <pre id="version">Blog Version: 0.0.0</pre>
@@ -87,11 +92,9 @@
       </p>
       
     </div>
-    
-    <script type="module" src="/Blog/SP/blog-version.js"></script>
-    <script type="module" src="/Blog/SP/href-setup.js"></script>
-    <script type="module" src="/Blog/SP/settings/themeSet.js"></script>
-    <script type="module" src="/Blog/SP/modding/templates/help.js"></script>
-    
+   
+    <script type="module" src="/Blog/script-packets/settings/theme.js"></script>
+    <script type="module" src="/Blog/script-packets/version.js"></script>
+    <script type="module" src="/Blog/script-packets/modding/template/help.js"></script>
   </body>
 </html>

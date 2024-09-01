@@ -24,6 +24,19 @@
   --sbG-color: #0000ff;
 }
 
+[data-theme="brown"] {
+  --bg1-color: #a16d3c;
+  --bg2-color: #794f28;
+  --bg3-color: #cd9b56;
+  --bg4-color: #654127;
+  --bg5-color: #513421;
+  
+  --txt-color: #ffffff;
+  --bgG-color: #000000;
+
+  --sbG-color: #a13d00;
+}
+
 body {
   align: center;
 }
@@ -59,7 +72,6 @@ body {
 }
 
 p,
-pre,
 a,
 h1,
 h2,

@@ -1,13 +1,19 @@
 <html data-theme="dark">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    
     <title>DraggingBlog - Home</title>
-    <link rel="stylesheet" href="/Blog/Pages/Styles/base.css">
+
+    <link rel="icon" href="./Content/Site/website_icon.png">
+    <meta name="description" content="A page for draggingBlogging and draggingComicing">
+
+    <link rel="stylesheet" href="./Pages/Styles/base.css">
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="https://kit.fontawesome.com/e0b8b14fea.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e0b8b14fea.js" crossorigin="anonymous"></script> 
     
+    <script src="./script-packets/util/ConsoleLogUtil.js"></script>
   </head>
   <body class="color1" align="center">
     <div class="color1">
@@ -19,11 +25,11 @@
     </div> -->
 
     <div class="color4" align="center">
-        <a href="/Blog/Pages/Help.html" id="HelpPage">Help</a>
-        <a href="/Blog/Pages/BlogList.html" id="BlogsPage">Blogs</a>
-        <a href="/Blog/Pages/ComicList.html" id="ComicsPage">Comics</a>
-        <a href="/Blog/Pages/Settings.html" id="SettingsPage">Settings</a>
-        <a href="/Blog/Pages/Credits.html" id="CreditsPage">Credits</a>
+        <a href="./Pages/Help.html" id="HelpPage">Help</a>
+        <a href="./Pages/BlogList.html" id="BlogsPage">Blogs</a>
+        <a href="./Pages/ComicList.html" id="ComicsPage">Comics</a>
+        <a href="./Pages/Settings.html" id="SettingsPage">Settings</a>
+        <a href="./Pages/Credits.html" id="CreditsPage">Credits</a>
         <!--<a href="/Blog/Pages/Mod.html" id="ModsPage">Mod</a>-->
         <!--<a href="./Test.html">Test</a>-->
     </div>
@@ -33,7 +39,10 @@
         DRAGGING BLOG
       </p>
       <!-- <pre id="message">Latest Commit:</pre> -->
-      <pre id="version">Blog Version: 0.2.7</pre>
+      <div> 
+        <pre id="version" align="center">Blog Version: 0.0.0</pre>
+        <!-- <pre id="buildtype" align="center">Stable</pre> -->
+      </div>
       
       <p id="slogan">
         The Blog for all things Dragging Related!
@@ -42,32 +51,26 @@
       <p id="care">
         Manually Programmed and Cared for with Love and Care from all of the team
       </p>
+
       <p id="braincells">
         Made with 10 braincells, I think.
       </p>
 
-      <img class="Left" src="/Blog/Content/Site/bean_club/Blink.png" width="100" align="left">
-      <img class="Middle" src="/Blog/Content/Site/bean_club/WIP.png" width="100" align="center">
-      <img class="Right" src="/Blog/Content/Site/bean_club/Smoke.gif" width="100" align="right">
+      <img class="Left" src="./Content/Site/bean_club/Blink.png" width="100" align="left">
+      <img class="Middle" src="./Content/Site/bean_club/WIP.png" width="100" align="center">
+      <img class="Right" src="./Content/Site/bean_club/Smoke.gif" width="100" align="right">
 
-      <!-- hr><br>
-      <i class="fa-solid fa-share fa-shake fa-2xl"></i>
-      <p>Share the site with others!</p>
-      <img class="QrCode" src="/Blog/Content/Site/qrGrid.png" width="150">
-      <br><br><br> -->
-      
     </section>
       
     <div class="color3">
-    <marquee class="color3">
+    <marquee class="color3" id="WIPblog">
     Work In Progress blog site - Draggin Group
     </marquee>
     </div>
     </div>
     
-    <script type="module" src="/Blog/SP/blog-version.js"></script>
-    <script type="module" src="/Blog/SP/href-setup.js"></script>
-    <script type="module" src="/Blog/SP/settings/themeSet.js"></script>
-    <script type="module" src="/Blog/SP/modding/templates/index.js"></script>
+    <script type="module" src="./script-packets/settings/theme.js"></script>
+    <script type="module" src="./script-packets/version.js"></script>
+    <script type="module" src="./script-packets/modding/template/index.js"></script>
   </body>
 </html>
