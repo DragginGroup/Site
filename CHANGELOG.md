@@ -1,3 +1,8 @@
+# October 2024
+## v0.2.8.1
+### Fixed
+- Settings Page not registering the version
+
 # September 1st 2024
 ## v0.2.8 - The Reprogrammed
 ### Fixed
