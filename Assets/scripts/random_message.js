@@ -1,6 +1,5 @@
 import { randomInt } from "./utilities/math.js";
 
-var msg = document.getElementById("message");
 var new_message = "[MSG]";
 
 var json = {
@@ -51,4 +50,4 @@ for (let index = 0; index < array.length; index++) {
   }
 }
 
-msg.innerHTML = new_message;
+document.getElementById("message").innerHTML = new_message;
