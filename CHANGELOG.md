@@ -1,7 +1,12 @@
 # October 2024
-## v0.3.0 - The Redone
+## v0.3.0 - The Fully Redone
 ### Removed
-- Blog v0.2.8.1
+- v0.2.8.1 (duh)
+### Added - Awsome new site
+- Home Page
+- Project Page
+- Github Page
+- JSONs everywhere
 
 # September 26th 2024
 ## v0.2.8.1
