@@ -4,7 +4,7 @@
 - v0.2.8.1 (duh)
 ### Added - Awsome new site
 - Home Page
-  - Random Message every time you come to the page (6 commits)
+  - Random Message every time you come to the page (7 commits)
 - Project Page
 - Github Page
 - JSONs everywhere
