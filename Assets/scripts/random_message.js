@@ -63,5 +63,5 @@ function addMessage(msgA = "missing argument lol", wantedA = 5, minA = 0, maxA =
     max: maxA
   };
   
-  JSON.messages.push(newmsg);
+  JSON.messages.push({newmsg});
 }
