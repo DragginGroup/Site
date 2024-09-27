@@ -3,17 +3,13 @@ import { randomInt } from "./utilities/math.js";
 var new_message = "[MSG]";
 var DEFAULT_MESSAGE = "have a good time.";
 
-var JSON = {
-  messages: [
-    /*{ msg: "hope you enjoy your time here!", wanted: 1, min: 1, max: 10 },
-    { msg: "you are in for a blast!", wanted: 10, min: 0, max: 20 },
-    { msg: "have fun!", wanted: 5, min: 0, max: 50 },
-    { msg: "Mods are officially supported!", wanted: 1, min: 0, max: 2 },
-    { msg: "Check out our projects if you want!", wanted: 20, min: 0, max: 30 }*/
-  ]
-};
+var JSON = { messages: [] };
 
-addMessage("forcing you to be here.", 1, 1, 1);
+addMessage("Mods are officially supported!", 1, 0, 2); // low numbers first
+addMessage("hope you enjoy your time here!", 1, 1, 10);
+addMessage("you are in for a blast!", 10, 0, 20);
+addMessage("Check our our projects if you want!", 20, 0, 30);
+addMessage("have fun!", 5, 0, 50); // high numbers last
 
 new_message = DEFAULT_MESSAGE;
 
