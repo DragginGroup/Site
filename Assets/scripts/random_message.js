@@ -9,7 +9,7 @@ var JSON = {
       msg: "hope you enjoy your time here!",
       wanted: 1,
       min: 1,
-      max: 1
+      max: 10
     },
     {
       msg: "you are in for a blast!",
