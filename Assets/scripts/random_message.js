@@ -57,11 +57,15 @@ document.getElementById("message").innerHTML = new_message;
 
 function addMessage(msgA = "missing argument lol", wantedA = 5, minA = 0, maxA = 10) {
   var newmsg = {
-    msg: msgA,
-    wanted: wantedA,
-    min: minA,
-    max: maxA
+    message:[
+      {
+        msg: msgA,
+        wanted: wantedA,
+        min: minA,
+        max: maxA
+      }
+    ]
   };
   
-  JSON.messages.push({newmsg});
+  JSON.messages.push(newmsg.message[0]);
 }
