@@ -45,7 +45,7 @@ for (let index = 0; index < array.length; index++) {
   const element = array[index];
   const rando = randomInt(element.min, element.max);
 
-  if (rando = element.wanted && new_message == DEFAULT_MESSAGE) {
+  if (rando == element.wanted && new_message == DEFAULT_MESSAGE) {
     new_message = element.msg;
     break;
   }
