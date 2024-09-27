@@ -1,8 +1,9 @@
 import { randomInt } from "./utilities/math.js";
 
 var new_message = "[MSG]";
+var DEFAULT_MESSAGE = "have a good time.";
 
-var json = {
+var JSON = {
   messages: [
     {
       msg: "hope you enjoy your time here!",
@@ -37,14 +38,14 @@ var json = {
   ],
 };
 
-new_message = json.messages[0].msg;
+new_message = DEFAULT_MESSAGE;
 
-var array = json.messages;
+var array = JSON.messages;
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
   const rando = randomInt(element.min, element.max);
 
-  if (rando = element.wanted) {
+  if (rando = element.wanted && new_message == DEFAULT_MESSAGE) {
     new_message = element.msg;
     break;
   }
