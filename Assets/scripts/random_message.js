@@ -59,7 +59,7 @@ function addMessage(msgA = "missing argument lol", wantedA = 5, minA = 0, maxA =
   var newmsg = {
     msg: msgA,
     wanted: wantedA,
-    min minA,
+    min: minA,
     max: maxA
   };
   
