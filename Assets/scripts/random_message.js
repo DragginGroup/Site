@@ -9,33 +9,33 @@ var JSON = {
       msg: "hope you enjoy your time here!",
       wanted: 1,
       min: 1,
-      max: 1,
+      max: 1
     },
     {
       msg: "you are in for a blast!",
       wanted: 10,
       min: 0,
-      max: 20,
+      max: 20
     },
     {
       msg: "have fun!",
       wanted: 5,
       min: 0,
-      max: 50,
+      max: 50
     },
     {
       msg: "Mods are officially supported!",
       wanted: 1,
       min: 0,
-      max: 2,
+      max: 2
     },
     {
       msg: "Check out our projects if you want!",
       wanted: 20,
       min: 0,
-      max: 30,
-    },
-  ],
+      max: 30
+    }
+  ]
 };
 
 new_message = DEFAULT_MESSAGE;
