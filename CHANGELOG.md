@@ -1,5 +1,5 @@
-# October 2024
-## v0.3.0 - The Fully Redone
+# January 2025
+## v0.3.0 - Overhaul
 ### Removed
 - v0.2.8.1 (duh)
 ### Added - Awsome new site
@@ -8,6 +8,7 @@
 - Project Page
 - Github Page
 - JSONs everywhere
+- New Theme
 
 # September 26th 2024
 ## v0.2.8.1
