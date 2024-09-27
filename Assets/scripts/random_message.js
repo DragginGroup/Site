@@ -1,7 +1,7 @@
+import { DEFAULT_MESSAGE_INDEX } from "./GLOBAL.js";
 import { randomInt } from "./utilities/math.js";
 
 var new_message = "[MSG]";
-var DEFAULT_MESSAGE = "have a good time.";
 
 var JSON = { messages: [] };
 
@@ -11,13 +11,13 @@ addMessage("you are in for a blast!", 10, 0, 20);
 addMessage("Check our our projects if you want!", 20, 0, 30);
 addMessage("have fun!", 5, 0, 50); // high numbers last
 
-new_message = DEFAULT_MESSAGE;
+new_message = DEFAULT_MESSAGE_INDEX;
 
 var array = JSON.messages;
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
   const rando = randomInt(element.min, element.max);
-  const CAN_CHANGE_MSG = rando == element.wanted && new_message == DEFAULT_MESSAGE;
+  const CAN_CHANGE_MSG = rando == element.wanted && new_message == DEFAULT_MESSAGE_INDEX;
 
   if (CAN_CHANGE_MSG) {
     new_message = element.msg;
