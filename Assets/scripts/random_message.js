@@ -5,11 +5,17 @@ var new_message = "[MSG]";
 
 var JSON = { messages: [] };
 
-addMessage("Mods are officially supported!", 1, 0, 2); // low numbers first
+// low max numbers first
+addMessage("Mods are officially supported!", 1, 0, 2);
 addMessage("hope you enjoy your time here!", 1, 1, 10);
+addMessage("random message lolz!", 5, 0, 15);
 addMessage("you are in for a blast!", 10, 0, 20);
 addMessage("Check our our projects if you want!", 20, 0, 30);
-addMessage("have fun!", 5, 0, 50); // high numbers last
+addMessage("have fun!", 5, 0, 50);
+addMessage("over 1000 commits", 1, 0, 70);
+addMessage("the 1 in 1000000!", 1, 0, 1000000);
+addMessage("the 1 in 1000000!", 1, 0, 1000000);
+// high max numbers last
 
 new_message = DEFAULT_MESSAGE_INDEX;
 
