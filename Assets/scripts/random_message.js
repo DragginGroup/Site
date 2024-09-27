@@ -38,6 +38,8 @@ var JSON = {
   ]
 };
 
+addMessage("forcing you to be here.",1,1,1);
+
 new_message = DEFAULT_MESSAGE;
 
 var array = JSON.messages;
@@ -52,3 +54,14 @@ for (let index = 0; index < array.length; index++) {
 }
 
 document.getElementById("message").innerHTML = new_message;
+
+function addMessage(msgA = "missing argument lol", wantedA = 5, minA = 0, maxA = 10) {
+  var newmsg = {
+    msg: msgA,
+    wanted: wantedA,
+    min minA,
+    max: maxA
+  };
+  
+  JSON.messages.push(newmsg);
+}
