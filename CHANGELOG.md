@@ -8,7 +8,9 @@
 - Project Page
 - Github Page
 - JSONs everywhere
+  - Random Messages
 - New Theme
+- Todo list and page
 
 # September 26th 2024
 ## v0.2.8.1
