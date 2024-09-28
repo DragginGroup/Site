@@ -5,6 +5,7 @@ import {
   DEV_VERSION,
   DATE_VERSION,
   DATE_DEV_VERSION,
+  VERSION_LABEL
 } from "../global/version.js";
 
 export function returnVersion(type = "version") {
@@ -12,15 +13,15 @@ export function returnVersion(type = "version") {
 
   switch (type) {
     case "date-dev":
-      ver = DATE_DEV_VERSION;
+      ver = `${DATE_DEV_VERSION} ${VERSION_LABEL} ${DEV_LABEL}}`;
     case "date":
-      ver = DATE_VERSION;
+      ver = `${DATE_VERSION} ${VERSION_LABEL}`;
     case "version-dev":
-      ver = DEV_VERSION + DEV_LABEL;
+      ver = `v${VERSION} ${VERSION_LABEL} ${DEV_LABEL}`;
     case "version":
-      ver = VERSION;
+      ver = `v${VERSION} ${VERSION_LABEL}`;
     default:
-      ver = VERSION + MISSING_TYPE;
+      ver = `v${VERSION} ${VERSION_LABEL} ${MISSING_TYPE}`;
   }
 
   return ver;
