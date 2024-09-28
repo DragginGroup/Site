@@ -14,6 +14,7 @@ project.id = 'projectPage';
 github.innerHTML = 'Github';
 github.id = 'github';
 
+// prepend
 document.body.prepend(document.createElement('hr'));
 document.body.prepend(github);
 document.body.prepend(project);
