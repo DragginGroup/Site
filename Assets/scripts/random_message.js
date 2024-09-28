@@ -35,7 +35,12 @@ for (let index = 0; index < array.length; index++) {
 document.getElementById("message").innerHTML = new_message;
 
 function addMessage(msgA = "missing argument lol", wantedA = 1, minA = 1, maxA = 10, floatA = false) {
-  var newmsg = { msg: msgA, wanted: wantedA, min: minA, max: maxA, float: floatA };
+  var newmsg = {
+    msg: msgA,
+    wanted: wantedA,
+    min: minA,
+    max: maxA,
+    float: floatA };
   
   JSON.messages.push(newmsg);
 }
