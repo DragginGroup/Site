@@ -6,7 +6,7 @@ import {
   DATE_VERSION,
   DATE_DEV_VERSION,
   VERSION_LABEL
-} from "../global/version.js";
+} from "../global/version-global.js";
 
 export function returnVersion(type = "version") {
   var ver = "";

@@ -1,4 +1,4 @@
-import { returnVersion } from "./utilities/version.js";
+import { returnVersion } from "./utilities/version-utility.js";
 
 var version = returnVersion('version-dev');
 var element = document.getElementById('version');
