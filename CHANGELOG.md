@@ -8,6 +8,8 @@
   - Version Display
 - Project Page
 - Github Page
+  - Development Version Link
+  - Release Version Link
 - JSONs everywhere
   - Random Messages
 - New Theme
