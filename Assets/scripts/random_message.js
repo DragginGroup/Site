@@ -1,7 +1,7 @@
 import { DEFAULT_MESSAGE_INDEX } from "./global/random_message.js";
 import { randomInt } from "./utilities/math.js";
 
-var new_message = "[MSG]";
+var final_message = DEFAULT_MESSAGE_INDEX;
 
 var JSON = {
   messages: [],
@@ -19,21 +19,21 @@ addMessage("the 1 in 1000000!", 1, 0, 1000000);
 addMessage("you have alot of free time", 1, 0, 1000000000);
 // high max numbers last
 
-new_message = DEFAULT_MESSAGE_INDEX;
-
 var array = JSON.messages;
+
 for (let index = 0; index < array.length; index++) {
+
   const element = array[index];
   const randoI = randomInt(element.min, element.max);
-  const CAN_CHANGE_MSG = randoI == element.wanted && new_message == DEFAULT_MESSAGE_INDEX;
+  const CAN_CHANGE_MSG = randoI == element.wanted && final_message == DEFAULT_MESSAGE_INDEX;
 
   if (CAN_CHANGE_MSG) {
-    new_message = element.msg;
+    final_message = element.msg;
     break;
   }
 }
 
-document.getElementById("message").innerHTML = new_message;
+document.getElementById("message").innerHTML = final_message;
 
 function addMessage(
   msgA = "missing argument lol",
