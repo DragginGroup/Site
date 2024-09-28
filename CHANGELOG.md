@@ -5,6 +5,7 @@
 ### Added - Awsome new site
 - Home Page
   - Random Message every time you come to the page
+  - Version Display
 - Project Page
 - Github Page
 - JSONs everywhere
