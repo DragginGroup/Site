@@ -15,7 +15,6 @@ for (let index = 0; index < array.length; index++) {
     var para = document.createElement('p');
     para.innerHTML = element.name;
     if (element.priority) {
-        para.style = 'color: red';
         document.body.prepend(para);
     } else {
         document.body.append(para);
