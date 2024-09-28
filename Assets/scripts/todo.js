@@ -6,3 +6,14 @@ function addTODOitem(nameA = "", completedA = false, priorityA = false) {
 }
 
 addTODOitem('make proper TODO page', false, true);
+addTODOitem('modding', false, true);
+
+var array = TODO.items;
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    
+    var para = document.createElement('p');
+    para.innerHTML = element.name;
+    if (element.priority) para.style = 'color: red';
+    (element.priority) ? document.prepend(para) : document.append(para);
+}
