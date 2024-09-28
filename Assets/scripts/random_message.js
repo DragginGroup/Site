@@ -1,12 +1,12 @@
 import { DEFAULT_MESSAGE_INDEX } from "./GLOBAL.js";
-import { randomInt } from "./utilities/math.js";
+import { randomInt, random } from "./utilities/math.js";
 
 var new_message = "[MSG]";
 
 var JSON = { messages: [] };
 
 // low max numbers first
-addMessage("Mods are officially supported!", 1, 0, 2);
+addMessage("Mods are officially supported!", 1.0, 0, 2, true);
 addMessage("hope you enjoy your time here!", 1, 1, 10);
 addMessage("random message lolz!", 5, 0, 15);
 addMessage("you are in for a blast!", 10, 0, 20);
@@ -22,8 +22,9 @@ new_message = DEFAULT_MESSAGE_INDEX;
 var array = JSON.messages;
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
-  const rando = randomInt(element.min, element.max);
-  const CAN_CHANGE_MSG = rando == element.wanted && new_message == DEFAULT_MESSAGE_INDEX;
+  const randoI = randomInt(element.min, element.max);
+  const randoF = random(element.min, element.max);
+  const CAN_CHANGE_MSG = ((element.float) : randoF == element.wanted ? randoI == element.wanted) && new_message == DEFAULT_MESSAGE_INDEX;
 
   if (CAN_CHANGE_MSG) {
     new_message = element.msg;
@@ -33,8 +34,8 @@ for (let index = 0; index < array.length; index++) {
 
 document.getElementById("message").innerHTML = new_message;
 
-function addMessage(msgA = "missing argument lol", wantedA = 5, minA = 0, maxA = 10) {
-  var newmsg = { msg: msgA, wanted: wantedA, min: minA, max: maxA };
+function addMessage(msgA = "missing argument lol", wantedA = 1, minA = 1, maxA = 10, floatA = false) {
+  var newmsg = { msg: msgA, wanted: wantedA, min: minA, max: maxA, float: floatA };
   
   JSON.messages.push(newmsg);
 }
