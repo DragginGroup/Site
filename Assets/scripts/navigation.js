@@ -1,0 +1,1 @@
+function changeHref(elementId, newhref) { document.getElementById(elementId).href = newhref; }

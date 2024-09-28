@@ -1,7 +1,7 @@
 import {
   DEFAULT_MESSAGE_INDEX
 }
-from "./GLOBAL.js";
+from "./global/random_message.js";
 import {
   randomInt,
   random
