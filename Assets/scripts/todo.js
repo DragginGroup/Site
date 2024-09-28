@@ -1,4 +1,4 @@
-var TODO = { items = [] };
+var TODO = { items: [] };
 
 function addTODOitem(nameA = "", completedA = false, priorityA = false) {
     var new_item = { name: nameA, completed: completedA, priority: priorityA};

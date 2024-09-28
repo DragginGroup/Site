@@ -1,9 +1,18 @@
-import { DEFAULT_MESSAGE_INDEX } from "./GLOBAL.js";
-import { randomInt, random } from "./utilities/math.js";
+import {
+  DEFAULT_MESSAGE_INDEX
+}
+from "./GLOBAL.js";
+import {
+  randomInt,
+  random
+}
+from "./utilities/math.js";
 
 var new_message = "[MSG]";
 
-var JSON = { messages: [] };
+var JSON = {
+  messages: []
+};
 
 // low max numbers first
 addMessage("Mods are officially supported!", 1.0, 0, 2, true);
@@ -34,13 +43,14 @@ for (let index = 0; index < array.length; index++) {
 
 document.getElementById("message").innerHTML = new_message;
 
-function addMessage(msgA = "missing argument lol", wantedA = 1, minA = 1, maxA = 10, floatA = false) {
+function addMessage(msgA = "missing argument lol", wantedA = 1, minA = 1, maxA =10, floatA = false) {
   var newmsg = {
     msg: msgA,
     wanted: wantedA,
     min: minA,
     max: maxA,
-    float: floatA };
-  
+    float: floatA
+  };
+
   JSON.messages.push(newmsg);
 }
