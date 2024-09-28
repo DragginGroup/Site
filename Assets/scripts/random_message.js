@@ -21,7 +21,7 @@ addMessage("random message lolz!", 5, 0, 15);
 addMessage("you are in for a blast!", 10, 0, 20);
 addMessage("Check our our projects if you want!", 20, 0, 30);
 addMessage("have fun!", 5, 0, 50);
-addMessage("over 1000 commits", 1, 0, 70);
+addMessage("over 1000 commits for basic things!", 1, 0, 70);
 addMessage("the 1 in 1000000!", 1, 0, 1000000);
 addMessage("you have alot of free time", 1, 0, 10000000000000000);
 // high max numbers last
