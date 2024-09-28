@@ -1,4 +1,5 @@
 var TODO = { items: [] };
+var list = document.getElementById('todo');
 
 function addTODOitem(nameA = "", completedA = false, priorityA = false) {
     var new_item = { name: nameA, completed: completedA, priority: priorityA};
@@ -15,8 +16,8 @@ for (let index = 0; index < array.length; index++) {
     var para = document.createElement('p');
     para.innerHTML = element.name;
     if (element.priority) {
-        document.body.prepend(para);
+        list.prepend(para);
     } else {
-        document.body.append(para);
+        list.append(para);
     }
 }
