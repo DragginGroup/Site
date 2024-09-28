@@ -25,7 +25,7 @@ var array = JSON.messages;
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
   const randoI = randomInt(element.min, element.max);
-  const CAN_CHANGE_MSG = randoI == (element.wanted && new_message == DEFAULT_MESSAGE_INDEX;)
+  const CAN_CHANGE_MSG = randoI == element.wanted && new_message == DEFAULT_MESSAGE_INDEX;
 
   if (CAN_CHANGE_MSG) {
     new_message = element.msg;
