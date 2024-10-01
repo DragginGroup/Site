@@ -25,7 +25,7 @@ for (let index = 0; index < array.length; index++) {
 
   const element = array[index];
   const randoI = randomInt(element.min, element.max);
-  const CAN_CHANGE_MSG = randoI == element.wanted && final_message == DEFAULT_MESSAGE_INDEX;
+  const CAN_CHANGE_MSG = randoI == element.wanted && final_message == DEFAULT_MESSAGE;
 
   if (CAN_CHANGE_MSG) {
     final_message = element.msg;
