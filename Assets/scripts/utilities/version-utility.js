@@ -24,9 +24,10 @@ export function returnVersion(type = "version") {
       ver = `${date_version}${nlc}${versionLabel}${devLabel_full}`;
     case "version":
       ver = `v${version}${nlc}${versionLabel}${devLabel_full}`;
-    default:
-      ver = `v${version}${nlc}${versionLabel}${nlc}${missingType}`;
   }
+
+  // Proper Null Version Type
+  if (ver == "") ver = `v${version}${nlc}${versionLabel}${nlc}${missingType}`;
 
   return ver;
 }
