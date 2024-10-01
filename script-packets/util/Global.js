@@ -1,5 +1,5 @@
 // Main Site related Variables
-export const VERSION_TYPE = 'development';
+export const VERSION_TYPE = 'version';
 export const CONSOLE = true;
 
 export const VERSION = '0.2.8.1';
