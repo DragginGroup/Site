@@ -1,11 +1,11 @@
 export const VERSION_DATA = {
   version: "0.3.0",
   version_date: "10/1/2024",
-  version_label: "shit works so its epic now!",
+  version_label: "theme + modding",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
   dev_mode: true,
-  next_label_char: " ",
+  next_label_char: " "
 };
 
 export function returnVersion(type = "version") {
@@ -18,6 +18,7 @@ export function returnVersion(type = "version") {
   var missingType = VERSION_DATA.missing_type;
   var nlc = VERSION_DATA.next_label_char;
   var devLabel_full = VERSION_DATA.dev_mode ? nlc + devLabel : "";
+  var buildLabel = VERSION_DATA.dev_mode ? '.' + VERSION_DATA.version_build : "";
 
   switch (type.toLowerCase()) {
     case "date":
