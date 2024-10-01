@@ -1,7 +1,7 @@
 export const VERSION_DATA = {
   version: "0.3.0",
   version_date: "10/1/2024",
-  version_label: "get shit working",
+  version_label: "shit works so its epic now!",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
   dev_mode: true,
