@@ -1,27 +1,31 @@
-import {
-  DEV_LABEL,
-  MISSING_TYPE,
-  VERSION,
-  DEV_VERSION,
-  DATE_VERSION,
-  DATE_DEV_VERSION,
-  VERSION_LABEL
-} from "../global/version-global.js";
+export const VERSION_DATA = {
+  version: "0.3.0",
+  version_date: "10/1/2024",
+  version_label: "get shit working",
+  dev_label: "(PROTOTYPE)",
+  missing_type: "(NULL VERSION TYPE)",
+  dev_mode: true,
+  next_label_char: " ",
+};
 
 export function returnVersion(type = "version") {
   var ver = "";
 
-  switch (type) {
-    case "date-dev":
-      ver = `${DATE_DEV_VERSION} ${VERSION_LABEL} ${DEV_LABEL}}`;
+  var version = VERSION_DATA.version;
+  var date_version = VERSION_DATA.version_date;
+  var versionLabel = VERSION_DATA.version_label;
+  var devLabel = VERSION_DATA.dev_label;
+  var missingType = VERSION_DATA.missing_type;
+  var nlc = VERSION_DATA.next_label_char;
+  var devLabel_full = VERSION_DATA.dev_mode ? nlc + devLabel : "";
+
+  switch (type.toLowerCase()) {
     case "date":
-      ver = `${DATE_VERSION} ${VERSION_LABEL}`;
-    case "version-dev":
-      ver = `v${VERSION} ${VERSION_LABEL} ${DEV_LABEL}`;
+      ver = `${date_version}${nlc}${versionLabel}${devLabel_full}`;
     case "version":
-      ver = `v${VERSION} ${VERSION_LABEL}`;
+      ver = `v${version}${nlc}${versionLabel}${devLabel_full}`;
     default:
-      ver = `v${VERSION} ${VERSION_LABEL} ${MISSING_TYPE}`;
+      ver = `v${version}${nlc}${versionLabel}${nlc}${missingType}`;
   }
 
   return ver;
