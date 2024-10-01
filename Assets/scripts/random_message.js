@@ -1,7 +1,7 @@
-import { DEFAULT_MESSAGE_INDEX } from "./global/random_message.js";
 import { randomInt } from "./utilities/math.js";
 
-var final_message = DEFAULT_MESSAGE_INDEX;
+export const DEFAULT_MESSAGE = "have a good time.";
+var final_message = DEFAULT_MESSAGE;
 
 var JSON = {
   messages: [],
