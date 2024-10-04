@@ -1,3 +1,12 @@
+[theme="light"] {
+    --bgC: #ffffff;
+    --txtC: #000000;
+}
+[font_style="regular"] {
+    --ff: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --fs: large;
+}
+
 body {
     background-color: var(--bgC);
     color: var(--txtC);

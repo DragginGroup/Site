@@ -7,6 +7,8 @@ export const MOD_DATA = {
     enabled: false
 };
 
+export const EXPECTED_MOD_API_VERSION = "0.2";
+
 export function returnModData(key = 'name') {
     var data = `Unknown Mod JSON Key: ${key}`;
 
@@ -22,11 +24,18 @@ export function returnModData(key = 'name') {
     return data;
 }
 
-export function validVersionCheck() {
+export function versionCheck() {
     var version_array = [];
-    version_array = MOD_DATA.version.split('.');
+    version_array = returnModData('version').split('.');
 
     if (version_array.length < 3)
+        return true;
+
+    return false;
+}
+
+export function modApiVersionCheck() {
+    if (returnModData('mod_api_version') == EXPECTED_MOD_API_VERSION)
         return true;
 
     return false;
