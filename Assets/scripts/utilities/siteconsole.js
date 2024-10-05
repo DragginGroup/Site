@@ -6,4 +6,5 @@ export function startConsole() {
 
 export function log(data) {
     text.innerHTML += data+'<br>'; 
+    console.log(data);
 }
