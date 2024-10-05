@@ -4,7 +4,7 @@ export const MOD_DATA = {
     version: "0.1",
     api_version: "0.3.0",
     mod_api_version: "0.2",
-    enabled: false
+    enabled: true
 };
 
 export const EXPECTED_MOD_API_VERSION = "0.2";

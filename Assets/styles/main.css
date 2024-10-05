@@ -15,3 +15,10 @@ body {
     font-size: var(--fs);
     font-weight: bolder;
 }
+
+.console {
+    font-family: monospace;
+    background-color: gray;
+    font-size: medium;
+    background-size: contain;
+}

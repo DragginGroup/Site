@@ -1,7 +1,7 @@
 export const VERSION_DATA = {
   version: "0.3.0",
   version_date: "10/1/2024",
-  version_label: "theme + modding shit here and there",
+  version_label: "site console + modding shit here and there",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
   dev_mode: true,
