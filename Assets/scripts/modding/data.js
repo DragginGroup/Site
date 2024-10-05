@@ -26,7 +26,8 @@ export function returnModData(key = 'name') {
 
 export function versionCheck() {
     var version_array = [];
-    version_array = returnModData('version').split('.');
+    var version = returnModData('version');
+    version_array = version.split('.');
 
     if (version_array.length < 3)
         return true;
