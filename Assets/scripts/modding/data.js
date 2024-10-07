@@ -1,3 +1,5 @@
+import { MOD_API_VERSION } from "./api.js";
+
 export const MOD_DATA = {
     name: "Basic Mod",
     author: "IdealistCat",
@@ -6,8 +8,6 @@ export const MOD_DATA = {
     mod_api_version: "0.2",
     enabled: true
 };
-
-export const EXPECTED_MOD_API_VERSION = "0.2";
 
 export function returnModData(key = 'name') {
     var data = `Unknown Mod JSON Key: ${key}`;
@@ -25,7 +25,7 @@ export function returnModData(key = 'name') {
 }
 
 export function modApiVersionCheck() {
-    if (returnModData('mod_api_version') == EXPECTED_MOD_API_VERSION)
+    if (returnModData('mod_api_version') == MOD_API_VERSION)
         return true;
 
     return false;
