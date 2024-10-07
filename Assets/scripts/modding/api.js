@@ -13,7 +13,7 @@ export function createParagraph(html='', id='') {
     paragraph.appendChild(node)
     paragraph.id = id;
     
-    document.appendChild(paragraph);
+    document.body.appendChild(paragraph);
 }
 
 /*
