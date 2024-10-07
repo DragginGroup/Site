@@ -8,8 +8,8 @@ author: @IdealistCat
 purpose: create a paragraph element for the page along with adding text to it.
 */
 export function createParagraph(html='', id='') { 
-    var node = document.createTextNode(html);
     var paragraph = document.createElement('p');
+    var node = document.createTextNode(html);
     paragraph.appendChild(node)
     paragraph.id = id;
     
