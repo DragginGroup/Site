@@ -8,11 +8,12 @@ author: @IdealistCat
 purpose: create a paragraph element for the page along with adding text to it.
 */
 export function createParagraph(html='', id='') { 
+    var node = document.createTextNode(html);
     var paragraph = document.createElement('p');
-    paragraph.innerHTML = html;
+    paragraph.appendChild(node)
     paragraph.id = id;
     
-    document.append(paragraph);
+    document.appendChild(paragraph);
 }
 
 /*
@@ -25,18 +26,6 @@ export function createImage(source='', ext="png", id="") {
     img.id = id;
     
     document.append(img);
-}
-
-/*
-author: @IdealistCat
-purpose: create a footer element for the page along with adding text to it.
-*/
-export function createFooter(html='', id="") { 
-    var footer = document.createElement('footer');
-    footer.innerHTML = html;
-    footer.id = id;
-    
-    document.append(footer);
 }
 
 /*
