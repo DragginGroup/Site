@@ -8,6 +8,10 @@ export const VERSION_DATA = {
   next_label_char: " "
 };
 
+/*
+author: @IdealistCat
+purpose: return the game version.
+*/
 export function returnVersion(type = "version") {
   var ver = "";
 

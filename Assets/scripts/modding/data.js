@@ -1,6 +1,6 @@
 import { MOD_API_VERSION } from "./api.js";
 
-export const MOD_DATA = {
+export const MOD_DATA = { 
     name: "Basic Mod",
     author: "IdealistCat",
     version: "0.1",
@@ -9,6 +9,11 @@ export const MOD_DATA = {
     enabled: true
 };
 
+
+/*
+author: @IdealistCat
+purpose: return a specific data key from the MOD_DATA.
+*/
 export function returnModData(key = 'name') {
     var data = `Unknown Mod JSON Key: ${key}`;
 
