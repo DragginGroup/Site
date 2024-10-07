@@ -7,33 +7,36 @@ export const MOD_API_VERSION = "0.2";
 author: @IdealistCat
 purpose: create a paragraph element for the page along with adding text to it.
 */
-export function createParagraph(html='') { 
+export function createParagraph(html='', id='') { 
     var paragraph = document.createElement('p');
     paragraph.innerHTML = html;
+    paragraph.id = id;
     
-    return paragraph;
+    document.append(paragraph);
 }
 
 /*
 author: @IdealistCat
 purpose: create an image element for the page along with setting the source url.
 */
-export function createImage(source='', ext="png") { 
+export function createImage(source='', ext="png", id="") { 
     var img = document.createElement('img');
     img.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
+    img.id = id;
     
-    return img;
+    document.append(img);
 }
 
 /*
 author: @IdealistCat
 purpose: create a footer element for the page along with adding text to it.
 */
-export function createFooter(html='') { 
+export function createFooter(html='', id="") { 
     var footer = document.createElement('footer');
     footer.innerHTML = html;
+    footer.id = id;
     
-    return footer;
+    document.append(footer);
 }
 
 /*
