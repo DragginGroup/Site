@@ -24,16 +24,6 @@ export function returnModData(key = 'name') {
     return data;
 }
 
-export function versionCheck() {
-    var version = returnModData('version');
-    var version_array = version.split('.');
-
-    if (version_array.length < 3)
-        return true;
-
-    return false;
-}
-
 export function modApiVersionCheck() {
     if (returnModData('mod_api_version') == EXPECTED_MOD_API_VERSION)
         return true;
