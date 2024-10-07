@@ -7,7 +7,7 @@ export const MOD_API_VERSION = "0.2";
 author: @IdealistCat
 purpose: create a paragraph element for the page along with adding text to it.
 */
-export function createParagraph(html) { 
+export function createParagraph(html='') { 
     var paragraph = document.createElement('p');
     paragraph.innerHTML = html;
     
@@ -18,7 +18,7 @@ export function createParagraph(html) {
 author: @IdealistCat
 purpose: create an image element for the page along with setting the source url.
 */
-export function createImage(source, ext="png") { 
+export function createImage(source='', ext="png") { 
     var img = document.createElement('img');
     img.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
     
@@ -29,7 +29,7 @@ export function createImage(source, ext="png") {
 author: @IdealistCat
 purpose: create a footer element for the page along with adding text to it.
 */
-export function createFooter(html) { 
+export function createFooter(html='') { 
     var footer = document.createElement('footer');
     footer.innerHTML = html;
     
@@ -40,7 +40,7 @@ export function createFooter(html) {
 author: @IdealistCat
 purpose: replace a text element on the page
 */
-export function replaceText(id, html) {
+export function replaceText(id='', html='') {
     var text = document.getElementById(id);
     text.innerHTML = html;
 }
@@ -49,7 +49,7 @@ export function replaceText(id, html) {
 author: @IdealistCat
 purpose: replace an image element on the page
 */
-export function replaceImg(id, source, ext) {
+export function replaceImg(id='', source='', ext='') {
     var image = document.getElementById(id);
     image.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
 }
