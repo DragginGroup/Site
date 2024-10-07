@@ -13,7 +13,7 @@ export function createParagraph(html='', id='') {
     paragraph.appendChild(node)
     paragraph.id = id;
     
-    document.body.appendChild(paragraph);
+    if (MOD_DATA.enabled) document.body.appendChild(paragraph);
 }
 
 /*
@@ -25,7 +25,7 @@ export function createImage(source='', ext="png", id="") {
     img.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
     img.id = id;
     
-    document.body.append(img);
+    if (MOD_DATA.enabled) document.body.append(img);
 }
 
 /*
@@ -34,7 +34,7 @@ purpose: replace a text element on the page
 */
 export function replaceText(id='', html='') {
     var text = document.getElementById(id);
-    text.innerHTML = html;
+    if (MOD_DATA.enabled) text.innerHTML = html;
 }
 
 /*
@@ -43,5 +43,5 @@ purpose: replace an image element on the page
 */
 export function replaceImg(id='', source='', ext='') {
     var image = document.getElementById(id);
-    image.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
+    if (MOD_DATA.enabled) image.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
 }
