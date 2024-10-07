@@ -25,7 +25,7 @@ export function createImage(source='', ext="png", id="") {
     img.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
     img.id = id;
     
-    document.append(img);
+    document.body.append(img);
 }
 
 /*
