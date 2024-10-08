@@ -15,8 +15,9 @@ export const MOD_DATA = {
 author: @IdealistCat
 purpose: return a specific data key from the MOD_DATA json.
 */
-export function returnModData(key = 'name') {
+export function returnModData(key = 'name', shortenErr=false) {
     var data = `Unknown Mod JSON Key: ${key}`;
+    if (shortenErr) data = 'UMJK: '+key;
 
     switch (key.toLowerCase()) {
         case 'name': data = MOD_DATA.name;
