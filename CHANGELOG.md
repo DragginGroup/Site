@@ -6,13 +6,16 @@
 - Home Page
   - Random Message every time you come to the page
   - Version Display
+- Tutorials Page
 - Project Page
 - Github Page
   - Development Version Link
   - Release Version Link
 - JSONs everywhere
   - Random Messages
+  - Mod data
 - New Theme
+- Streamlined mod
 
 # September 26th 2024
 ## v0.2.8.1
