@@ -1,7 +1,11 @@
+import { MOD_DATA, returnModData } from "../modding/data.js";
+
+// nicodrag versioning
+// [total amount of updates].[Major].[minor].[changes/commits since last minor/major version change]
 export const VERSION_DATA = {
   version: "0.3.0",
-  version_date: "10/1/2024",
-  version_label: "site console + modding shit here and there",
+  version_nicodrag: "14.1.2.0",
+  version_label: "site console + modding here and there",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
   dev_mode: true,
@@ -15,24 +19,23 @@ purpose: return the game version.
 export function returnVersion(type = "version") {
   var ver = "";
 
-  var version = VERSION_DATA.version;
-  var date_version = VERSION_DATA.version_date;
-  var versionLabel = VERSION_DATA.version_label;
   var devLabel = VERSION_DATA.dev_label;
   var missingType = VERSION_DATA.missing_type;
   var nlc = VERSION_DATA.next_label_char;
   var devLabel_full = VERSION_DATA.dev_mode ? nlc + devLabel : "";
-  var buildLabel = VERSION_DATA.dev_mode ? '.' + VERSION_DATA.version_build : "";
 
+  var version = (MOD_DATA.enabled) ? returnModData('version') : nlc + VERSION_DATA.version_nicodrag;
+  var version_nicodrag = (MOD_DATA.enabled) ? returnModData('nicodrag') : nlc + VERSION_DATA.version;
+  var versionLabel = (MOD_DATA.enabled) ? '' : VERSION_DATA.version_label;
+  
   switch (type.toLowerCase()) {
-    case "date":
-      ver = `${date_version}${nlc}${versionLabel}${devLabel_full}`;
+    case 'nicodrag':
+      ver = `v${version_nicodrag}${versionLabel}`
     case "version":
-      ver = `v${version}${nlc}${versionLabel}${devLabel_full}`;
+      ver = `v${version}${versionLabel}${devLabel_full}`;
   }
 
-  // Proper Null Version Type
-  if (ver == "") ver = `v${version}${nlc}${versionLabel}${nlc}${missingType}`;
+  if (ver == "") ver = `v${version}${versionLabel}${nlc}${missingType}`;
 
   return ver;
 }
