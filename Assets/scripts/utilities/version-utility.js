@@ -26,11 +26,11 @@ export function returnVersion(type = "version") {
 
   var version = MOD_DATA.enabled ? MOD_DATA.version : nlc + VERSION_DATA.version_nicodrag;
   var version_nicodrag = MOD_DATA.enabled ? MOD_DATA.nicodrag_version : nlc + VERSION_DATA.version;
-  var versionLabel = MOD_DATA.enabled ? '' : VERSION_DATA.version_label;
+  var versionLabel = MOD_DATA.enabled ? '' : nlc + VERSION_DATA.version_label;
   
   switch (type.toLowerCase()) {
     case 'nicodrag':
-      ver = `v${version_nicodrag}${versionLabel}`
+      ver = `v${version_nicodrag}${versionLabel}${devLabel_full}`
     case "version":
       ver = `v${version}${versionLabel}${devLabel_full}`;
   }
