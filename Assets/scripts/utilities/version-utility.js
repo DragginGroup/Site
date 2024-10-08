@@ -24,9 +24,9 @@ export function returnVersion(type = "version") {
   var nlc = VERSION_DATA.next_label_char;
   var devLabel_full = VERSION_DATA.dev_mode ? nlc + devLabel : "";
 
-  var version = (MOD_DATA.enabled) ? returnModData('version') : nlc + VERSION_DATA.version_nicodrag;
-  var version_nicodrag = (MOD_DATA.enabled) ? returnModData('nicodrag') : nlc + VERSION_DATA.version;
-  var versionLabel = (MOD_DATA.enabled) ? '' : VERSION_DATA.version_label;
+  var version = MOD_DATA.enabled ? returnModData('version') : nlc + VERSION_DATA.version_nicodrag;
+  var version_nicodrag = MOD_DATA.enabled ? returnModData('nicodrag') : nlc + VERSION_DATA.version;
+  var versionLabel = MOD_DATA.enabled ? '' : VERSION_DATA.version_label;
   
   switch (type.toLowerCase()) {
     case 'nicodrag':
