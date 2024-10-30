@@ -25,7 +25,7 @@ purpose: create an image element for the page along with setting the source url.
 */
 export function createImage(source='', ext="png", id="") { 
     var img = document.createElement('img');
-    img.src = '/Site/Assets/modding/'+MOD_DATA.name+'/images/'+source+"."+ext;
+    img.src = '../mods/'+MOD_DATA.name+'/images/'+source+"."+ext;
     img.id = id;
     
     if (MOD_DATA.enabled) {

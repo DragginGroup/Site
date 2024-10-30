@@ -1,3 +1,6 @@
+# v0.2.1 - Oct 30, 2024
+- Fixed `createImage` function Image SRC.
+
 # v0.2 - Oct 30, 2024
 - Added `createParagraph` function
 - Added `createImage` function

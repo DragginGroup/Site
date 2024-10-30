@@ -2,6 +2,7 @@
 ## v0.3.1
 ### Changed
 - Instead of "3rd Iteration" the Home page now says "Third Iteration"
+- Mod API is now [v0.2.1](./Assets/scripts/modding/CHANGELOG.md)
 ### Added
 - Page titles now have "DragginSite - " added to it if it isn't the home page
 - Credits Page
