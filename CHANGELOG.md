@@ -1,4 +1,12 @@
 # October 30th 2024
+## v0.3.1
+### Changed
+- Instead of "3rd Iteration" the Home page now says "Third Iteration"
+### Added
+- Page titles now have "DragginSite - " added to it if it isn't the home page
+### Removed
+- " - home" from Home Page Title
+
 ## v0.3.0 - Massive Overhaul
 ### Removed
 - v0.2.8.1 (duh)
