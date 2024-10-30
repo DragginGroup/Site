@@ -5,6 +5,7 @@
 ### Added
 - Page titles now have "DragginSite - " added to it if it isn't the home page
 - Credits Page
+  - New JS Files: `utilities/creditsUtil.js`, `credits.js`
 ### Removed
 - " - home" from Home Page Title
 
