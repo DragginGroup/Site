@@ -1,4 +1,4 @@
-# November 2024
+# October 30th 2024
 ## v0.3.0 - Massive Overhaul
 ### Removed
 - v0.2.8.1 (duh)
@@ -6,7 +6,6 @@
 - Home Page
   - Random Message every time you come to the page
   - Version Display
-- Project Page
 - Github Page
   - Development Version Link
   - Release Version Link
