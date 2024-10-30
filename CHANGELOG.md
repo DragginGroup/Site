@@ -4,6 +4,7 @@
 - Instead of "3rd Iteration" the Home page now says "Third Iteration"
 ### Added
 - Page titles now have "DragginSite - " added to it if it isn't the home page
+- Credits Page
 ### Removed
 - " - home" from Home Page Title
 
