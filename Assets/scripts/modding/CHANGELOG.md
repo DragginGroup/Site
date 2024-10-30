@@ -1,4 +1,4 @@
-# v0.2 - Oct 8, 2024
+# v0.2 - Oct 30, 2024
 - Added `createParagraph` function
 - Added `createImage` function
 - Streamlined `replaceText` and `replaceImg` functions

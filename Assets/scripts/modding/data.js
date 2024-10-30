@@ -7,7 +7,7 @@ export const MOD_DATA = {
     nicodrag_version: "2.0.0.0",
     api_version: "0.3.0",
     mod_api_version: "0.2",
-    enabled: true
+    enabled: false
 };
 
 
