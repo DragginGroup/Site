@@ -7,4 +7,6 @@ export function addCredit(person, job) {
     });
 }
 
-addCredit('IdealistCat', 'Programming, Art');
+export function init() {
+    addCredit('IdealistCat', 'Programming, Art');
+}
