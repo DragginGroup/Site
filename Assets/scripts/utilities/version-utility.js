@@ -2,7 +2,7 @@ import { MOD_DATA, returnModData } from "../modding/data.js";
 
 export const VERSION_DATA = {
   version: "0.3.0",
-  version_label: "site console + modding here and there",
+  version_label: "",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
   dev_mode: true,
