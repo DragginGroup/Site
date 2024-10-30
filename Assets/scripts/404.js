@@ -1,3 +1,3 @@
 var PAGE = "" + window.location.pathname
 
-document.getElementById("thepage").innerHTML = PAGE
+document.body.getElementById("thepage").innerHTML = PAGE
