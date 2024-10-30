@@ -1,10 +1,7 @@
 import { MOD_DATA, returnModData } from "../modding/data.js";
 
-// nicodrag versioning
-// [total amount of updates].[Major].[minor].[changes/commits since last minor/major version change]
 export const VERSION_DATA = {
   version: "0.3.0",
-  version_nicodrag: "14.1.2.0",
   version_label: "site console + modding here and there",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
@@ -29,8 +26,6 @@ export function returnVersion(type = "version") {
   var versionLabel = (MOD_DATA.enabled)? '' : nlc + VERSION_DATA.version_label;
   
   switch (type.toLowerCase()) {
-    case 'nicodrag':
-      ver = `v${version_nicodrag}${versionLabel}${devLabel_full}`
     case "version":
       ver = `v${version}${versionLabel}${devLabel_full}`;
   }
