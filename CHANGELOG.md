@@ -1,3 +1,19 @@
+# October 30th 2024
+## v0.3.0 - Massive Overhaul
+### Removed
+- v0.2.8.1 (duh)
+### Added - Awsome new site
+- Home Page
+  - Random Message every time you come to the page
+  - Version Display
+- Github Page
+  - Development Version Link
+  - Release Version Link
+- JSONs everywhere
+  - Random Messages
+  - Mod data
+- Streamlined modding
+
 # September 26th 2024
 ## v0.2.8.1
 ### Fixed

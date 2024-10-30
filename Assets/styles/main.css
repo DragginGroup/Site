@@ -1,0 +1,17 @@
+[theme="light"] {
+    --bgC: #ffffff;
+    --txtC: #000000;
+}
+[font_style="regular"] {
+    --ff: 'Courier New', Courier, monospace;
+    --fs: large;
+}
+
+body {
+    background-color: var(--bgC);
+    color: var(--txtC);
+
+    font-family: var(--ff);
+    font-size: var(--fs);
+    font-weight: bolder;
+}
