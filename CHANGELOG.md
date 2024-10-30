@@ -1,4 +1,17 @@
 # October 30th 2024
+## v0.3.1
+### Changed
+- Instead of "3rd Iteration" the Home page now says "Third Iteration"
+- Mod API is now [v0.2.1](./Assets/scripts/modding/CHANGELOG.md)
+### Added
+- Page titles now have "DragginSite - " added to it if it isn't the home page
+- Credits Page
+  - New JS Files: `utilities/creditsUtil.js`, `credits.js`
+- Credits Page navigation Text on Home Page
+- Version Label Length check (if its blank it removes the space)
+### Removed
+- " - home" from Home Page Title
+
 ## v0.3.0 - Massive Overhaul
 ### Removed
 - v0.2.8.1 (duh)

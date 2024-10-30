@@ -7,6 +7,7 @@
         "aaron-bond.better-comments", // Comment Stuff
         "wycliffepepela.color-comments",
         "tobiah.comment-snippets",
-        "ms-vscode.cpptools-themes", // Theme stuff :)
+        "ms-vscode.cpptools-themes",
+        "ritwickdey.liveserver", // Theme stuff :)
     ]
 }
