@@ -2,8 +2,8 @@ import { CREDITS, init } from "./utilities/creditsUtil.js";
 
 init();
 
-var creds = CREDITS[0];
-var element = document.createElement('p');
-element.innerHTML = creds;
-
-document.getElementById('credits').append(element);
+for (let index = 0; index < CREDITS.length; index++) {
+    const person = CREDITS[index];
+    
+    document.getElementById('credits').append(person); 
+}
