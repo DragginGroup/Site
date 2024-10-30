@@ -6,7 +6,8 @@
 - Page titles now have "DragginSite - " added to it if it isn't the home page
 - Credits Page
   - New JS Files: `utilities/creditsUtil.js`, `credits.js`
-- Credits Page navigation Text
+- Credits Page navigation Text on Home Page
+- Version Label Length check (if its blank it removes the space)
 ### Removed
 - " - home" from Home Page Title
 
