@@ -1,7 +1,7 @@
 import { MOD_DATA, returnModData } from "../modding/data.js";
 
 export const VERSION_DATA = {
-  version: "0.3.1",
+  version: "0.3.2",
   version_label: "",
   dev_label: "(PROTOTYPE)",
   missing_type: "(NULL VERSION TYPE)",
