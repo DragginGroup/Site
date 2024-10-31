@@ -5,5 +5,5 @@ plan is for it to be the easiest to modify.
 WORK IN PROGRESS SITE
 
 ## Status
-- Version: 0.3.0
-- Latest Feature: Modding API v0.2
+- Version: 0.3.2
+- Latest Feature: Custom 404 Page
