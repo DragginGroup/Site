@@ -1,3 +1,9 @@
+# October 31st 2024
+## v0.3.2
+### Added
+- Custom 404 Screen
+  - New JS File: `404.js`
+
 # October 30th 2024
 ## v0.3.1
 ### Changed
